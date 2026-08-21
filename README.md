@@ -16,7 +16,11 @@ A future mutation-enabled mode must add explicit policy, per-repository allowlis
 
 ## Authentication
 
-The workflow expects a repository secret named `AUTOMATION_GH_TOKEN`. The token must be supplied through GitHub’s secret store and must have authorized read access to the repositories being inventoried. The workflow never writes token values to state, logs, or configuration. If the secret is absent or insufficient, the cycle records a failed state with the GitHub error and does not attempt a mutation.
+The workflow prefers a repository secret named `AUTOMATION_GH_TOKEN` and falls back to the workflow-provided `github.token` when that secret is unavailable. The optional token must be supplied through GitHub’s secret store and must have authorized read access to every private repository being inventoried. The fallback allows public-repository diagnostics to continue, while access failures are recorded in the durable cycle state. The workflow never writes token values to state, logs, or configuration and does not attempt mutations.
+
+## Verification snapshot
+
+The first local cycle completed with 249 repositories, 303 open pull requests, 287 clean classifications, 16 non-clean classifications, zero conflicts, and zero errors. The first remote `workflow_dispatch` run also completed successfully and committed cycle 2, which recorded 217 repositories, 301 open pull requests, 285 clean classifications, 16 non-clean classifications, zero conflicts, zero unknowns, and zero errors. These numbers are evidence from the saved state files, not fixed expectations; subsequent cycles must be evaluated from their own records.
 
 ## State contract
 
