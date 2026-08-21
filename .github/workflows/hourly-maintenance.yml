@@ -31,7 +31,10 @@ jobs:
 
       - name: Run one maintenance cycle
         env:
-          GH_TOKEN: ${{ secrets.AUTOMATION_GH_TOKEN }}
+          # Prefer the optional cross-repository token; fall back to this repository's token.
+          # The fallback keeps public-repository diagnostics runnable, while private-repository
+          # access is recorded as an error instead of silently skipping it.
+          GH_TOKEN: ${{ secrets.AUTOMATION_GH_TOKEN || github.token }}
         run: python3 scripts/maintenance_cycle.py
 
       - name: Validate state files
