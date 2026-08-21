@@ -10,6 +10,9 @@ permissions:
   pull-requests: read
   actions: read
 
+env:
+  STATE_BRANCH: maintenance-state
+
 concurrency:
   group: autonomous-maintenance
   cancel-in-progress: false
@@ -19,10 +22,21 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
-      - name: Check out durable state
+      - name: Check out source code
         uses: actions/checkout@v4
         with:
-          fetch-depth: 1
+          fetch-depth: 0
+
+      - name: Load durable state from the dedicated branch
+        run: |
+          set -euo pipefail
+          git fetch origin "$STATE_BRANCH" || true
+          if git show-ref --verify --quiet "refs/remotes/origin/$STATE_BRANCH"; then
+            git checkout "origin/$STATE_BRANCH" -- state
+          else
+            echo "State branch does not exist yet; seed it from the checked-out repository."
+            mkdir -p state
+          fi
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -50,14 +64,30 @@ jobs:
           assert int(rows[-1]["cycle"]) <= 2400, "cycle cap exceeded"
           PY
 
-      - name: Commit durable state
+      - name: Commit durable state to the dedicated branch
+        env:
+          GH_TOKEN: ${{ secrets.AUTOMATION_GH_TOKEN || github.token }}
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add state/
-          if git diff --cached --quiet; then
+          set -euo pipefail
+          state_dir="$RUNNER_TEMP/maintenance-state"
+          git fetch origin "$STATE_BRANCH" || true
+          if git show-ref --verify --quiet "refs/remotes/origin/$STATE_BRANCH"; then
+            git worktree add --detach "$state_dir" "origin/$STATE_BRANCH"
+            git -C "$state_dir" switch -C "$STATE_BRANCH" "origin/$STATE_BRANCH"
+          else
+            git worktree add --detach "$state_dir" HEAD
+            git -C "$state_dir" switch --orphan "$STATE_BRANCH"
+            git -C "$state_dir" rm -rf .
+          fi
+          mkdir -p "$state_dir/state"
+          cp -R state/. "$state_dir/state/"
+          git -C "$state_dir" config user.name "github-actions[bot]"
+          git -C "$state_dir" config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git -C "$state_dir" add state/
+          if git -C "$state_dir" diff --cached --quiet; then
             echo "No state changes to commit."
           else
-            git commit -m "chore(state): record hourly maintenance cycle"
-            git push
+            git -C "$state_dir" commit -m "chore(state): record hourly maintenance cycle"
+            git -C "$state_dir" push origin "HEAD:$STATE_BRANCH"
           fi
+          git worktree remove --force "$state_dir"
