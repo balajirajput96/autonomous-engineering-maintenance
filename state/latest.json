@@ -12,15 +12,15 @@
   ],
   "active": true,
   "counts": {
-    "clean": 287,
+    "clean": 285,
     "non_clean": 19
   },
   "cycle": 20,
   "errors": [],
-  "finished_at": "2026-08-21T18:54:37.798401+00:00",
+  "finished_at": "2026-08-21T18:59:03.331432+00:00",
   "max_cycles": 2400,
   "mode": "diagnostics-first",
-  "open_pr_count": 306,
+  "open_pr_count": 304,
   "owner": "balajirajput96",
   "records": [
     {
@@ -1477,36 +1477,6 @@
       "state": "OPEN",
       "title": "Bump js-yaml from 3.14.1 to 3.14.2 in the npm_and_yarn group across 1 directory",
       "url": "https://github.com/balajirajput96/attest-build-provenance/pull/1"
-    },
-    {
-      "base": "main",
-      "base_sha": "04e7c6a9407a4af8528ce002429368d23f72f429",
-      "category": "clean",
-      "draft": false,
-      "head": "manus/preserve-post-reset-maintenance-scripts",
-      "head_sha": "743d499dc0848c61a1999429fcc19dae8628eee3",
-      "merge_state": "CLEAN",
-      "mergeable": "MERGEABLE",
-      "number": 16,
-      "repository": "balajirajput96/automation-control-center",
-      "state": "OPEN",
-      "title": "feat: preserve continuous workspace maintenance runners",
-      "url": "https://github.com/balajirajput96/automation-control-center/pull/16"
-    },
-    {
-      "base": "main",
-      "base_sha": "04e7c6a9407a4af8528ce002429368d23f72f429",
-      "category": "clean",
-      "draft": false,
-      "head": "manus/add-recoverable-workspace-restore",
-      "head_sha": "8c66f340cd5fe33cd5797d03f762e7ef7be72296",
-      "merge_state": "CLEAN",
-      "mergeable": "MERGEABLE",
-      "number": 15,
-      "repository": "balajirajput96/automation-control-center",
-      "state": "OPEN",
-      "title": "feat: preserve recoverable workspace restore procedure",
-      "url": "https://github.com/balajirajput96/automation-control-center/pull/15"
     },
     {
       "base": "main",
@@ -4709,7 +4679,7 @@
       "url": "https://github.com/balajirajput96/woocommerce/pull/1"
     }
   ],
-  "repository_count": 251,
-  "started_at": "2026-08-21T18:51:17.805927+00:00",
+  "repository_count": 218,
+  "started_at": "2026-08-21T18:56:50.559450+00:00",
   "status": "completed"
 }
