@@ -1,0 +1,145 @@
+{
+  "schema_version": "1.0",
+  "mission": "GitHub-centered engineering continuation",
+  "cycle": 14,
+  "previous_cycle": 13,
+  "max_cycles": 2400,
+  "status": "completed",
+  "active": true,
+  "mode": "diagnostics-first",
+  "owner": "balajirajput96",
+  "started_at": "2026-08-21T15:36:29.862Z",
+  "finished_at": "2026-08-21T15:58:29.139Z",
+  "scope": {
+    "previous_authoritative_repository_count": 218,
+    "previous_authoritative_open_pr_count": 300,
+    "current_owner_repository_inventory_count": 251,
+    "current_owner_authored_open_pr_count": 46,
+    "current_non_clean_recheck_count": 16,
+    "scope_reconciliation_required": true
+  },
+  "actions": [
+    {
+      "type": "load_previous_state",
+      "result": "completed",
+      "source": "balajirajput96/autonomous-engineering-maintenance@main:state/cycles/cycle-0013.json"
+    },
+    {
+      "type": "inventory",
+      "result": "completed",
+      "owner_authentication_verified": true,
+      "current_default_branches_verified": true,
+      "current_owner_authored_prs_verified": true,
+      "current_prior_non_clean_prs_rechecked": true
+    },
+    {
+      "type": "mutation_policy",
+      "automatic_rebase": false,
+      "automatic_rerun": false,
+      "merge_or_close": false,
+      "reason": "No repair was proven safe without semantic review; required reviews, branch rules, and external-owner boundaries remain intact."
+    },
+    {
+      "type": "state_persistence",
+      "result": "completed",
+      "repository": "balajirajput96/autonomous-engineering-maintenance",
+      "branch": "continuation/cycle-0014-20260821T155829Z",
+      "pull_request": "https://github.com/balajirajput96/autonomous-engineering-maintenance/pull/3",
+      "default_branch_touched": false,
+      "engineering_repositories_touched": false
+    }
+  ],
+  "current_default_branches": [
+    {"repository":"balajirajput96/B","branch":"main","sha":"15ad4cdaef59f06478d59a3f3ef8bae7e673da67"},
+    {"repository":"balajirajput96/vscode-live-server-plus-plus","branch":"master","sha":"97628eeb70e45beb56f7ba5245e48a1f08518b25"},
+    {"repository":"balajirajput96/autonomous-engineering-maintenance","branch":"main","sha":"739e7833723c9fb08fd73f0fa386ed7c584c9ecf"}
+  ],
+  "non_clean_recheck": {
+    "all_prior_records_still_open": true,
+    "mergeability": "all_16_currently_mergeable=true",
+    "state_distribution": {"blocked": 14,"unstable": 2},
+    "blocked_prs": [
+      "balajirajput96/vscode-live-server-plus-plus#119",
+      "balajirajput96/vscode-live-server-plus-plus#118",
+      "balajirajput96/vscode-live-server-plus-plus#111",
+      "balajirajput96/vscode-live-server-plus-plus#109",
+      "balajirajput96/vscode-live-server-plus-plus#107",
+      "balajirajput96/vscode-live-server-plus-plus#106",
+      "balajirajput96/vscode-live-server-plus-plus#102",
+      "balajirajput96/vscode-live-server-plus-plus#101",
+      "balajirajput96/vscode-live-server-plus-plus#48",
+      "balajirajput96/vscode-live-server-plus-plus#47",
+      "balajirajput96/vscode-live-server-plus-plus#46",
+      "balajirajput96/vscode-live-server-plus-plus#45",
+      "balajirajput96/vscode-live-server-plus-plus#39",
+      "balajirajput96/vscode-live-server-plus-plus#19"
+    ],
+    "unstable_prs": [
+      "balajirajput96/codex#25",
+      "balajirajput96/microsoft-365-agents-toolkit#48"
+    ]
+  },
+  "policy_blockers": [
+    {
+      "repository": "balajirajput96/vscode-live-server-plus-plus",
+      "ruleset_id": 8627686,
+      "enforcement": "active",
+      "required_approving_review_count": 10,
+      "require_code_owner_review": true,
+      "require_last_push_approval": true,
+      "require_review_thread_resolution": true,
+      "allowed_merge_methods": ["merge"],
+      "action": "do_not_bypass_or_merge"
+    },
+    {
+      "repository": "OfficeDev/microsoft-365-agents-toolkit",
+      "action": "external_repository_access_not_available_for_protection_diagnostics",
+      "action_policy": "do_not_modify"
+    },
+    {
+      "repository": "jupyterlab/jupyterlab-git",
+      "action": "external_repository_access_not_available_for_protection_diagnostics",
+      "action_policy": "do_not_modify"
+    },
+    {
+      "repository": "ritwickdey/vscode-live-server-plus-plus",
+      "action": "external_repository_access_not_available_for_protection_diagnostics",
+      "action_policy": "do_not_modify"
+    }
+  ],
+  "validation": {
+    "github_authentication": "verified",
+    "default_branch_refs": "verified_for_7_pr_involved_repositories",
+    "owner_authored_pr_details": "verified_46",
+    "cycle13_non_clean_pr_details": "verified_16",
+    "cycle13_non_clean_check_runs": "queried_16_no_fetch_failures",
+    "local_capture_repairs": [
+      "disabled_terminal_color for JSON evidence",
+      "corrected NDJSON iteration for branch and ruleset summaries"
+    ],
+    "engineering_repository_mutations": "none",
+    "engineering_pull_request_mutations": "none",
+    "state_repository_checkpoint": "published_on_reviewable_branch_with_open_pr",
+    "branch_protection_changes": "none",
+    "publication_verification": "REST_fallback_verified_remote_state_and_default_branch_unchanged"
+  },
+  "blockers": [
+    "The prior local checkpoint was absent; the authoritative remote cycle-13 state was recovered from GitHub.",
+    "The current owner-repository and owner-authored-PR scope does not match the prior cycle's 218-repository/300-PR scope; next cycle must reconcile scope before claiming trend changes.",
+    "The 14 blocked PRs are mergeable but remain review/policy constrained; no review bypass is authorized.",
+    "The two unstable PRs require repository-specific CI or dependency diagnosis; no safe patch was proven in this cycle.",
+    "External-owner repository protection endpoints returned 403 and are not actionable from the current authentication context."
+  ],
+  "next_action": "Reconcile the authoritative 218-repository owned-repository PR scope with the current inventory, then inspect only newly changed non-clean records; retain diagnostics-first policy and do not rebase, rerun, merge, close, or bypass reviews without a concrete safe repair.",
+  "evidence": {
+    "local_root": "/home/ubuntu/mission-cycle-2400/evidence",
+    "remote_state": "https://github.com/balajirajput96/autonomous-engineering-maintenance/blob/main/state/cycles/cycle-0013.json",
+    "current_non_clean_snapshot": "cycle13-nonclean-current.ndjson",
+    "owner_repositories_snapshot": "owner-repos.json",
+    "owner_authored_pr_snapshot": "open-prs.json",
+    "default_branch_snapshot": "default-branch-refs.ndjson",
+    "ruleset_snapshot": "vscode-ruleset-detail.json",
+    "schedule_snapshot": "schedule-status.txt"
+  },
+  "errors": []
+}
