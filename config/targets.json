@@ -1,0 +1,19 @@
+{
+  "owner": "balajirajput96",
+  "repository_limit": 1000,
+  "open_pr_limit_per_repository": 1000,
+  "max_cycles": 2400,
+  "schedule": "hourly",
+  "action_mode": "diagnostics-first",
+  "allow_automatic_rebase": false,
+  "allow_automatic_rerun": false,
+  "retain_cycle_files": 2400,
+  "focus_repositories": [
+    "balajirajput96/codex",
+    "balajirajput96/microsoft-365-agents-toolkit",
+    "balajirajput96/.github",
+    "balajirajput96/github-mcp-server",
+    "balajirajput96/openai-node",
+    "balajirajput96/vscode-live-server-plus-plus"
+  ]
+}
