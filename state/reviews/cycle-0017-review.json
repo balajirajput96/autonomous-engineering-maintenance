@@ -1,0 +1,116 @@
+{
+  "cycle": 17,
+  "reviewed_at": "2026-08-21T16:57:25Z",
+  "state_branch": "maintenance-state",
+  "state_generation_commit": "699649fe3621e64e87be28f944fe38ac40e9f181",
+  "status": "completed",
+  "mode": "diagnostics-first",
+  "inventory": {
+    "repositories": 251,
+    "open_pull_requests": 304,
+    "categories": {
+      "clean": 283,
+      "non_clean": 21,
+      "conflicting": 0,
+      "unknown": 0
+    },
+    "errors": []
+  },
+  "mutation_policy": {
+    "automatic_rebase": false,
+    "automatic_rerun": false,
+    "pull_request_source_mutations": false,
+    "required_reviews_bypassed": false,
+    "branch_protection_changed": false,
+    "billing_or_runner_limits_bypassed": false
+  },
+  "validated_repairs": [
+    {
+      "scope": "maintenance-state",
+      "action": "persist_cycle_state",
+      "result": "completed",
+      "evidence": "state/latest.json, state/cycles/cycle-0017.json, state/summary.tsv"
+    }
+  ],
+  "diagnostic_repairs_not_applied": [
+    {
+      "scope": "live_audit_terminal_output",
+      "finding": "gh api emitted ANSI color bytes in the sandbox terminal and broke JSON parsing",
+      "action": "bounded_local_mitigation",
+      "result": "validated_outside_repository",
+      "mitigation": "GH_FORCE_TTY=0 NO_COLOR=1 CLICOLOR=0 TERM=dumb",
+      "repository_mutation": false
+    }
+  ],
+  "blockers": [
+    {
+      "repository": "balajirajput96/codex",
+      "pull_request": 25,
+      "category": "non_clean",
+      "merge_state": "UNSTABLE",
+      "evidence": "18 failed check runs out of 46 observed in cycle 17",
+      "url": "https://github.com/balajirajput96/codex/pull/25",
+      "next_action": "owner or maintainers must inspect the failing dependency-update checks; no unattended edit or rerun"
+    },
+    {
+      "repository": "balajirajput96/codex",
+      "pull_request": 48,
+      "category": "non_clean",
+      "merge_state": "UNSTABLE",
+      "evidence": "18 check runs were still pending in the targeted live diagnostic; the pull request is draft",
+      "url": "https://github.com/balajirajput96/codex/pull/48",
+      "next_action": "wait for or manually inspect the existing workflow; no automatic rerun"
+    },
+    {
+      "repository": "balajirajput96/github-mcp-server-",
+      "pull_request": 60,
+      "category": "non_clean",
+      "merge_state": "UNSTABLE",
+      "evidence": "7 check runs were pending in cycle 17",
+      "url": "https://github.com/balajirajput96/github-mcp-server-/pull/60",
+      "next_action": "wait for the existing checks; no unattended rerun"
+    },
+    {
+      "repository": "balajirajput96/microsoft-365-agents-toolkit",
+      "pull_request": 69,
+      "category": "non_clean",
+      "merge_state": "UNSTABLE",
+      "evidence": "2 check runs were pending in the targeted live diagnostic and only a COMMENTED review was observed",
+      "url": "https://github.com/balajirajput96/microsoft-365-agents-toolkit/pull/69",
+      "next_action": "owner or maintainers must inspect pending artifact-recovery checks and review status"
+    },
+    {
+      "repository": "balajirajput96/n8n",
+      "pull_request": 13,
+      "category": "non_clean",
+      "merge_state": "UNSTABLE",
+      "evidence": "4 failed check runs, including build, static analysis, and CLA verification, in the targeted live diagnostic",
+      "url": "https://github.com/balajirajput96/n8n/pull/13",
+      "next_action": "maintainers or the dependency bot must resolve the failed checks; no automatic source edit"
+    },
+    {
+      "repository": "balajirajput96/vscode-live-server-plus-plus",
+      "pull_requests": [19, 39, 45, 46, 47, 48, 101, 102, 106, 107, 109, 111, 118, 119],
+      "category": "non_clean",
+      "merge_state": "BLOCKED",
+      "evidence": "the live diagnostic observed BLOCKED merge state; several had approvals, but the state is not sufficient authorization to bypass required reviews or protections",
+      "url": "https://github.com/balajirajput96/vscode-live-server-plus-plus",
+      "next_action": "preserve review and branch-protection gates; await maintainers or required checks"
+    },
+    {
+      "repository": "balajirajput96/automation-control-center",
+      "pull_request": 15,
+      "category": "non_clean",
+      "merge_state": "UNSTABLE",
+      "evidence": "cycle 17 observed no check rollup because the GitHub integration denied statusCheckRollup access",
+      "url": "https://github.com/balajirajput96/automation-control-center/pull/15",
+      "next_action": "treat as an authorization/observability blocker, not as proof of a source failure"
+    }
+  ],
+  "next_continuation": {
+    "cycle": 18,
+    "action": "reload maintenance-state/state/latest.json and re-audit current default branches and owner-controlled pull requests",
+    "preserve": ["authentication", "branch protections", "required reviews", "runner limits", "semantic-conflict safety"],
+    "do_not_claim": ["recovery", "integration", "automation", "validation"]
+  }
+}
