@@ -1,2 +1,2 @@
 cycle	started_at	finished_at	status	repositories	open_prs	clean	non_clean	conflicting	unknown	errors
-5	2026-08-21T04:00:17.013812+00:00	2026-08-21T04:01:51.748197+00:00	completed	217	299	283	16	0	0	0
+6	2026-08-21T04:53:48.070948+00:00	2026-08-21T04:55:45.709322+00:00	completed	217	299	276	16	0	7	0
