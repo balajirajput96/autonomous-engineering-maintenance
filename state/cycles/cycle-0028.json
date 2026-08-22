@@ -2,27 +2,355 @@
   "actions": [
     {
       "result": "completed",
+      "source": "balajirajput96/autonomous-engineering-maintenance@maintenance-state:state/cycles/cycle-0027.json",
+      "type": "load_previous_state"
+    },
+    {
+      "current_default_branches_verified": true,
+      "current_non_clean_prs_rechecked": 19,
+      "current_scope_reconciled": false,
+      "owner_authentication_verified": true,
+      "result": "completed",
       "type": "inventory"
+    },
+    {
+      "evidence": "cycle-0015-live/failed-logs",
+      "result": "completed",
+      "type": "failure_diagnosis"
     },
     {
       "automatic_rebase": false,
       "automatic_rerun": false,
+      "engineering_repository_mutations": false,
+      "merge_or_close": false,
+      "reason": "No bounded patch was proven safe without semantic review; required reviews, branch rules, runner limits, and external-owner boundaries remain intact.",
       "type": "mutation_policy"
+    },
+    {
+      "reason": "Published only to the existing unprotected maintenance-state branch; default and engineering branches were not modified.",
+      "remote_publication": "verified_after_bounded_state_only_update",
+      "result": "prepared_locally",
+      "type": "state_persistence"
     }
   ],
   "active": true,
+  "blockers": [
+    "Current scope cannot be compared like-for-like: the authoritative engine inventory is 218 repositories/303 open PRs, while fresh GitHub inventory signals 251 repositories via gh repo list, 254 owner repositories via REST, and 305 open PRs in the search slice.",
+    "codex#25 remains unstable with multiple failed macOS and Linux/build checks on a large Dependabot update; no safe dependency or workflow patch was proven.",
+    "codex#48 and codex#49 remain unknown with current failed/pending checks; #49 includes a failed CI-required dependency gate, while #48 has platform failures and pending jobs. No safe rerun or rebase is authorized.",
+    "microsoft-365-agents-toolkit#48 remains unstable with no usable check-run payload for its head; prior workflow evidence records action_required, so no code failure or repair can be claimed.",
+    "n8n#13 remains unstable because pnpm install --frozen-lockfile reports ERR_PNPM_LOCKFILE_CONFIG_MISMATCH; regenerating a dependency lockfile would be a semantic change not authorized by this cycle.",
+    "Fourteen vscode-live-server-plus-plus pull requests are mergeable but blocked by the active ruleset requiring ten approvals, code-owner review, last-push approval, and resolved review threads; no bypass or merge was attempted.",
+    "External-owner protection diagnostics remain unavailable under the current authentication context; those repositories remain do-not-modify boundaries.",
+    "The scheduled mission remains active with the existing GitHub connector, run-as-new mode, and 60-second interval; schedule settings were not changed."
+  ],
   "counts": {
-    "clean": 283,
+    "clean": 284,
+    "conflicting": 0,
     "non_clean": 19,
-    "unknown": 2
+    "unknown": 0
   },
   "cycle": 28,
+  "default_branches": {
+    "balajirajput96/B": {
+      "branch": "main",
+      "protected": true,
+      "ruleset_ids": [
+        7207793
+      ],
+      "sha": "15ad4cdaef59f06478d59a3f3ef8bae7e673da67"
+    },
+    "balajirajput96/autonomous-engineering-maintenance": {
+      "branch": "main",
+      "protected": false,
+      "ruleset_ids": [],
+      "sha": "ef926e9d84672a42502ce1ca066db245cc920ce7"
+    },
+    "balajirajput96/codex": {
+      "branch": "main",
+      "protected": false,
+      "ruleset_ids": [],
+      "sha": "55da44fd3c785c31bf1ba1e7375d435b233051eb"
+    },
+    "balajirajput96/microsoft-365-agents-toolkit": {
+      "branch": "dev",
+      "protected": false,
+      "ruleset_ids": [],
+      "sha": "c12f94d4d9ff31952921018695d2180a45944897"
+    },
+    "balajirajput96/n8n": {
+      "branch": "master",
+      "protected": false,
+      "ruleset_ids": [],
+      "sha": "68af19f4e850f4b757c0ace51a00633efda2645c"
+    },
+    "balajirajput96/vscode-live-server-plus-plus": {
+      "branch": "master",
+      "protected": true,
+      "ruleset_ids": [
+        8627686
+      ],
+      "sha": "97628eeb70e45beb56f7ba5245e48a1f08518b25"
+    }
+  },
   "errors": [],
-  "finished_at": "2026-08-22T01:51:45.074477+00:00",
+  "evidence": {
+    "failure_context": "/home/ubuntu/mission-artifacts/cycle-0015-failure-context.txt",
+    "live_recheck_directory": "/home/ubuntu/mission-artifacts/cycle-0015-live",
+    "live_recheck_summary": "/home/ubuntu/mission-artifacts/cycle-0015-live-summary.txt",
+    "persistence_verification": "/home/ubuntu/mission-artifacts/cycle-0015-persistence-verification.txt",
+    "previous_authoritative_state": "/home/ubuntu/mission-artifacts/cycle-0015-authoritative/latest.json",
+    "schedule_status": "/home/ubuntu/mission-artifacts/cycle-0015-live/schedule-status.json",
+    "state_branch_snapshot": "/home/ubuntu/mission-artifacts/cycle-0015-state-branch.txt"
+  },
+  "finished_at": "2026-08-22T01:51:47.928839+00:00",
   "max_cycles": 2400,
+  "mission": "GitHub-centered engineering continuation",
   "mode": "diagnostics-first",
-  "open_pr_count": 304,
+  "next_action": "Reconcile the 218-repository engine scope with the fresh 251/254-repository inventory before claiming trend changes; recheck only changed non-clean records; retain diagnostics-first policy and do not rebase, rerun, merge, close, or bypass reviews without a concrete safe repair. Use the existing scheduled state writer for the next continuation.",
+  "non_clean_recheck": {
+    "all_target_prs_still_open": true,
+    "distribution": {
+      "blocked": 14,
+      "unknown": 2,
+      "unstable": 3
+    },
+    "failed_check_rows": 4,
+    "no_check_rows": 9,
+    "pending_check_rows": 1,
+    "targets": [
+      {
+        "base_sha": "4fe0ae55649903f42a60912746222c123a790e93",
+        "failed_checks": [
+          "CI required",
+          "Bazel / Bazel test on macos-latest for x86_64-apple-darwin",
+          "Bazel / Bazel clippy on ubuntu-24.04 for x86_64-unknown-linux-gnu",
+          "Bazel / Bazel test on macos-latest for aarch64-apple-darwin",
+          "Bazel / Bazel test on ubuntu-24.04 for x86_64-unknown-linux-musl",
+          "Bazel / Verify release build on ubuntu-24.04 for x86_64-unknown-linux-gnu",
+          "Bazel / Verify release build on macos-latest for aarch64-apple-darwin",
+          "sdk / sdks"
+        ],
+        "head_sha": "b06320484703b16d9afa1b9d9f42b55197de7225",
+        "mergeable_state": "unknown",
+        "number": 49,
+        "pending_checks": [],
+        "repository": "balajirajput96/codex",
+        "url": "https://github.com/balajirajput96/codex/pull/49"
+      },
+      {
+        "base_sha": "4fe0ae55649903f42a60912746222c123a790e93",
+        "failed_checks": [
+          "rust-ci / Argument comment lint - Linux",
+          "Bazel / Verify release build on ubuntu-24.04 for x86_64-unknown-linux-gnu",
+          "Bazel / Bazel clippy on ubuntu-24.04 for x86_64-unknown-linux-gnu",
+          "Bazel / Bazel test on ubuntu-24.04 for x86_64-unknown-linux-musl",
+          "Bazel / Bazel test on ubuntu-24.04 for x86_64-unknown-linux-gnu",
+          "Bazel / Bazel test on macos-latest for x86_64-apple-darwin",
+          "sdk / sdks"
+        ],
+        "head_sha": "1f1367fae740429b155f49c9fd81f2720f8c359a",
+        "mergeable_state": "unknown",
+        "number": 48,
+        "pending_checks": [
+          "rust-ci / Argument comment lint - macOS",
+          "Bazel / Bazel clippy on macos-latest for aarch64-apple-darwin",
+          "Bazel / Verify release build on macos-latest for aarch64-apple-darwin",
+          "Bazel / Bazel test on macos-latest for aarch64-apple-darwin"
+        ],
+        "repository": "balajirajput96/codex",
+        "url": "https://github.com/balajirajput96/codex/pull/48"
+      },
+      {
+        "base_sha": "4fe0ae55649903f42a60912746222c123a790e93",
+        "failed_checks": [
+          "CI required",
+          "Build ptrcomp-sandbox aarch64-apple-darwin",
+          "Build ptrcomp-sandbox x86_64-apple-darwin",
+          "Build release aarch64-apple-darwin",
+          "Build release x86_64-apple-darwin",
+          "rust-ci / CI results (required)",
+          "rust-ci / Argument comment lint - macOS",
+          "rust-ci / Argument comment lint - Linux",
+          "sdk / sdks",
+          "Bazel / Bazel clippy on macos-latest for aarch64-apple-darwin",
+          "Bazel / Bazel test on ubuntu-24.04 for x86_64-unknown-linux-musl"
+        ],
+        "head_sha": "25bb9215e67c385ad3885a778a9466b8d3686025",
+        "mergeable_state": "unstable",
+        "number": 25,
+        "pending_checks": [],
+        "repository": "balajirajput96/codex",
+        "url": "https://github.com/balajirajput96/codex/pull/25"
+      },
+      {
+        "base_sha": "708a770a90eb89dbef0129132bea6db0b8e869a8",
+        "failed_checks": [],
+        "head_sha": "ad44d55a1a9ab1329efb8a21d546a208a7b16eb4",
+        "mergeable_state": "unstable",
+        "number": 48,
+        "pending_checks": [],
+        "repository": "balajirajput96/microsoft-365-agents-toolkit",
+        "url": "https://github.com/balajirajput96/microsoft-365-agents-toolkit/pull/48"
+      },
+      {
+        "base_sha": "5bbc0d5e6455c33e3ce7ef72848b57d7e0953bf8",
+        "failed_checks": [
+          "Required PR Quality Checks",
+          "Static Analysis"
+        ],
+        "head_sha": "c98a42fceed7a1aecf9b09c3b24f7c8b751bc787",
+        "mergeable_state": "unstable",
+        "number": 13,
+        "pending_checks": [],
+        "repository": "balajirajput96/n8n",
+        "url": "https://github.com/balajirajput96/n8n/pull/13"
+      },
+      {
+        "base_sha": "97628eeb70e45beb56f7ba5245e48a1f08518b25",
+        "failed_checks": [],
+        "head_sha": "741cb1ecf2cc70cabb5edeb44b94ed71f377e6e0",
+        "mergeable_state": "blocked",
+        "number": 119,
+        "pending_checks": [],
+        "repository": "balajirajput96/vscode-live-server-plus-plus",
+        "url": "https://github.com/balajirajput96/vscode-live-server-plus-plus/pull/119"
+      },
+      {
+        "base_sha": "97628eeb70e45beb56f7ba5245e48a1f08518b25",
+        "failed_checks": [],
+        "head_sha": "3ba6766399ee6ee71e82d181b078098c3a709f72",
+        "mergeable_state": "blocked",
+        "number": 118,
+        "pending_checks": [],
+        "repository": "balajirajput96/vscode-live-server-plus-plus",
+        "url": "https://github.com/balajirajput96/vscode-live-server-plus-plus/pull/118"
+      },
+      {
+        "base_sha": "97628eeb70e45beb56f7ba5245e48a1f08518b25",
+        "failed_checks": [],
+        "head_sha": "6f0404fe350f8f46c2cd6e79a19836e45152b668",
+        "mergeable_state": "blocked",
+        "number": 111,
+        "pending_checks": [],
+        "repository": "balajirajput96/vscode-live-server-plus-plus",
+        "url": "https://github.com/balajirajput96/vscode-live-server-plus-plus/pull/111"
+      },
+      {
+        "base_sha": "97628eeb70e45beb56f7ba5245e48a1f08518b25",
+        "failed_checks": [],
+        "head_sha": "83c810161c210fe6aff35ea8970e29f19745ce32",
+        "mergeable_state": "blocked",
+        "number": 109,
+        "pending_checks": [],
+        "repository": "balajirajput96/vscode-live-server-plus-plus",
+        "url": "https://github.com/balajirajput96/vscode-live-server-plus-plus/pull/109"
+      },
+      {
+        "base_sha": "97628eeb70e45beb56f7ba5245e48a1f08518b25",
+        "failed_checks": [],
+        "head_sha": "eddeb79cb1541668e36b517c6da9888cceb89a66",
+        "mergeable_state": "blocked",
+        "number": 107,
+        "pending_checks": [],
+        "repository": "balajirajput96/vscode-live-server-plus-plus",
+        "url": "https://github.com/balajirajput96/vscode-live-server-plus-plus/pull/107"
+      },
+      {
+        "base_sha": "97628eeb70e45beb56f7ba5245e48a1f08518b25",
+        "failed_checks": [],
+        "head_sha": "7dc30d363f26c4ea27361af441d5d500d54517b4",
+        "mergeable_state": "blocked",
+        "number": 106,
+        "pending_checks": [],
+        "repository": "balajirajput96/vscode-live-server-plus-plus",
+        "url": "https://github.com/balajirajput96/vscode-live-server-plus-plus/pull/106"
+      },
+      {
+        "base_sha": "97628eeb70e45beb56f7ba5245e48a1f08518b25",
+        "failed_checks": [],
+        "head_sha": "db7dc822f6f4f6597d3778ca5208e2f89217c90a",
+        "mergeable_state": "blocked",
+        "number": 102,
+        "pending_checks": [],
+        "repository": "balajirajput96/vscode-live-server-plus-plus",
+        "url": "https://github.com/balajirajput96/vscode-live-server-plus-plus/pull/102"
+      },
+      {
+        "base_sha": "97628eeb70e45beb56f7ba5245e48a1f08518b25",
+        "failed_checks": [],
+        "head_sha": "318d3d04a5a709a921d7c9bc83877a10bf760941",
+        "mergeable_state": "blocked",
+        "number": 101,
+        "pending_checks": [],
+        "repository": "balajirajput96/vscode-live-server-plus-plus",
+        "url": "https://github.com/balajirajput96/vscode-live-server-plus-plus/pull/101"
+      },
+      {
+        "base_sha": "97628eeb70e45beb56f7ba5245e48a1f08518b25",
+        "failed_checks": [],
+        "head_sha": "7848d7dcfdadf2f4006c73ccdd9ff414a4717f09",
+        "mergeable_state": "blocked",
+        "number": 48,
+        "pending_checks": [],
+        "repository": "balajirajput96/vscode-live-server-plus-plus",
+        "url": "https://github.com/balajirajput96/vscode-live-server-plus-plus/pull/48"
+      },
+      {
+        "base_sha": "97628eeb70e45beb56f7ba5245e48a1f08518b25",
+        "failed_checks": [],
+        "head_sha": "ef6cc9ebf6f9528350d4938ebe6637999e24f1b0",
+        "mergeable_state": "blocked",
+        "number": 47,
+        "pending_checks": [],
+        "repository": "balajirajput96/vscode-live-server-plus-plus",
+        "url": "https://github.com/balajirajput96/vscode-live-server-plus-plus/pull/47"
+      },
+      {
+        "base_sha": "97628eeb70e45beb56f7ba5245e48a1f08518b25",
+        "failed_checks": [],
+        "head_sha": "7ef4b0c7ac5c998e74d67a00030094e4f2a92c00",
+        "mergeable_state": "blocked",
+        "number": 46,
+        "pending_checks": [],
+        "repository": "balajirajput96/vscode-live-server-plus-plus",
+        "url": "https://github.com/balajirajput96/vscode-live-server-plus-plus/pull/46"
+      },
+      {
+        "base_sha": "97628eeb70e45beb56f7ba5245e48a1f08518b25",
+        "failed_checks": [],
+        "head_sha": "cf2e56c4fc65957b585a44ff4d9cdd103a8a3c26",
+        "mergeable_state": "blocked",
+        "number": 45,
+        "pending_checks": [],
+        "repository": "balajirajput96/vscode-live-server-plus-plus",
+        "url": "https://github.com/balajirajput96/vscode-live-server-plus-plus/pull/45"
+      },
+      {
+        "base_sha": "97628eeb70e45beb56f7ba5245e48a1f08518b25",
+        "failed_checks": [],
+        "head_sha": "7aa8f1db46cf194b79bbec6d860d56621c685c14",
+        "mergeable_state": "blocked",
+        "number": 39,
+        "pending_checks": [],
+        "repository": "balajirajput96/vscode-live-server-plus-plus",
+        "url": "https://github.com/balajirajput96/vscode-live-server-plus-plus/pull/39"
+      },
+      {
+        "base_sha": "97628eeb70e45beb56f7ba5245e48a1f08518b25",
+        "failed_checks": [],
+        "head_sha": "6b030bf9f5deca7740b0f55b0bd021f4803c50a7",
+        "mergeable_state": "blocked",
+        "number": 19,
+        "pending_checks": [],
+        "repository": "balajirajput96/vscode-live-server-plus-plus",
+        "url": "https://github.com/balajirajput96/vscode-live-server-plus-plus/pull/19"
+      }
+    ]
+  },
+  "open_pr_count": 303,
   "owner": "balajirajput96",
+  "previous_cycle": 27,
   "records": [
     {
       "base": "main",
@@ -1736,58 +2064,18 @@
     },
     {
       "base": "main",
-      "base_sha": "4313599ac638c395d44ba3986b07cb5264f8d360",
-      "category": "unknown",
-      "checks": {
-        "checks": 33,
-        "failures": 0,
-        "pending": 11
-      },
-      "draft": false,
-      "head": "fix/windows-gnullvm-redirect-read",
-      "head_sha": "35ba568943d0e09bacc5cbe3efaa97eaa5eedab8",
-      "merge_state": "UNKNOWN",
-      "mergeable": "UNKNOWN",
-      "number": 51,
-      "repository": "balajirajput96/codex",
-      "state": "OPEN",
-      "title": "test: stabilize Windows redirect listener reads",
-      "url": "https://github.com/balajirajput96/codex/pull/51"
-    },
-    {
-      "base": "main",
-      "base_sha": "a6db2781757ad718be377544b63570abdc06fd41",
-      "category": "unknown",
-      "checks": {
-        "checks": 33,
-        "failures": 6,
-        "pending": 5
-      },
-      "draft": false,
-      "head": "fix/windows-guardian-test-timeout",
-      "head_sha": "50e2ecdee9a618a1ac1cdb26d40399def8adff50",
-      "merge_state": "UNKNOWN",
-      "mergeable": "UNKNOWN",
-      "number": 50,
-      "repository": "balajirajput96/codex",
-      "state": "OPEN",
-      "title": "test(core): allow Windows shell startup latency",
-      "url": "https://github.com/balajirajput96/codex/pull/50"
-    },
-    {
-      "base": "main",
       "base_sha": "4fe0ae55649903f42a60912746222c123a790e93",
       "category": "non_clean",
       "checks": {
-        "checks": 35,
-        "failures": 10,
-        "pending": 0
+        "checks": 34,
+        "failures": 7,
+        "pending": 2
       },
       "draft": false,
       "head": "dependabot/npm_and_yarn/npm_and_yarn-343aa972c6",
       "head_sha": "b06320484703b16d9afa1b9d9f42b55197de7225",
-      "merge_state": "UNSTABLE",
-      "mergeable": "MERGEABLE",
+      "merge_state": "UNKNOWN",
+      "mergeable": null,
       "number": 49,
       "repository": "balajirajput96/codex",
       "state": "OPEN",
@@ -1800,14 +2088,14 @@
       "category": "non_clean",
       "checks": {
         "checks": 33,
-        "failures": 7,
-        "pending": 4
+        "failures": 6,
+        "pending": 5
       },
       "draft": true,
       "head": "fix/native-msvc-v8-allocator-link",
       "head_sha": "1f1367fae740429b155f49c9fd81f2720f8c359a",
-      "merge_state": "UNSTABLE",
-      "mergeable": "MERGEABLE",
+      "merge_state": "UNKNOWN",
+      "mergeable": null,
       "number": 48,
       "repository": "balajirajput96/codex",
       "state": "OPEN",
@@ -4306,6 +4594,21 @@
     },
     {
       "base": "main",
+      "base_sha": "52fa5d72ea5ef86f61f7101a34d074d125222b99",
+      "category": "clean",
+      "draft": false,
+      "head": "fix/skip-scan-without-openrouter-key",
+      "head_sha": "3189d23ae8a392d778bfd13166d9c022b9541a93",
+      "merge_state": "CLEAN",
+      "mergeable": "MERGEABLE",
+      "number": 22,
+      "repository": "balajirajput96/vscode-copilot-cha",
+      "state": "OPEN",
+      "title": "fix: skip pharma scan when LLM secret is absent",
+      "url": "https://github.com/balajirajput96/vscode-copilot-cha/pull/22"
+    },
+    {
+      "base": "main",
       "base_sha": "90546a96fa82ee4b8bbc94adadf1ef3893b34660",
       "category": "clean",
       "draft": false,
@@ -4691,6 +4994,16 @@
     }
   ],
   "repository_count": 218,
-  "started_at": "2026-08-22T01:49:59.178812+00:00",
+  "schema_version": "1.0",
+  "scope": {
+    "current_engine_repository_count": 218,
+    "current_gh_repo_list_count": 251,
+    "current_open_pr_search_count": 305,
+    "current_rest_owner_repository_count": 254,
+    "previous_engine_open_pr_count": 303,
+    "previous_engine_repository_count": 218,
+    "scope_reconciliation_required": true
+  },
+  "started_at": "2026-08-22T01:51:47.928839+00:00",
   "status": "completed"
 }
