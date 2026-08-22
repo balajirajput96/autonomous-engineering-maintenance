@@ -80,7 +80,7 @@ jobs:
             git worktree add --detach "$state_dir" HEAD
             git -C "$state_dir" switch --orphan "$STATE_BRANCH"
             # An orphan worktree has no tracked paths; tolerate the empty-tree rm.
-            git -C "$state_dir" rm -rf . 2>/dev/null || true
+            git -C "$state_dir" rm -rf --ignore-unmatch . 2>/dev/null || true
           fi
           mkdir -p "$state_dir/state"
           cp -R state/. "$state_dir/state/"
