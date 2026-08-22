@@ -1,0 +1,28 @@
+--- summary metadata ---
+  2 201 state/summary.tsv
+--- cycle file parse/cycle values ---
+cycle-0001.json	object	1	completed
+cycle-0002.json	object	2	completed
+cycle-0003.json	object	3	completed
+cycle-0004.json	object	4	completed
+cycle-0005.json	object	5	completed
+cycle-0006.json	object	6	completed
+cycle-0007.json	object	7	completed
+cycle-0008.json	object	8	completed
+cycle-0009.json	object	9	completed
+cycle-0010.json	object	10	completed
+cycle-0011.json	object	11	completed
+cycle-0012.json	object	12	completed
+cycle-0013.json	object	13	completed
+cycle-0014.json	object	14	completed
+cycle-0015.json	object	15	completed
+cycle-0016.json	object	16	completed
+cycle-0017.json	object	17	completed
+--- direct shell-generated summary row count ---
+17
+--- maintenance module glob view ---
+16:CYCLES_DIR = STATE_DIR / "cycles"
+88:        CYCLES_DIR.mkdir(parents=True, exist_ok=True)
+89:        (CYCLES_DIR / f"cycle-{cycle:04d}.json").write_text(json.dumps(base_record, indent=2) + "\n")
+151:    CYCLES_DIR.mkdir(parents=True, exist_ok=True)
+152:    cycle_path = CYCLES_DIR / f"cycle-{cycle:04d}.json"

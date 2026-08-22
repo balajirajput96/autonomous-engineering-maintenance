@@ -1,0 +1,99 @@
+{
+  "name": "main",
+  "commit": {
+    "sha": "2690b6d8c48e88177e66cd6ed9c98a9a5b360030",
+    "node_id": "C_kwDOT_M77NoAKDI2OTBiNmQ4YzQ4ZTg4MTc3ZTY2Y2Q2ZWQ5Yzk4YTlhNWIzNjAwMzA",
+    "commit": {
+      "author": {
+        "name": "Balaji_Rajput",
+        "email": "124477404+balajirajput96@users.noreply.github.com",
+        "date": "2026-08-22T03:45:57Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-08-22T03:45:57Z"
+      },
+      "message": "Validate durable maintenance state contract (#5)\n\n* fix: validate durable maintenance state contract\n\n* test: exercise composed authoritative maintenance cycle\n\n---------\n\nCo-authored-by: balajirajput96 <1.24477404e+08+balajirajput96@users.noreply.github.com>",
+      "tree": {
+        "sha": "f3ff3201aa607918653007b943ad1667257abf33",
+        "url": "https://api.github.com/repos/balajirajput96/autonomous-engineering-maintenance/git/trees/f3ff3201aa607918653007b943ad1667257abf33"
+      },
+      "url": "https://api.github.com/repos/balajirajput96/autonomous-engineering-maintenance/git/commits/2690b6d8c48e88177e66cd6ed9c98a9a5b360030",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqiRt1CRC1aQ7uu5UhlAAAVGYQAFew/sKLERFUXE3JbzPF28lx\nQH7cOwpTBdH8+Bj/5Kfl24spAZ+edts8QqYyinWY7KS3/agOcwBFTkLjLn45OzNJ\n+0vxx7LtKenVELvWmHAXeNrVpfKBhR5kkLA3wW0Q8Va/BQho5uoh2LKiBjM6vhmr\npBK3Klm59ZVxph2/C0UGRebM0CWw0u0phWMdhtPnkzdgTW2HLFnv6vgMd2oQnhLu\nlk5Mi0y10Hpejyd7XgaaLRaCgrB49SWuVFR8IMIS4m3UR2MHYbNV4/QSTXF40jo5\nTlGRtD8vrU2gmyj/QmmkCEp6sBgwYv1xWASNfnOB71Aa6YDoqAZH2o6Qvv1hdUP6\nCkAWFWUky+zO4iCKUNGZfqHWZlLc8NxH0/sIG/VmVxHDmU4SHNwh7TAYldjyJeZJ\nnhlcKEIsarwd+ee51oceDzIr7M8LzJ+ZHGS57hDqzntMaD2EtGmF/1SVxuPL7DQ7\npZDzeoOfa3dbLgd4Exlv1fyDk7H3qFYm0w1xygbl8BufZ5BW9qAl46s+Vnz3IW87\n2gnyYk88H/668QdDByI55NhNHwp3yWbdXA6hVhBZTLKl3ItSn3DkvuNLFJ//zOWL\nHD3ESt8THvp0oGR5Mu8329oZ6iAmm5cWbB8Y38hMvrZHl1JPGidfb5DQceWoRq5M\nY5/IDS2EvHMdR93dX3Wd\n=f0fQ\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree f3ff3201aa607918653007b943ad1667257abf33\nparent 6c5ff59aa73946c25a3de051cfe02d3fc31a5931\nauthor Balaji_Rajput <124477404+balajirajput96@users.noreply.github.com> 1787370357 +0000\ncommitter GitHub <noreply@github.com> 1787370357 +0000\n\nValidate durable maintenance state contract (#5)\n\n* fix: validate durable maintenance state contract\n\n* test: exercise composed authoritative maintenance cycle\n\n---------\n\nCo-authored-by: balajirajput96 <1.24477404e+08+balajirajput96@users.noreply.github.com>",
+        "verified_at": "2026-08-22T03:45:58Z"
+      }
+    },
+    "url": "https://api.github.com/repos/balajirajput96/autonomous-engineering-maintenance/commits/2690b6d8c48e88177e66cd6ed9c98a9a5b360030",
+    "html_url": "https://github.com/balajirajput96/autonomous-engineering-maintenance/commit/2690b6d8c48e88177e66cd6ed9c98a9a5b360030",
+    "comments_url": "https://api.github.com/repos/balajirajput96/autonomous-engineering-maintenance/commits/2690b6d8c48e88177e66cd6ed9c98a9a5b360030/comments",
+    "author": {
+      "login": "balajirajput96",
+      "id": 124477404,
+      "node_id": "U_kgDOB2tf3A",
+      "avatar_url": "https://avatars.githubusercontent.com/u/124477404?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/balajirajput96",
+      "html_url": "https://github.com/balajirajput96",
+      "followers_url": "https://api.github.com/users/balajirajput96/followers",
+      "following_url": "https://api.github.com/users/balajirajput96/following{/other_user}",
+      "gists_url": "https://api.github.com/users/balajirajput96/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/balajirajput96/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/balajirajput96/subscriptions",
+      "organizations_url": "https://api.github.com/users/balajirajput96/orgs",
+      "repos_url": "https://api.github.com/users/balajirajput96/repos",
+      "events_url": "https://api.github.com/users/balajirajput96/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/balajirajput96/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6c5ff59aa73946c25a3de051cfe02d3fc31a5931",
+        "url": "https://api.github.com/repos/balajirajput96/autonomous-engineering-maintenance/commits/6c5ff59aa73946c25a3de051cfe02d3fc31a5931",
+        "html_url": "https://github.com/balajirajput96/autonomous-engineering-maintenance/commit/6c5ff59aa73946c25a3de051cfe02d3fc31a5931"
+      }
+    ]
+  },
+  "_links": {
+    "self": "https://api.github.com/repos/balajirajput96/autonomous-engineering-maintenance/branches/main",
+    "html": "https://github.com/balajirajput96/autonomous-engineering-maintenance/tree/main"
+  },
+  "protected": false,
+  "protection": {
+    "enabled": false,
+    "required_status_checks": {
+      "enforcement_level": "off",
+      "contexts": [],
+      "checks": []
+    }
+  },
+  "protection_url": "https://api.github.com/repos/balajirajput96/autonomous-engineering-maintenance/branches/main/protection"
+}

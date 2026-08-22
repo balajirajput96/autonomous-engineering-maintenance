@@ -2,60 +2,148 @@
   "actions": [
     {
       "result": "completed",
+      "source": "cycle-0015.json on continuation/cycle-0015-20260822",
+      "type": "load_previous_state"
+    },
+    {
+      "current_default_branches_verified": true,
+      "current_owner_controlled_open_prs_verified": true,
+      "owner_authentication_verified": true,
+      "result": "completed",
       "type": "inventory"
     },
     {
       "automatic_rebase": false,
       "automatic_rerun": false,
-      "type": "mutation_policy"
-    },
-    {
-      "type": "load_previous_state",
-      "result": "completed",
-      "source": "cycle-0016.json on continuation/cycle-0016-20260822"
-    },
-    {
-      "type": "targeted_recheck",
-      "result": "completed",
-      "scope": "prior non-clean/conflicting records plus newly observed cycle-17 records"
-    },
-    {
-      "type": "validation",
-      "result": "passed",
-      "checks": [
-        "state_contract",
-        "state_contract_regression",
-        "summary_persistence"
-      ]
-    },
-    {
-      "type": "repair",
-      "result": "completed",
-      "scope": "maintenance summary reconstruction only",
-      "authorization": "bounded local continuation-branch repair"
-    },
-    {
-      "type": "mutation_policy",
-      "automatic_rebase": false,
-      "automatic_rerun": false,
       "merge_or_close": false,
-      "review_bypass": false,
-      "result": "preserved"
+      "reason": "No repair was proven safe without semantic review; required reviews, branch rules, runner limits, and external-owner boundaries remain intact.",
+      "type": "mutation_policy"
     }
   ],
   "active": true,
+  "blockers": [
+    "The current inventory is 253 owner repositories and 307 owner-controlled open pull requests versus cycle 15 at 251/301; the numeric scope is reconciled but trend comparisons are not directly comparable.",
+    "codex#25 and codex#48 remain conflicting; codex#25 has multiple failed or cancelled CI results, and codex#48 has platform failures with in-progress jobs. No semantic repair, rebase, or rerun is authorized.",
+    "codex#49 remains unstable with failed CI checks, while codex#52 was newly unstable with checks still queued or running at the post-scan observation. No rerun or repair was initiated.",
+    "The cycle-16 engine classified maintenance-repository PR5 as unknown because the CLI status-rollup query was inaccessible; a later REST observation verified that PR5 merged externally after the scan.",
+    "External-owner protection diagnostics and the active vscode-live-server-plus-plus review rules remain read-only policy blockers."
+  ],
   "counts": {
-    "clean": 287,
+    "clean": 286,
+    "conflicting": 2,
     "non_clean": 18,
-    "unknown": 4
+    "unknown": 1
   },
-  "cycle": 17,
+  "cycle": 16,
   "errors": [],
-  "finished_at": "2026-08-22T04:40:54.719989+00:00",
+  "evidence": {
+    "cycle16_engine_output": "/home/ubuntu/autonomous-mission/evidence/cycle16-engine-output.json",
+    "cycle16_non_clean_recheck": "/home/ubuntu/autonomous-mission/evidence/cycle16-non-clean-recheck.json",
+    "cycle16_transitions": "/home/ubuntu/autonomous-mission/evidence/cycle16-transitions.json",
+    "default_branch_refs": "/home/ubuntu/autonomous-mission/evidence/cycle16-default-branch-refs.ndjson",
+    "focus_pr5": "/home/ubuntu/autonomous-mission/evidence/balajirajput96_autonomous-engineering-maintenance-pr-5-rest.json",
+    "focus_pr52": "/home/ubuntu/autonomous-mission/evidence/balajirajput96_codex-pr-52-rest.json",
+    "local_root": "/home/ubuntu/autonomous-mission/evidence",
+    "owner_repositories": "/home/ubuntu/autonomous-mission/evidence/cycle16-owner-repos.ndjson",
+    "terminal_transcripts": "/home/ubuntu/terminal_full_output",
+    "validation_status": "/home/ubuntu/autonomous-mission/evidence/cycle16-validation-status.txt"
+  },
+  "finished_at": "2026-08-22T03:40:44.524267+00:00",
   "max_cycles": 2400,
   "mode": "diagnostics-first",
-  "open_pr_count": 309,
+  "next_action": "Continue diagnostics-first from cycle 16, load this cycle-16 state from the reviewable checkpoint, recheck only newly changed non-clean records and post-scan check progress, preserve the review-only boundary, and do not rebase, rerun, merge, close, or bypass reviews without a concrete safe repair.",
+  "non_clean_recheck": {
+    "category_counts": {
+      "clean": 0,
+      "conflicting": 2,
+      "non_clean": 17,
+      "unknown": 0
+    },
+    "check_failure_count": 39,
+    "conflicting_prs": [
+      "balajirajput96/codex#48",
+      "balajirajput96/codex#25"
+    ],
+    "error_count": 0,
+    "observed_record_count": 19,
+    "source": "REST pull-request and check-run recheck captured before cycle-16 engine completion",
+    "unstable_or_non_clean_prs": [
+      "balajirajput96/codex#49",
+      "balajirajput96/microsoft-365-agents-toolkit#48",
+      "balajirajput96/n8n#13",
+      "balajirajput96/vscode-live-server-plus-plus#119",
+      "balajirajput96/vscode-live-server-plus-plus#118",
+      "balajirajput96/vscode-live-server-plus-plus#111",
+      "balajirajput96/vscode-live-server-plus-plus#109",
+      "balajirajput96/vscode-live-server-plus-plus#107",
+      "balajirajput96/vscode-live-server-plus-plus#106",
+      "balajirajput96/vscode-live-server-plus-plus#102",
+      "balajirajput96/vscode-live-server-plus-plus#101",
+      "balajirajput96/vscode-live-server-plus-plus#48",
+      "balajirajput96/vscode-live-server-plus-plus#47",
+      "balajirajput96/vscode-live-server-plus-plus#46",
+      "balajirajput96/vscode-live-server-plus-plus#45",
+      "balajirajput96/vscode-live-server-plus-plus#39",
+      "balajirajput96/vscode-live-server-plus-plus#19"
+    ]
+  },
+  "open_pr_count": 307,
   "owner": "balajirajput96",
+  "policy_blockers": [
+    {
+      "action": "do_not_bypass_or_merge",
+      "reason": "Active ruleset requires 10 approvals, code-owner review, last-push approval, and resolved review threads.",
+      "repository": "balajirajput96/vscode-live-server-plus-plus",
+      "source": "prior cycle-15 persisted policy blocker"
+    },
+    {
+      "action": "do_not_modify",
+      "reason": "External-owner protection diagnostics are unavailable under current authentication context.",
+      "repository": "OfficeDev/microsoft-365-agents-toolkit"
+    },
+    {
+      "action": "do_not_modify",
+      "reason": "External-owner protection diagnostics are unavailable under current authentication context.",
+      "repository": "jupyterlab/jupyterlab-git"
+    },
+    {
+      "action": "do_not_modify",
+      "reason": "External-owner protection diagnostics are unavailable under current authentication context.",
+      "repository": "ritwickdey/vscode-live-server-plus-plus"
+    }
+  ],
+  "post_scan_observations": [
+    {
+      "meaning": "PR5 merged after the cycle-16 engine scan; this was not performed by the maintenance cycle.",
+      "merge_commit": "2690b6d8c48e88177e66cd6ed9c98a9a5b360030",
+      "observed_at": "2026-08-22T03:52:00Z",
+      "pull_request": 5,
+      "repository": "balajirajput96/autonomous-engineering-maintenance",
+      "state": "merged"
+    },
+    {
+      "check_status": "8 completed, 5 in progress, 35 queued, 0 failures observed at capture",
+      "meaning": "Checks were still running; no rerun or repair was initiated.",
+      "observed_at": "2026-08-22T03:52:00Z",
+      "pull_request": 52,
+      "repository": "balajirajput96/codex",
+      "state": "unstable"
+    }
+  ],
+  "publication": {
+    "base_ref": "main",
+    "default_branch_touched": false,
+    "engineering_repositories_touched": false,
+    "head_ref": "continuation/cycle-0016-20260822",
+    "head_sha": "cc5ef6c5c8a02020bbb512188403c9e79a049797",
+    "merged": false,
+    "pull_request_number": 6,
+    "pull_request_url": "https://github.com/balajirajput96/autonomous-engineering-maintenance/pull/6",
+    "remote_commit_verified": true,
+    "remote_pr_verified": true,
+    "repository": "balajirajput96/autonomous-engineering-maintenance",
+    "state": "open"
+  },
   "records": [
     {
       "base": "main",
@@ -69,7 +157,7 @@
       "number": 162,
       "repository": "balajirajput96/.github",
       "state": "OPEN",
-      "title": "⚡ Bolt: Optimize HTTP requests using connection pooling",
+      "title": "\u26a1 Bolt: Optimize HTTP requests using connection pooling",
       "url": "https://github.com/balajirajput96/.github/pull/162"
     },
     {
@@ -84,7 +172,7 @@
       "number": 161,
       "repository": "balajirajput96/.github",
       "state": "OPEN",
-      "title": "🛡️ Sentinel: [CRITICAL] Fix Path Traversal in GitHub proxy endpoints",
+      "title": "\ud83d\udee1\ufe0f Sentinel: [CRITICAL] Fix Path Traversal in GitHub proxy endpoints",
       "url": "https://github.com/balajirajput96/.github/pull/161"
     },
     {
@@ -99,7 +187,7 @@
       "number": 160,
       "repository": "balajirajput96/.github",
       "state": "OPEN",
-      "title": "🎨 Palette: Prevent accidental copying of terminal prompt symbols",
+      "title": "\ud83c\udfa8 Palette: Prevent accidental copying of terminal prompt symbols",
       "url": "https://github.com/balajirajput96/.github/pull/160"
     },
     {
@@ -114,7 +202,7 @@
       "number": 159,
       "repository": "balajirajput96/.github",
       "state": "OPEN",
-      "title": "🎨 Palette: Improve terminal preview accessibility",
+      "title": "\ud83c\udfa8 Palette: Improve terminal preview accessibility",
       "url": "https://github.com/balajirajput96/.github/pull/159"
     },
     {
@@ -129,7 +217,7 @@
       "number": 158,
       "repository": "balajirajput96/.github",
       "state": "OPEN",
-      "title": "⚡ Bolt: Use requests.Session for connection pooling",
+      "title": "\u26a1 Bolt: Use requests.Session for connection pooling",
       "url": "https://github.com/balajirajput96/.github/pull/158"
     },
     {
@@ -159,7 +247,7 @@
       "number": 156,
       "repository": "balajirajput96/.github",
       "state": "OPEN",
-      "title": "🎨 Palette: Hide decorative terminal elements from screen readers",
+      "title": "\ud83c\udfa8 Palette: Hide decorative terminal elements from screen readers",
       "url": "https://github.com/balajirajput96/.github/pull/156"
     },
     {
@@ -174,7 +262,7 @@
       "number": 151,
       "repository": "balajirajput96/.github",
       "state": "OPEN",
-      "title": "⚡ Bolt: Extract static JSX to prevent frequent reconciliation diffing",
+      "title": "\u26a1 Bolt: Extract static JSX to prevent frequent reconciliation diffing",
       "url": "https://github.com/balajirajput96/.github/pull/151"
     },
     {
@@ -189,7 +277,7 @@
       "number": 150,
       "repository": "balajirajput96/.github",
       "state": "OPEN",
-      "title": "🎨 Palette: Accessibility improvement for Terminal Preview",
+      "title": "\ud83c\udfa8 Palette: Accessibility improvement for Terminal Preview",
       "url": "https://github.com/balajirajput96/.github/pull/150"
     },
     {
@@ -204,7 +292,7 @@
       "number": 149,
       "repository": "balajirajput96/.github",
       "state": "OPEN",
-      "title": "⚡ Bolt: Extract static JSX from frequent render path",
+      "title": "\u26a1 Bolt: Extract static JSX from frequent render path",
       "url": "https://github.com/balajirajput96/.github/pull/149"
     },
     {
@@ -219,7 +307,7 @@
       "number": 148,
       "repository": "balajirajput96/.github",
       "state": "OPEN",
-      "title": "🎨 Palette: Hide decorative terminal prompts from screen readers",
+      "title": "\ud83c\udfa8 Palette: Hide decorative terminal prompts from screen readers",
       "url": "https://github.com/balajirajput96/.github/pull/148"
     },
     {
@@ -234,7 +322,7 @@
       "number": 147,
       "repository": "balajirajput96/.github",
       "state": "OPEN",
-      "title": "🎨 Palette: Enhance screen reader experience for decorative elements",
+      "title": "\ud83c\udfa8 Palette: Enhance screen reader experience for decorative elements",
       "url": "https://github.com/balajirajput96/.github/pull/147"
     },
     {
@@ -249,7 +337,7 @@
       "number": 116,
       "repository": "balajirajput96/.github",
       "state": "OPEN",
-      "title": "🎨 Palette: Improve FAQ toggle interaction and accessibility",
+      "title": "\ud83c\udfa8 Palette: Improve FAQ toggle interaction and accessibility",
       "url": "https://github.com/balajirajput96/.github/pull/116"
     },
     {
@@ -264,7 +352,7 @@
       "number": 112,
       "repository": "balajirajput96/.github",
       "state": "OPEN",
-      "title": "🎨 Palette: Add hover and focus feedback to FAQ accordion",
+      "title": "\ud83c\udfa8 Palette: Add hover and focus feedback to FAQ accordion",
       "url": "https://github.com/balajirajput96/.github/pull/112"
     },
     {
@@ -279,7 +367,7 @@
       "number": 111,
       "repository": "balajirajput96/.github",
       "state": "OPEN",
-      "title": "🎨 Palette: Add interactive feedback and improve accessibility of FAQ accordion",
+      "title": "\ud83c\udfa8 Palette: Add interactive feedback and improve accessibility of FAQ accordion",
       "url": "https://github.com/balajirajput96/.github/pull/111"
     },
     {
@@ -294,7 +382,7 @@
       "number": 104,
       "repository": "balajirajput96/.github",
       "state": "OPEN",
-      "title": "🎨 Palette: Add keyboard focus parity for Framer Motion interactive elements",
+      "title": "\ud83c\udfa8 Palette: Add keyboard focus parity for Framer Motion interactive elements",
       "url": "https://github.com/balajirajput96/.github/pull/104"
     },
     {
@@ -309,7 +397,7 @@
       "number": 98,
       "repository": "balajirajput96/.github",
       "state": "OPEN",
-      "title": "⚡ Bolt: Memoize OrbitBackground to prevent unnecessary re-renders",
+      "title": "\u26a1 Bolt: Memoize OrbitBackground to prevent unnecessary re-renders",
       "url": "https://github.com/balajirajput96/.github/pull/98"
     },
     {
@@ -324,7 +412,7 @@
       "number": 92,
       "repository": "balajirajput96/.github",
       "state": "OPEN",
-      "title": "🎨 Palette: Add keyboard interaction parity to interactive elements",
+      "title": "\ud83c\udfa8 Palette: Add keyboard interaction parity to interactive elements",
       "url": "https://github.com/balajirajput96/.github/pull/92"
     },
     {
@@ -339,7 +427,7 @@
       "number": 91,
       "repository": "balajirajput96/.github",
       "state": "OPEN",
-      "title": "⚡ Bolt: Extract typing state in TerminalPreview to reduce re-renders",
+      "title": "\u26a1 Bolt: Extract typing state in TerminalPreview to reduce re-renders",
       "url": "https://github.com/balajirajput96/.github/pull/91"
     },
     {
@@ -354,7 +442,7 @@
       "number": 89,
       "repository": "balajirajput96/.github",
       "state": "OPEN",
-      "title": "⚡ Bolt: Memoize particle generation in OrbitBackground",
+      "title": "\u26a1 Bolt: Memoize particle generation in OrbitBackground",
       "url": "https://github.com/balajirajput96/.github/pull/89"
     },
     {
@@ -369,7 +457,7 @@
       "number": 88,
       "repository": "balajirajput96/.github",
       "state": "OPEN",
-      "title": "🎨 Palette: Fix Screen Reader Spam in TerminalPreview Typing Animation",
+      "title": "\ud83c\udfa8 Palette: Fix Screen Reader Spam in TerminalPreview Typing Animation",
       "url": "https://github.com/balajirajput96/.github/pull/88"
     },
     {
@@ -384,7 +472,7 @@
       "number": 85,
       "repository": "balajirajput96/.github",
       "state": "OPEN",
-      "title": "⚡ Bolt: Memoize particle generation in OrbitBackground",
+      "title": "\u26a1 Bolt: Memoize particle generation in OrbitBackground",
       "url": "https://github.com/balajirajput96/.github/pull/85"
     },
     {
@@ -399,7 +487,7 @@
       "number": 83,
       "repository": "balajirajput96/.github",
       "state": "OPEN",
-      "title": "⚡ Bolt: Extract static arrays outside component render scopes",
+      "title": "\u26a1 Bolt: Extract static arrays outside component render scopes",
       "url": "https://github.com/balajirajput96/.github/pull/83"
     },
     {
@@ -414,7 +502,7 @@
       "number": 81,
       "repository": "balajirajput96/.github",
       "state": "OPEN",
-      "title": "🎨 Palette: [UX improvement] Add interactive Copy button to Quickstart code snippets",
+      "title": "\ud83c\udfa8 Palette: [UX improvement] Add interactive Copy button to Quickstart code snippets",
       "url": "https://github.com/balajirajput96/.github/pull/81"
     },
     {
@@ -429,7 +517,7 @@
       "number": 80,
       "repository": "balajirajput96/.github",
       "state": "OPEN",
-      "title": "🎨 Palette: Add copy buttons to Quickstart code blocks",
+      "title": "\ud83c\udfa8 Palette: Add copy buttons to Quickstart code blocks",
       "url": "https://github.com/balajirajput96/.github/pull/80"
     },
     {
@@ -444,7 +532,7 @@
       "number": 78,
       "repository": "balajirajput96/.github",
       "state": "OPEN",
-      "title": "⚡ Bolt: Extract static data from render loops",
+      "title": "\u26a1 Bolt: Extract static data from render loops",
       "url": "https://github.com/balajirajput96/.github/pull/78"
     },
     {
@@ -459,7 +547,7 @@
       "number": 77,
       "repository": "balajirajput96/.github",
       "state": "OPEN",
-      "title": "🎨 Palette: Fix screen reader noise in animated terminal",
+      "title": "\ud83c\udfa8 Palette: Fix screen reader noise in animated terminal",
       "url": "https://github.com/balajirajput96/.github/pull/77"
     },
     {
@@ -474,7 +562,7 @@
       "number": 75,
       "repository": "balajirajput96/.github",
       "state": "OPEN",
-      "title": "⚡ Bolt: Optimize Particle Generation in OrbitBackground",
+      "title": "\u26a1 Bolt: Optimize Particle Generation in OrbitBackground",
       "url": "https://github.com/balajirajput96/.github/pull/75"
     },
     {
@@ -489,7 +577,7 @@
       "number": 74,
       "repository": "balajirajput96/.github",
       "state": "OPEN",
-      "title": "🎨 Palette: Added skip-to-content link and decorative SVG ARIA hiding",
+      "title": "\ud83c\udfa8 Palette: Added skip-to-content link and decorative SVG ARIA hiding",
       "url": "https://github.com/balajirajput96/.github/pull/74"
     },
     {
@@ -504,7 +592,7 @@
       "number": 69,
       "repository": "balajirajput96/.github",
       "state": "OPEN",
-      "title": "🎨 Palette: Add copy button to Quickstart code snippets",
+      "title": "\ud83c\udfa8 Palette: Add copy button to Quickstart code snippets",
       "url": "https://github.com/balajirajput96/.github/pull/69"
     },
     {
@@ -519,7 +607,7 @@
       "number": 62,
       "repository": "balajirajput96/.github",
       "state": "OPEN",
-      "title": "⚡ Bolt: Memoize particle generation in OrbitBackground",
+      "title": "\u26a1 Bolt: Memoize particle generation in OrbitBackground",
       "url": "https://github.com/balajirajput96/.github/pull/62"
     },
     {
@@ -534,7 +622,7 @@
       "number": 60,
       "repository": "balajirajput96/.github",
       "state": "OPEN",
-      "title": "⚡ Bolt: Prevent unnecessary memory allocations in TerminalPreview",
+      "title": "\u26a1 Bolt: Prevent unnecessary memory allocations in TerminalPreview",
       "url": "https://github.com/balajirajput96/.github/pull/60"
     },
     {
@@ -549,7 +637,7 @@
       "number": 48,
       "repository": "balajirajput96/.github",
       "state": "OPEN",
-      "title": "⚡ Bolt: Add React Code Splitting for Routes",
+      "title": "\u26a1 Bolt: Add React Code Splitting for Routes",
       "url": "https://github.com/balajirajput96/.github/pull/48"
     },
     {
@@ -1318,27 +1406,6 @@
       "url": "https://github.com/balajirajput96/ai-agents-for-beginners/pull/1"
     },
     {
-      "base": "main",
-      "base_sha": "0485d227a23577b1b5f83a44b9dadeb6d495b166",
-      "category": "non_clean",
-      "checks": {
-        "checks": 0,
-        "error": "command failed (1): gh pr view 1 --repo balajirajput96/ai-assistant-app --json statusCheckRollup\nstdout=\nstderr=GraphQL: Resource not accessible by integration (repository.pullRequest.statusCheckRollup.nodes.0.commit.statusCheckRollup)\n",
-        "failures": 0,
-        "pending": 0
-      },
-      "draft": false,
-      "head": "integration/orbit-current-snapshot",
-      "head_sha": "f75928c6e63a3e7502809fd1e7bfff513d324529",
-      "merge_state": "UNSTABLE",
-      "mergeable": "MERGEABLE",
-      "number": 1,
-      "repository": "balajirajput96/ai-assistant-app",
-      "state": "OPEN",
-      "title": "feat: integrate Orbit export and continuation automation",
-      "url": "https://github.com/balajirajput96/ai-assistant-app/pull/1"
-    },
-    {
       "base": "master",
       "base_sha": "7fba5b7c6f33f9f9a329ec0f6b4282b980bdb772",
       "category": "clean",
@@ -1580,18 +1647,24 @@
     },
     {
       "base": "main",
-      "base_sha": "2690b6d8c48e88177e66cd6ed9c98a9a5b360030",
-      "category": "clean",
+      "base_sha": "af133dd31060454caf404fb40994854b0b84f23e",
+      "category": "unknown",
+      "checks": {
+        "checks": 0,
+        "error": "command failed (1): gh pr view 5 --repo balajirajput96/autonomous-engineering-maintenance --json statusCheckRollup\nstdout=\nstderr=GraphQL: Resource not accessible by integration (repository.pullRequest.statusCheckRollup.nodes.0.commit.statusCheckRollup)\n",
+        "failures": 0,
+        "pending": 0
+      },
       "draft": false,
-      "head": "continuation/cycle-0016-20260822",
-      "head_sha": "8b24d2f5820313aecfa56b8783293675a5518441",
-      "merge_state": "CLEAN",
-      "mergeable": "MERGEABLE",
-      "number": 6,
+      "head": "fix/strict-state-contract",
+      "head_sha": "8c40e7cb68088ad5bde57917f7dde5092cf47bcc",
+      "merge_state": "UNKNOWN",
+      "mergeable": "UNKNOWN",
+      "number": 5,
       "repository": "balajirajput96/autonomous-engineering-maintenance",
       "state": "OPEN",
-      "title": "chore(state): record diagnostics-first cycle 16 checkpoint",
-      "url": "https://github.com/balajirajput96/autonomous-engineering-maintenance/pull/6"
+      "title": "Validate durable maintenance state contract",
+      "url": "https://github.com/balajirajput96/autonomous-engineering-maintenance/pull/5"
     },
     {
       "base": "main",
@@ -1866,17 +1939,17 @@
     {
       "base": "main",
       "base_sha": "549cd8c667b18da411358234d9c5243e53d1e8a4",
-      "category": "unknown",
+      "category": "non_clean",
       "checks": {
-        "checks": 32,
+        "checks": 24,
         "failures": 0,
-        "pending": 18
+        "pending": 22
       },
       "draft": false,
       "head": "fix/windows-code-mode-nextest-timeout",
       "head_sha": "08c9a7e67c454a97e0c2742cd4eeeab1a8d50088",
-      "merge_state": "UNKNOWN",
-      "mergeable": "UNKNOWN",
+      "merge_state": "UNSTABLE",
+      "mergeable": "MERGEABLE",
       "number": 52,
       "repository": "balajirajput96/codex",
       "state": "OPEN",
@@ -1885,18 +1958,18 @@
     },
     {
       "base": "main",
-      "base_sha": "549cd8c667b18da411358234d9c5243e53d1e8a4",
-      "category": "unknown",
+      "base_sha": "4fe0ae55649903f42a60912746222c123a790e93",
+      "category": "non_clean",
       "checks": {
-        "checks": 24,
-        "failures": 0,
-        "pending": 22
+        "checks": 35,
+        "failures": 10,
+        "pending": 0
       },
       "draft": false,
       "head": "dependabot/npm_and_yarn/npm_and_yarn-343aa972c6",
-      "head_sha": "ab4084c04eeee11cfd41fa8771dee768c4d80052",
-      "merge_state": "UNKNOWN",
-      "mergeable": "UNKNOWN",
+      "head_sha": "b06320484703b16d9afa1b9d9f42b55197de7225",
+      "merge_state": "UNSTABLE",
+      "mergeable": "MERGEABLE",
       "number": 49,
       "repository": "balajirajput96/codex",
       "state": "OPEN",
@@ -1905,18 +1978,18 @@
     },
     {
       "base": "main",
-      "base_sha": "549cd8c667b18da411358234d9c5243e53d1e8a4",
-      "category": "unknown",
+      "base_sha": "4fe0ae55649903f42a60912746222c123a790e93",
+      "category": "conflicting",
       "checks": {
-        "checks": 24,
-        "failures": 0,
-        "pending": 22
+        "checks": 33,
+        "failures": 7,
+        "pending": 3
       },
       "draft": true,
       "head": "fix/native-msvc-v8-allocator-link",
-      "head_sha": "06c567165d49783c6f57ba955554b5f5fe7a3b4b",
-      "merge_state": "UNKNOWN",
-      "mergeable": "UNKNOWN",
+      "head_sha": "1f1367fae740429b155f49c9fd81f2720f8c359a",
+      "merge_state": "DIRTY",
+      "mergeable": "CONFLICTING",
       "number": 48,
       "repository": "balajirajput96/codex",
       "state": "OPEN",
@@ -1925,18 +1998,18 @@
     },
     {
       "base": "main",
-      "base_sha": "549cd8c667b18da411358234d9c5243e53d1e8a4",
-      "category": "unknown",
+      "base_sha": "4fe0ae55649903f42a60912746222c123a790e93",
+      "category": "conflicting",
       "checks": {
-        "checks": 43,
-        "failures": 0,
-        "pending": 33
+        "checks": 46,
+        "failures": 18,
+        "pending": 0
       },
       "draft": false,
       "head": "dependabot/uv/sdk/python/uv-8382d04023",
-      "head_sha": "c0f3f2e954080b0d0620dbea726bfcb197a2ecc5",
-      "merge_state": "UNKNOWN",
-      "mergeable": "UNKNOWN",
+      "head_sha": "25bb9215e67c385ad3885a778a9466b8d3686025",
+      "merge_state": "DIRTY",
+      "mergeable": "CONFLICTING",
       "number": 25,
       "repository": "balajirajput96/codex",
       "state": "OPEN",
@@ -2227,26 +2300,6 @@
       "state": "OPEN",
       "title": "build(deps): bump github.com/go-viper/mapstructure/v2 from 2.2.1 to 2.4.0 in the go_modules group across 1 directory",
       "url": "https://github.com/balajirajput96/github-mcp-server/pull/2"
-    },
-    {
-      "base": "main",
-      "base_sha": "e041e15541e45d411e8629b32378715bb51538b4",
-      "category": "non_clean",
-      "checks": {
-        "checks": 7,
-        "failures": 0,
-        "pending": 7
-      },
-      "draft": true,
-      "head": "fix-email-validation-9994136940113406564",
-      "head_sha": "46e96586a91ec618b707b7f71463b1d54664e6ce",
-      "merge_state": "UNSTABLE",
-      "mergeable": "MERGEABLE",
-      "number": 61,
-      "repository": "balajirajput96/github-mcp-server-",
-      "state": "OPEN",
-      "title": "Fix email placeholder security validation to enforce example domain usage",
-      "url": "https://github.com/balajirajput96/github-mcp-server-/pull/61"
     },
     {
       "base": "main",
@@ -3305,16 +3358,16 @@
     },
     {
       "base": "master",
-      "base_sha": "5845673aa2f1868131423a6d81bfecba3e7f3c4e",
+      "base_sha": "5bbc0d5e6455c33e3ce7ef72848b57d7e0953bf8",
       "category": "non_clean",
       "checks": {
-        "checks": 9,
-        "failures": 0,
-        "pending": 6
+        "checks": 51,
+        "failures": 4,
+        "pending": 0
       },
       "draft": false,
       "head": "dependabot/npm_and_yarn/npm_and_yarn-de6e890ec6",
-      "head_sha": "4f11c43a103620781136cbbc8d66640070b80932",
+      "head_sha": "c98a42fceed7a1aecf9b09c3b24f7c8b751bc787",
       "merge_state": "UNSTABLE",
       "mergeable": "MERGEABLE",
       "number": 13,
@@ -4804,170 +4857,32 @@
       "url": "https://github.com/balajirajput96/woocommerce/pull/1"
     }
   ],
-  "repository_count": 254,
-  "started_at": "2026-08-22T04:38:34.562953+00:00",
+  "repository_count": 253,
+  "scope": {
+    "current_open_pr_count": 307,
+    "current_repository_count": 253,
+    "previous_open_pr_count": 301,
+    "previous_repository_count": 251,
+    "scope_reconciliation_completed": true,
+    "trend_comparison": "not_directly_comparable_due_to_inventory_scope_change"
+  },
+  "started_at": "2026-08-22T03:37:38.115830+00:00",
   "status": "completed",
-  "evidence": {
-    "cycle17_engine_stdout": "state/evidence/cycle17/engine-stdout.txt",
-    "cycle17_engine_stderr": "state/evidence/cycle17/engine-stderr.txt",
-    "cycle17_default_branch_refs": "state/evidence/cycle17/default-branch-refs.json",
-    "cycle17_targeted_recheck": "state/evidence/cycle17/targeted-recheck.ndjson",
-    "cycle17_postscan_focus": "state/evidence/cycle17/postscan-focus.ndjson",
-    "cycle17_protection": "state/evidence/cycle17/protection.ndjson",
-    "cycle17_non_clean": "state/evidence/cycle17/non-clean.ndjson",
-    "cycle17_unknown": "state/evidence/cycle17/unknown.ndjson",
-    "cycle17_validation_before_repair": "state/evidence/cycle17/validation-before-repair.txt",
-    "cycle17_validation_after_repair": "state/evidence/cycle17/validation-after-summary-repair.txt",
-    "cycle17_validation_diagnosis": "state/evidence/cycle17/validation-diagnosis.txt",
-    "cycle17_summary_root_cause": "state/evidence/cycle17/summary-root-cause.txt",
-    "cycle17_script_diff": "state/evidence/cycle17/maintenance-script-diff.txt",
-    "cycle17_readme": "state/evidence/cycle17/README.md",
-    "terminal_transcripts": "/home/ubuntu/terminal_full_output",
-    "cycle17_pr7_rest": "state/evidence/cycle17/pr7-rest.json",
-    "cycle17_pr7_reviews": "state/evidence/cycle17/pr7-reviews.json",
-    "cycle17_pr_create": "state/evidence/cycle17/pr-create.txt",
-    "cycle17_main_branch_rest": "state/evidence/cycle17/main-branch-rest.json",
-    "cycle17_pr7_final_rest": "state/evidence/cycle17/pr7-final-rest.json",
-    "cycle17_pr7_final_reviews": "state/evidence/cycle17/pr7-final-reviews.json"
-  },
-  "targeted_recheck": {
-    "prior_observation_count": 20,
-    "postscan_focus_count": 3,
-    "postscan_focus": [
-      {
-        "repository": "balajirajput96/ai-assistant-app",
-        "number": 1,
-        "state": "open",
-        "draft": false,
-        "mergeable": true,
-        "mergeable_state": "unstable",
-        "base": "main",
-        "head": "integration/orbit-current-snapshot",
-        "pending": 0,
-        "failures": 0
-      },
-      {
-        "repository": "balajirajput96/github-mcp-server-",
-        "number": 61,
-        "state": "open",
-        "draft": true,
-        "mergeable": true,
-        "mergeable_state": "unstable",
-        "base": "main",
-        "head": "fix-email-validation-9994136940113406564",
-        "pending": 7,
-        "failures": 0
-      },
-      {
-        "repository": "balajirajput96/autonomous-engineering-maintenance",
-        "number": 6,
-        "state": "open",
-        "draft": false,
-        "mergeable": true,
-        "mergeable_state": "clean",
-        "base": "main",
-        "head": "continuation/cycle-0016-20260822",
-        "pending": 0,
-        "failures": 0
-      }
-    ]
-  },
-  "post_scan_observations": [
-    {
-      "repository": "balajirajput96/ai-assistant-app",
-      "number": 1,
-      "mergeable": true,
-      "merge_state": "unstable",
-      "check_runs": 0,
-      "pending": 0,
-      "failures": 0,
-      "meaning": "record remains diagnostics-only; no mutation initiated"
-    },
-    {
-      "repository": "balajirajput96/github-mcp-server-",
-      "number": 61,
-      "mergeable": true,
-      "merge_state": "unstable",
-      "check_runs": 7,
-      "pending": 7,
-      "failures": 0,
-      "meaning": "record remains diagnostics-only; no mutation initiated"
-    },
-    {
-      "repository": "balajirajput96/autonomous-engineering-maintenance",
-      "number": 6,
-      "mergeable": true,
-      "merge_state": "clean",
-      "check_runs": 0,
-      "pending": 0,
-      "failures": 0,
-      "meaning": "continuation PR remains open and clean"
-    }
-  ],
-  "blockers": [
-    "Cycle-17 observed 254 owner repositories and 309 open pull requests; scope differs from cycle 16 and is retained as a non-comparable trend change.",
-    "Four codex records remained mergeability-unknown in the CLI scan; REST recheck showed checks still pending or unstable. No rerun, rebase, or repair is authorized.",
-    "Fourteen vscode-live-server-plus-plus pull requests remain blocked by the active Balaji Rajput ruleset requiring 10 approvals, code-owner review, last-push approval, resolved threads, linear history, signed commits, and merge-only integration. No bypass is authorized.",
-    "ai-assistant-app#1 remains unstable with no completed failing check observed; github-mcp-server-#61 remains unstable with seven checks in progress. No repair is proven safe.",
-    "The composed-authoritative-cycle regression test reached its engine assertions but failed because its temporary source worktree lacked scripts/validate_state_contract.py; this is a harness/path blocker, not a passing validation claim.",
-    "External-owner protection diagnostics and any required review or branch-policy controls remain read-only boundaries."
-  ],
-  "policy_blockers": [
-    {
-      "repository": "balajirajput96/vscode-live-server-plus-plus",
-      "action": "do_not_bypass_or_merge",
-      "reason": "Active ruleset requires 10 approvals, code-owner review, last-push approval, resolved review threads, linear history, signed commits, and merge-only integration."
-    },
-    {
-      "repository": "OfficeDev/microsoft-365-agents-toolkit",
-      "action": "do_not_modify",
-      "reason": "External-owner protection diagnostics unavailable under current authentication context."
-    },
-    {
-      "repository": "jupyterlab/jupyterlab-git",
-      "action": "do_not_modify",
-      "reason": "External-owner protection diagnostics unavailable under current authentication context."
-    },
-    {
-      "repository": "ritwickdey/vscode-live-server-plus-plus",
-      "action": "do_not_modify",
-      "reason": "External-owner protection diagnostics unavailable under current authentication context."
-    }
-  ],
   "validation": {
-    "state_contract": "passed",
-    "state_contract_regression": "passed",
-    "summary_persistence": "passed",
-    "composed_authoritative_cycle": "failed_harness_path",
-    "note": "The composed test used a temporary worktree without the validator script; its engine portion completed."
-  },
-  "next_action": "Continue diagnostics-first from cycle 17 after this checkpoint is reviewably published; load this cycle-17 state, recheck only newly changed non-clean or unknown records and check progress, preserve review-only boundaries, and do not rebase, rerun, merge, close, modify protected branches, or bypass reviews without a separately verified safe repair. Stop additional work at cycle 2400 by recording the terminal state.",
-  "publication": {
-    "repository": "balajirajput96/autonomous-engineering-maintenance",
-    "base_ref": "main",
-    "base_sha": "2690b6d8c48e88177e66cd6ed9c98a9a5b360030",
-    "head_ref": "continuation/cycle-0017-20260822",
-    "head_sha": "7a06d7e92db5ba80675005761efecc392c5122e2",
-    "default_branch_touched": false,
-    "engineering_repositories_touched": false,
-    "merged": false,
-    "state": "open",
-    "pull_request_number": 7,
-    "pull_request_url": "https://github.com/balajirajput96/autonomous-engineering-maintenance/pull/7",
-    "remote_commit_verified": true,
-    "remote_pr_verified": true,
-    "review_status": "awaiting_required_review",
-    "approved_reviews": 0,
-    "changes_requested_reviews": 0,
-    "observed_at": "2026-08-22T04:54:34Z",
-    "observed_head_sha": "8c136e2791696f124281772e8c7ef045993b5139",
-    "observed_base_sha": "2690b6d8c48e88177e66cd6ed9c98a9a5b360030",
-    "head_sha_at_observation": "8c136e2791696f124281772e8c7ef045993b5139",
-    "base_sha_at_observation": "2690b6d8c48e88177e66cd6ed9c98a9a5b360030",
-    "current_mergeable": true,
-    "current_mergeable_state": "unstable",
-    "current_rebaseable": true,
-    "review_count": 1,
-    "commented_reviews": 1
+    "automatic_merge_or_close": "disabled",
+    "automatic_rebase": "disabled",
+    "branch_protection_changes": "none",
+    "current_default_branch_refs": "verified_253_no_fetch_errors",
+    "cycle16_empty_tree_regression_test": "passed",
+    "cycle16_engine": "completed_without_engine_errors",
+    "cycle16_git_diff_check": "passed",
+    "cycle16_state_json": "passed",
+    "engineering_pull_request_mutations": "none",
+    "engineering_repository_mutations": "none",
+    "github_authentication": "verified",
+    "main_summary_persistence_test": "passed",
+    "owner_repository_inventory": "verified_253",
+    "state_checkpoint_publication": "verified_on_reviewable_branch_with_open_pr_6",
+    "workflow_reruns": "none"
   }
 }
