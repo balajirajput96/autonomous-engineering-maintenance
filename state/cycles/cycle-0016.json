@@ -51,7 +51,7 @@
   "finished_at": "2026-08-22T03:40:44.524267+00:00",
   "max_cycles": 2400,
   "mode": "diagnostics-first",
-  "next_action": "Continue diagnostics-first from cycle 16, recheck only newly changed non-clean records and post-scan check progress, preserve the review-only boundary, and do not rebase, rerun, merge, close, or bypass reviews without a concrete safe repair.",
+  "next_action": "Continue diagnostics-first from cycle 16, load this cycle-16 state from the reviewable checkpoint, recheck only newly changed non-clean records and post-scan check progress, preserve the review-only boundary, and do not rebase, rerun, merge, close, or bypass reviews without a concrete safe repair.",
   "non_clean_recheck": {
     "category_counts": {
       "clean": 0,
@@ -131,9 +131,18 @@
     }
   ],
   "publication": {
+    "base_ref": "main",
     "default_branch_touched": false,
     "engineering_repositories_touched": false,
-    "state": "pending"
+    "head_ref": "continuation/cycle-0016-20260822",
+    "head_sha": "9969b476af4f3cab0e8be543ccaaac0a1234a318",
+    "merged": false,
+    "pull_request_number": 6,
+    "pull_request_url": "https://github.com/balajirajput96/autonomous-engineering-maintenance/pull/6",
+    "remote_commit_verified": true,
+    "remote_pr_verified": true,
+    "repository": "balajirajput96/autonomous-engineering-maintenance",
+    "state": "open"
   },
   "records": [
     {
@@ -4873,6 +4882,7 @@
     "github_authentication": "verified",
     "main_summary_persistence_test": "passed",
     "owner_repository_inventory": "verified_253",
+    "state_checkpoint_publication": "verified_on_reviewable_branch_with_open_pr_6",
     "workflow_reruns": "none"
   }
 }
