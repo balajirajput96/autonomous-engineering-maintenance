@@ -54,6 +54,7 @@
     "owner_controlled_open_pr_snapshot": "/home/ubuntu/mission-artifacts/continuation-2026-08-22/reconcile/all-owner-open-prs.json",
     "owner_repository_snapshot": "/home/ubuntu/mission-artifacts/continuation-2026-08-22/reconcile/owner-repos.json",
     "prior_state": "/home/ubuntu/mission-artifacts/continuation-2026-08-22/state/maintenance-cycle-0014.json",
+    "publication_verification": "/home/ubuntu/mission-artifacts/continuation-2026-08-22/cycle15-publication-summary.json",
     "scope_reconciliation": "/home/ubuntu/mission-artifacts/continuation-2026-08-22/reconcile/all-owner-scope-summary.json",
     "terminal_transcripts": "/home/ubuntu/terminal_full_output"
   },
@@ -153,6 +154,17 @@
       "repository": "ritwickdey/vscode-live-server-plus-plus"
     }
   ],
+  "publication": {
+    "base_ref": "main",
+    "base_sha": "ef926e9d84672a42502ce1ca066db245cc920ce7",
+    "head_ref": "continuation/cycle-0015-20260822",
+    "head_sha": "db59c67b575833db06315cd22588fd435fd9c6f3",
+    "merged": false,
+    "pull_request_number": 4,
+    "pull_request_url": "https://github.com/balajirajput96/autonomous-engineering-maintenance/pull/4",
+    "repository": "balajirajput96/autonomous-engineering-maintenance",
+    "state": "open"
+  },
   "records": [
     {
       "base": "main",
@@ -4783,6 +4795,7 @@
     "cycle14_non_clean_records_rechecked": "verified_16",
     "cycle15_engine_result": "completed_without_engine_errors",
     "default_branch_snapshot": "verified_251",
+    "default_branch_untouched": true,
     "engineering_pull_request_mutations": "none",
     "engineering_repository_mutations": "none",
     "github_authentication": "verified",
@@ -4792,6 +4805,7 @@
     "owner_controlled_open_pr_inventory": "verified_301",
     "owner_repository_inventory": "verified_251",
     "state_repository_branch_mutation": "local_reviewable_checkpoint_only",
+    "state_repository_checkpoint": "published_on_reviewable_branch_with_open_pr",
     "workflow_reruns": "none"
   }
 }
