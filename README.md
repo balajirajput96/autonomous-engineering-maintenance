@@ -30,14 +30,14 @@ The first local cycle completed with 249 repositories, 303 open pull requests, 2
 
 ## Local validation
 
-Run the cycle locally with an authenticated GitHub CLI session:
+Validate source fixtures and then run a non-publishing integration cycle with an authenticated GitHub CLI session:
 
 ```bash
-GH_TOKEN="$(gh auth token)" python3 scripts/maintenance_cycle.py
-python3 -m json.tool state/latest.json >/dev/null
+python3 scripts/validate_state_contract.py --allow-stale-source-snapshot
+GH_TOKEN="$(gh auth token)" bash scripts/test_composed_authoritative_cycle.sh
 ```
 
-The local run should be performed from a clean branch when its state is intended to be committed. The workflow itself validates JSON and TSV state before committing.
+The integration test composes the current source branch with the authoritative `maintenance-state` branch, runs one real read-only inventory cycle in a temporary worktree, validates the resulting state, and removes the temporary state without pushing it. The workflow itself validates JSON and TSV state before publishing.
 
 ## Existing environment preservation
 
