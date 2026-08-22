@@ -1,0 +1,26 @@
+--- validation failure ---
+
+>>> python3 scripts/validate_state_contract.py
+python3: can't open file '/home/ubuntu/autonomous-mission/scripts/validate_state_contract.py': [Errno 2] No such file or directory
+exit=
+--- current HEAD ---
+8b24d2f5820313aecfa56b8783293675a5518441
+## [31mHEAD (no branch)[m
+ [31mM[m state/latest.json
+ [31mM[m state/summary.tsv
+[31m??[m state/cycles/cycle-0017.json
+--- local scripts ---
+scripts/maintenance_cycle.py
+scripts/test_state_branch_empty_tree.sh
+--- origin/main scripts ---
+scripts/maintenance_cycle.py
+scripts/test_composed_authoritative_cycle.sh
+scripts/test_state_branch_empty_tree.sh
+scripts/test_state_contract.py
+scripts/test_summary_persistence.py
+scripts/validate_state_contract.py
+--- script diff by branch ---
+	scripts/test_composed_authoritative_cycle.sh
+	scripts/test_state_contract.py
+	scripts/test_summary_persistence.py
+	scripts/validate_state_contract.py

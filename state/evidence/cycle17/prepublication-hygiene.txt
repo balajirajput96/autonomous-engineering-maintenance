@@ -1,0 +1,20 @@
+actual_secret_pattern_matches=none
+ordinary bearer-header examples in captured PR text are not credentials and were excluded from the secret scan
+[32mM[m  scripts/maintenance_cycle.py
+[32mA[m  scripts/test_composed_authoritative_cycle.sh
+[32mA[m  scripts/test_state_contract.py
+[32mA[m  scripts/test_summary_persistence.py
+[32mA[m  scripts/validate_state_contract.py
+ [31mM[m state/latest.json
+ [31mM[m state/summary.tsv
+[31m??[m state/cycles/cycle-0017.json
+[31m??[m state/evidence/
+ state/latest.json | 521 [32m++++++++++++++++++++++++++++++[m[31m------------------------[m
+ state/summary.tsv |  16 [32m++[m
+ 2 files changed, 307 insertions(+), 230 deletions(-)
+ scripts/maintenance_cycle.py                 |  44 [32m++++++[m[31m--[m
+ scripts/test_composed_authoritative_cycle.sh |  35 [32m+++++++[m
+ scripts/test_state_contract.py               |  68 [32m++++++++++++[m
+ scripts/test_summary_persistence.py          |  47 [32m+++++++++[m
+ scripts/validate_state_contract.py           | 151 [32m+++++++++++++++++++++++++++[m
+ 5 files changed, 334 insertions(+), 11 deletions(-)

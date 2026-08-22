@@ -1,0 +1,1521 @@
+[
+  {
+    "repository": "balajirajput96/.github",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/AboutLibraries",
+    "default_branch": "develop",
+    "default_branch_sha": "develop",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/accelerate",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/accompanist",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/accumulo",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/accumulo-access",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/activepieces",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/adk-samples",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/admin-command",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/agent-academy",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/AgentGPT",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/agentic-misalignment",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/ai",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/ai-agent-hub",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": false
+  },
+  {
+    "repository": "balajirajput96/ai-agents-for-beginners",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/airtable-mcp-server",
+    "default_branch": "master",
+    "default_branch_sha": "master",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/android-state",
+    "default_branch": "master",
+    "default_branch_sha": "master",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/anthropic-sdk-go",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/anthropic-sdk-ruby",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/antigravity-cli",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/antigravity-sdk-python",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/anyquery",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/App-Store-Connect-CLI",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/archify",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/atlas-ai-assistant",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": false
+  },
+  {
+    "repository": "balajirajput96/attest-build-provenance",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/automated-auditing",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/awesome-appsec",
+    "default_branch": "master",
+    "default_branch_sha": "master",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/awesome-compose",
+    "default_branch": "master",
+    "default_branch_sha": "master",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/awesome-deepseek-integration",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/awesome-go",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/Awesome-Hacking",
+    "default_branch": "master",
+    "default_branch_sha": "master",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/awesome-selfhosted",
+    "default_branch": "master",
+    "default_branch_sha": "master",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/aws-ses-v2-local",
+    "default_branch": "master",
+    "default_branch_sha": "master",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/B",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": false
+  },
+  {
+    "repository": "balajirajput96/balaji-professional-portfolio",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": false
+  },
+  {
+    "repository": "balajirajput96/bootstrap",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/boundary",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/brave-browser",
+    "default_branch": "master",
+    "default_branch_sha": "master",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/brave-search-mcp-server",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/chatwoot",
+    "default_branch": "master",
+    "default_branch_sha": "master",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/chrome-devtools-mcp",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/clarity-apps",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/claude-agent-sdk-typescript",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/claude-code",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/claude-code-router",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/claude-cookbooks",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/claude-plugins-official",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/cli",
+    "default_branch": "trunk",
+    "default_branch_sha": "trunk",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/client-python",
+    "default_branch": "master",
+    "default_branch_sha": "master",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/cloudflare-docs",
+    "default_branch": "production",
+    "default_branch_sha": "production",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/CodeGeeX4",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/codeql-action",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/codespaces-jupyter",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/codex",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/codex-security",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/codex-universal",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/communicate-using-markdown",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/compose",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/computer-science",
+    "default_branch": "master",
+    "default_branch_sha": "master",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/conductor",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/ContentBlocker",
+    "default_branch": "master",
+    "default_branch_sha": "master",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/context7",
+    "default_branch": "master",
+    "default_branch_sha": "master",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/cookbook",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/couchdb-prometheus-exporter",
+    "default_branch": "master",
+    "default_branch_sha": "master",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/cubiomes",
+    "default_branch": "master",
+    "default_branch_sha": "master",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/cuopt",
+    "default_branch": "branch-25.10",
+    "default_branch_sha": "branch-25.10",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/Curator",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/cursor",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/datasets",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/deprecated-generative-ai-python",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/design.md",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/DiffSynth-Studio",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/diffusers",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/docker-ci",
+    "default_branch": "master",
+    "default_branch_sha": "master",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/docs",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/docs.",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/doubleangels",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/DownloadLinkGeneratorForGoogleDrive",
+    "default_branch": "master",
+    "default_branch_sha": "master",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/ec2-boot-bench",
+    "default_branch": "master",
+    "default_branch_sha": "master",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/expo",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/fastmcp",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/FFmpeg",
+    "default_branch": "master",
+    "default_branch_sha": "master",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/firecracker",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/firecrawl",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/Flowise",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/flux",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/forDownload",
+    "default_branch": "master",
+    "default_branch_sha": "master",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/gallery",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/gemini-cli",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/generative-ai-docs",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/github-certification-guide",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/github-enterprise-mcp",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/github-mcp-server",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/github-mcp-server-",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": false
+  },
+  {
+    "repository": "balajirajput96/github-models",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/gitlab-mr-mcp",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/GLM-4",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/global-network-strategy",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/go-ethereum",
+    "default_branch": "master",
+    "default_branch_sha": "master",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/gogcli",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/golang-samples",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/Google-Pub-Sub-API",
+    "default_branch": "master",
+    "default_branch_sha": "master",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/googletest",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/gpt-5-coding-examples",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/gpt-agent",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/gpt-oss",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/guava",
+    "default_branch": "master",
+    "default_branch_sha": "master",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/guide",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/hub-docs",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/inspector",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/introduction-to-github",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/jules-awesome-list",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/juliaup",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/jupytercoder",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/jupyterlab",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/jupyterlab-git",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/kit-app-template",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/kotlin-sdk",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/kubewatch",
+    "default_branch": "master",
+    "default_branch_sha": "master",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/llama.cpp",
+    "default_branch": "master",
+    "default_branch_sha": "master",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/llvm-project",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/login",
+    "default_branch": "master",
+    "default_branch_sha": "master",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/markitdown",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/mcp",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/mcp-a",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/mcp-atlassian",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/mcp-foundry",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/mcporter",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/microsoft-365-agents-toolkit",
+    "default_branch": "dev",
+    "default_branch_sha": "dev",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/n8n",
+    "default_branch": "master",
+    "default_branch_sha": "master",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/n8n-docs",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/n8n-hosting",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/NeMo",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/netbird",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/neuro-pulse-content-studio",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": false
+  },
+  {
+    "repository": "balajirajput96/next.js",
+    "default_branch": "canary",
+    "default_branch_sha": "canary",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/nextdnsmanager",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/nixpacks",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/node-hcaptcha",
+    "default_branch": "master",
+    "default_branch_sha": "master",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/NpmIntellisense",
+    "default_branch": "master",
+    "default_branch_sha": "master",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/ollama",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/ollama-js",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/ollama-python",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/omnara",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/onnxruntime",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/open-gpu-kernel-modules",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/open-webui",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/openai-agents-js",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/openai-agents-python",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/openai-cli",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/openai-cookbook",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/openai-cua-sample-app",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/openai-go",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/openai-java",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/openai-node",
+    "default_branch": "master",
+    "default_branch_sha": "master",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/openai-python",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/openai-websearch-mcp",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/openclaw",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/OpenMontage",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/openvsx",
+    "default_branch": "master",
+    "default_branch_sha": "master",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/optimum",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/orbit-console",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": false
+  },
+  {
+    "repository": "balajirajput96/peft",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/penda_code",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/playwright",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/poetry",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/prettier-cli",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/professional-resume-balaji-rajput",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": false
+  },
+  {
+    "repository": "balajirajput96/PrusaSlicer",
+    "default_branch": "master",
+    "default_branch_sha": "master",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/public-apis",
+    "default_branch": "master",
+    "default_branch_sha": "master",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/puck",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/python-docs-samples",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/python-genai",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/qlib",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/quickstart-resources",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/ratatui",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/run-gemini-cli",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/RxLifecycle",
+    "default_branch": "master",
+    "default_branch_sha": "master",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/scriptcat",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/self-hosted-ai-starter-kit",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/sglang",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/skills",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/slack",
+    "default_branch": "master",
+    "default_branch_sha": "master",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/stagehand",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/supabase-kt",
+    "default_branch": "master",
+    "default_branch_sha": "master",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/Switchyard",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/system_prompts_leaks",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/td",
+    "default_branch": "master",
+    "default_branch_sha": "master",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/Telegram-X",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/terminal",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/terraform",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/terraform-genai-rag",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/the-book-of-secret-knowledge",
+    "default_branch": "master",
+    "default_branch_sha": "master",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/tiktoken",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/time",
+    "default_branch": "master",
+    "default_branch_sha": "master",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/timesfm",
+    "default_branch": "master",
+    "default_branch_sha": "master",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/training-kit",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/transformers",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/typescript-sdk",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/uv",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/vllm",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/vscode-copilot-cha",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": false
+  },
+  {
+    "repository": "balajirajput96/vscode-copilot-chat",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/vscode-gitlens",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/vscode-live-server-plus-plus",
+    "default_branch": "master",
+    "default_branch_sha": "master",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/vue-hcaptcha",
+    "default_branch": "master",
+    "default_branch_sha": "master",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/wacli",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/Warp",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/webauthn",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/webrtc",
+    "default_branch": "telegram",
+    "default_branch_sha": "telegram",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/websites",
+    "default_branch": "master",
+    "default_branch_sha": "master",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/websockets",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/whisper",
+    "default_branch": "main",
+    "default_branch_sha": "main",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/windows",
+    "default_branch": "master",
+    "default_branch_sha": "master",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/woocommerce",
+    "default_branch": "trunk",
+    "default_branch_sha": "trunk",
+    "archived": false,
+    "fork": true
+  },
+  {
+    "repository": "balajirajput96/XNNPACK",
+    "default_branch": "master",
+    "default_branch_sha": "master",
+    "archived": false,
+    "fork": true
+  }
+]
