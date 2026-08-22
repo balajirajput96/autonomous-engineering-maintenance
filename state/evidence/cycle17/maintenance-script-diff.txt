@@ -1,0 +1,209 @@
+[1mdiff --git a/scripts/maintenance_cycle.py b/scripts/maintenance_cycle.py[m
+[1mindex 0d58250..770c637 100644[m
+[1m--- a/scripts/maintenance_cycle.py[m
+[1m+++ b/scripts/maintenance_cycle.py[m
+[36m@@ -1,171 +1,193 @@[m
+ #!/usr/bin/env python3[m
+ """Durable, diagnostics-first hourly maintenance cycle for balajirajput96 repositories."""[m
+ from __future__ import annotations[m
+ [m
+ import json[m
+ import os[m
+ import subprocess[m
+ import sys[m
+ from datetime import datetime, timezone[m
+ from pathlib import Path[m
+ from typing import Any[m
+ [m
+ ROOT = Path(__file__).resolve().parents[1][m
+ CONFIG_PATH = ROOT / "config" / "targets.json"[m
+ STATE_DIR = ROOT / "state"[m
+ CYCLES_DIR = STATE_DIR / "cycles"[m
+ LATEST_PATH = STATE_DIR / "latest.json"[m
+ SUMMARY_PATH = STATE_DIR / "summary.tsv"[m
+ [m
+ [m
+ def run_gh(*args: str) -> Any:[m
+     env = os.environ.copy()[m
+     env.update({"GH_FORCE_TTY": "0", "NO_COLOR": "1", "TERM": "dumb"})[m
+     command = ["gh", *args][m
+     completed = subprocess.run(command, cwd=ROOT, env=env, text=True, capture_output=True)[m
+     if completed.returncode:[m
+         raise RuntimeError([m
+             f"command failed ({completed.returncode}): {' '.join(command)}\n"[m
+             f"stdout={completed.stdout[-1000:]}\nstderr={completed.stderr[-1000:]}"[m
+         )[m
+     return json.loads(completed.stdout) if completed.stdout.strip() else None[m
+ [m
+ [m
+ def load_json(path: Path, default: Any) -> Any:[m
+     try:[m
+         return json.loads(path.read_text())[m
+     except FileNotFoundError:[m
+         return default[m
+ [m
+ [m
+[32m+[m[32mdef summary_row(record: dict[str, Any]) -> str:[m
+[32m+[m[32m    counts = record.get("counts", {})[m
+[32m+[m[32m    return "\t".join([[m
+[32m+[m[32m        str(record.get("cycle", "")),[m
+[32m+[m[32m        str(record.get("started_at", "")),[m
+[32m+[m[32m        str(record.get("finished_at", "")),[m
+[32m+[m[32m        str(record.get("status", "failed")),[m
+[32m+[m[32m        str(record.get("repository_count", 0)),[m
+[32m+[m[32m        str(record.get("open_pr_count", 0)),[m
+[32m+[m[32m        str(counts.get("clean", 0)),[m
+[32m+[m[32m        str(counts.get("non_clean", 0)),[m
+[32m+[m[32m        str(counts.get("conflicting", 0)),[m
+[32m+[m[32m        str(counts.get("unknown", 0)),[m
+[32m+[m[32m        str(len(record.get("errors") or [])),[m
+[32m+[m[32m    ]) + "\n"[m
+[32m+[m
+[32m+[m
+[32m+[m[32mdef rewrite_summary_from_cycles() -> None:[m
+[32m+[m[32m    """Rebuild summary.tsv from immutable cycle records, repairing stale summaries."""[m
+[32m+[m[32m    by_cycle: dict[int, str] = {}[m
+[32m+[m[32m    for cycle_path in sorted(CYCLES_DIR.glob("cycle-*.json")):[m
+[32m+[m[32m        record = load_json(cycle_path, {})[m
+[32m+[m[32m        try:[m
+[32m+[m[32m            cycle_number = int(record["cycle"])[m
+[32m+[m[32m        except (KeyError, TypeError, ValueError):[m
+[32m+[m[32m            continue[m
+[32m+[m[32m        by_cycle[cycle_number] = summary_row(record)[m
+[32m+[m[32m    header = "cycle\tstarted_at\tfinished_at\tstatus\trepositories\topen_prs\tclean\tnon_clean\tconflicting\tunknown\terrors\n"[m
+[32m+[m[32m    SUMMARY_PATH.write_text(header + "".join(by_cycle[number] for number in sorted(by_cycle)))[m
+[32m+[m
+[32m+[m
+ def classify(pr: dict[str, Any]) -> str:[m
+     if pr.get("mergeable") == "CONFLICTING" or pr.get("mergeStateStatus") == "DIRTY":[m
+         return "conflicting"[m
+     if pr.get("mergeable") == "MERGEABLE" and pr.get("mergeStateStatus") != "CLEAN":[m
+         return "non_clean"[m
+     if pr.get("mergeable") == "MERGEABLE" and pr.get("mergeStateStatus") == "CLEAN":[m
+         return "clean"[m
+     return "unknown"[m
+ [m
+ [m
+ def check_summary(repo: str, number: int) -> dict[str, int]:[m
+     try:[m
+         rollup = run_gh("pr", "view", str(number), "--repo", repo, "--json", "statusCheckRollup").get([m
+             "statusCheckRollup", [][m
+         )[m
+     except Exception as exc:  # diagnostics must continue when GitHub omits rollups[m
+         return {"checks": 0, "failures": 0, "pending": 0, "error": str(exc)}[m
+     failures = 0[m
+     pending = 0[m
+     for item in rollup:[m
+         conclusion = str(item.get("conclusion") or "").upper()[m
+         status = str(item.get("status") or "").upper()[m
+         if conclusion in {"FAILURE", "ERROR", "CANCELLED", "TIMED_OUT"}:[m
+             failures += 1[m
+         if status not in {"COMPLETED", "SUCCESS"} and conclusion not in {"SUCCESS", "SKIPPED", "NEUTRAL"}:[m
+             pending += 1[m
+     return {"checks": len(rollup), "failures": failures, "pending": pending}[m
+ [m
+ [m
+ def main() -> int:[m
+     config = load_json(CONFIG_PATH, {})[m
+     latest = load_json(LATEST_PATH, {"cycle": 0, "active": True})[m
+     previous_cycle = int(latest.get("cycle", 0))[m
+     max_cycles = int(config.get("max_cycles", 2400))[m
+     cycle = previous_cycle + 1[m
+     now = datetime.now(timezone.utc)[m
+     base_record: dict[str, Any] = {[m
+         "cycle": cycle,[m
+         "max_cycles": max_cycles,[m
+         "started_at": now.isoformat(),[m
+         "owner": config.get("owner", "balajirajput96"),[m
+         "mode": config.get("action_mode", "diagnostics-first"),[m
+         "actions": [],[m
+         "errors": [],[m
+     }[m
+     if previous_cycle >= max_cycles:[m
+         base_record.update({"active": False, "status": "cycle_limit_reached", "finished_at": now.isoformat()})[m
+         CYCLES_DIR.mkdir(parents=True, exist_ok=True)[m
+         (CYCLES_DIR / f"cycle-{cycle:04d}.json").write_text(json.dumps(base_record, indent=2) + "\n")[m
+         LATEST_PATH.write_text(json.dumps(base_record, indent=2) + "\n")[m
+[32m+[m[32m        rewrite_summary_from_cycles()[m
+         return 0[m
+ [m
+     try:[m
+         owner = str(config.get("owner", "balajirajput96"))[m
+         repo_names = run_gh("repo", "list", owner, "--limit", str(config.get("repository_limit", 1000)), "--json", "nameWithOwner")[m
+         names = {item["nameWithOwner"] for item in repo_names}[m
+         names.update(config.get("focus_repositories", []))[m
+         records: list[dict[str, Any]] = [][m
+         for repo in sorted(names):[m
+             try:[m
+                 prs = run_gh([m
+                     "pr", "list", "--repo", repo, "--state", "open",[m
+                     "--limit", str(config.get("open_pr_limit_per_repository", 1000)),[m
+                     "--json", "number,title,headRefName,headRefOid,baseRefName,baseRefOid,state,mergeable,mergeStateStatus,isDraft,url",[m
+                 )[m
+             except Exception as exc:[m
+                 base_record["errors"].append({"repository": repo, "error": str(exc)})[m
+                 continue[m
+             for pr in prs:[m
+                 category = classify(pr)[m
+                 item = {[m
+                     "repository": repo,[m
+                     "number": pr["number"],[m
+                     "title": pr.get("title", ""),[m
+                     "head": pr.get("headRefName"),[m
+                     "head_sha": pr.get("headRefOid"),[m
+                     "base": pr.get("baseRefName"),[m
+                     "base_sha": pr.get("baseRefOid"),[m
+                     "state": pr.get("state"),[m
+                     "mergeable": pr.get("mergeable"),[m
+                     "merge_state": pr.get("mergeStateStatus"),[m
+                     "draft": pr.get("isDraft", False),[m
+                     "category": category,[m
+                     "url": pr.get("url"),[m
+                 }[m
+                 if category in {"conflicting", "non_clean", "unknown"}:[m
+                     item["checks"] = check_summary(repo, int(pr["number"]))[m
+                 records.append(item)[m
+ [m
+         counts: dict[str, int] = {}[m
+         for item in records:[m
+             counts[item["category"]] = counts.get(item["category"], 0) + 1[m
+         base_record.update({[m
+             "active": True,[m
+             "status": "completed",[m
+             "finished_at": datetime.now(timezone.utc).isoformat(),[m
+             "repository_count": len(names),[m
+             "open_pr_count": len(records),[m
+             "counts": counts,[m
+             "records": records,[m
+             "actions": [[m
+                 {"type": "inventory", "result": "completed"},[m
+                 {"type": "mutation_policy", "automatic_rebase": False, "automatic_rerun": False},[m
+             ],[m
+         })[m
+     except Exception as exc:[m
+         base_record.update({"active": True, "status": "failed", "finished_at": datetime.now(timezone.utc).isoformat()})[m
+         base_record["errors"].append({"scope": "cycle", "error": str(exc)})[m
+         print(str(exc), file=sys.stderr)[m
+ [m
+     CYCLES_DIR.mkdir(parents=True, exist_ok=True)[m
+     cycle_path = CYCLES_DIR / f"cycle-{cycle:04d}.json"[m
+     cycle_path.write_text(json.dumps(base_record, indent=2, sort_keys=True) + "\n")[m
+     LATEST_PATH.write_text(json.dumps(base_record, indent=2, sort_keys=True) + "\n")[m
+[31m-    SUMMARY_PATH.write_text([m
+[31m-        "cycle\tstarted_at\tfinished_at\tstatus\trepositories\topen_prs\tclean\tnon_clean\tconflicting\tunknown\terrors\n"[m
+[31m-        + "\t".join([[m
+[31m-            str(cycle), base_record.get("started_at", ""), base_record.get("finished_at", ""),[m
+[31m-            base_record.get("status", "failed"), str(base_record.get("repository_count", 0)),[m
+[31m-            str(base_record.get("open_pr_count", 0)), str(base_record.get("counts", {}).get("clean", 0)),[m
+[31m-            str(base_record.get("counts", {}).get("non_clean", 0)), str(base_record.get("counts", {}).get("conflicting", 0)),[m
+[31m-            str(base_record.get("counts", {}).get("unknown", 0)), str(len(base_record.get("errors", []))),[m
+[31m-        ])[m
+[31m-        + "\n"[m
+[31m-    )[m
+[32m+[m[32m    rewrite_summary_from_cycles()[m
+     print(json.dumps({k: base_record.get(k) for k in ("cycle", "status", "repository_count", "open_pr_count", "counts", "errors")}, sort_keys=True))[m
+     return 0 if base_record.get("status") == "completed" else 1[m
+ [m
+ [m
+ if __name__ == "__main__":[m
+     raise SystemExit(main())[m

@@ -38,6 +38,37 @@ def load_json(path: Path, default: Any) -> Any:
         return default
 
 
+def summary_row(record: dict[str, Any]) -> str:
+    counts = record.get("counts", {})
+    return "\t".join([
+        str(record.get("cycle", "")),
+        str(record.get("started_at", "")),
+        str(record.get("finished_at", "")),
+        str(record.get("status", "failed")),
+        str(record.get("repository_count", 0)),
+        str(record.get("open_pr_count", 0)),
+        str(counts.get("clean", 0)),
+        str(counts.get("non_clean", 0)),
+        str(counts.get("conflicting", 0)),
+        str(counts.get("unknown", 0)),
+        str(len(record.get("errors") or [])),
+    ]) + "\n"
+
+
+def rewrite_summary_from_cycles() -> None:
+    """Rebuild summary.tsv from immutable cycle records, repairing stale summaries."""
+    by_cycle: dict[int, str] = {}
+    for cycle_path in sorted(CYCLES_DIR.glob("cycle-*.json")):
+        record = load_json(cycle_path, {})
+        try:
+            cycle_number = int(record["cycle"])
+        except (KeyError, TypeError, ValueError):
+            continue
+        by_cycle[cycle_number] = summary_row(record)
+    header = "cycle\tstarted_at\tfinished_at\tstatus\trepositories\topen_prs\tclean\tnon_clean\tconflicting\tunknown\terrors\n"
+    SUMMARY_PATH.write_text(header + "".join(by_cycle[number] for number in sorted(by_cycle)))
+
+
 def classify(pr: dict[str, Any]) -> str:
     if pr.get("mergeable") == "CONFLICTING" or pr.get("mergeStateStatus") == "DIRTY":
         return "conflicting"
@@ -88,6 +119,7 @@ def main() -> int:
         CYCLES_DIR.mkdir(parents=True, exist_ok=True)
         (CYCLES_DIR / f"cycle-{cycle:04d}.json").write_text(json.dumps(base_record, indent=2) + "\n")
         LATEST_PATH.write_text(json.dumps(base_record, indent=2) + "\n")
+        rewrite_summary_from_cycles()
         return 0
 
     try:
@@ -152,17 +184,7 @@ def main() -> int:
     cycle_path = CYCLES_DIR / f"cycle-{cycle:04d}.json"
     cycle_path.write_text(json.dumps(base_record, indent=2, sort_keys=True) + "\n")
     LATEST_PATH.write_text(json.dumps(base_record, indent=2, sort_keys=True) + "\n")
-    SUMMARY_PATH.write_text(
-        "cycle\tstarted_at\tfinished_at\tstatus\trepositories\topen_prs\tclean\tnon_clean\tconflicting\tunknown\terrors\n"
-        + "\t".join([
-            str(cycle), base_record.get("started_at", ""), base_record.get("finished_at", ""),
-            base_record.get("status", "failed"), str(base_record.get("repository_count", 0)),
-            str(base_record.get("open_pr_count", 0)), str(base_record.get("counts", {}).get("clean", 0)),
-            str(base_record.get("counts", {}).get("non_clean", 0)), str(base_record.get("counts", {}).get("conflicting", 0)),
-            str(base_record.get("counts", {}).get("unknown", 0)), str(len(base_record.get("errors", []))),
-        ])
-        + "\n"
-    )
+    rewrite_summary_from_cycles()
     print(json.dumps({k: base_record.get(k) for k in ("cycle", "status", "repository_count", "open_pr_count", "counts", "errors")}, sort_keys=True))
     return 0 if base_record.get("status") == "completed" else 1
 
