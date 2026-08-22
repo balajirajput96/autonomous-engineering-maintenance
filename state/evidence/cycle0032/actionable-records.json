@@ -1,0 +1,420 @@
+[
+  {
+    "repository": "balajirajput96/codex",
+    "number": 53,
+    "title": "fix(windows-sandbox): enforce legacy delete boundaries",
+    "category": "conflicting",
+    "head": "fix/windows-legacy-delete-boundary",
+    "head_sha": "8bba11daf973f55490c2151bbd1a2c3b89cd7279",
+    "base": "main",
+    "base_sha": "bd7ea0db8fe08e485d76e0ba5fd4325e4d660445",
+    "merge_state": "DIRTY",
+    "mergeable": "CONFLICTING",
+    "draft": false,
+    "checks": {
+      "checks": 1,
+      "failures": 0,
+      "pending": 0
+    },
+    "url": "https://github.com/balajirajput96/codex/pull/53"
+  },
+  {
+    "repository": "balajirajput96/codex",
+    "number": 52,
+    "title": "test(ci): extend Windows MCP matrix timeout",
+    "category": "non_clean",
+    "head": "fix/windows-code-mode-nextest-timeout",
+    "head_sha": "08c9a7e67c454a97e0c2742cd4eeeab1a8d50088",
+    "base": "main",
+    "base_sha": "549cd8c667b18da411358234d9c5243e53d1e8a4",
+    "merge_state": "UNSTABLE",
+    "mergeable": "MERGEABLE",
+    "draft": false,
+    "checks": {
+      "checks": 33,
+      "failures": 0,
+      "pending": 13
+    },
+    "url": "https://github.com/balajirajput96/codex/pull/52"
+  },
+  {
+    "repository": "balajirajput96/codex",
+    "number": 49,
+    "title": "build(deps): bump nanoid from 3.3.11 to 3.3.18 in the npm_and_yarn group across 1 directory",
+    "category": "non_clean",
+    "head": "dependabot/npm_and_yarn/npm_and_yarn-343aa972c6",
+    "head_sha": "ab4084c04eeee11cfd41fa8771dee768c4d80052",
+    "base": "main",
+    "base_sha": "549cd8c667b18da411358234d9c5243e53d1e8a4",
+    "merge_state": "UNSTABLE",
+    "mergeable": "MERGEABLE",
+    "draft": false,
+    "checks": {
+      "checks": 32,
+      "failures": 1,
+      "pending": 18
+    },
+    "url": "https://github.com/balajirajput96/codex/pull/49"
+  },
+  {
+    "repository": "balajirajput96/codex",
+    "number": 48,
+    "title": "test(windows): retry nonblocking redirect socket reads",
+    "category": "non_clean",
+    "head": "fix/native-msvc-v8-allocator-link",
+    "head_sha": "06c567165d49783c6f57ba955554b5f5fe7a3b4b",
+    "base": "main",
+    "base_sha": "549cd8c667b18da411358234d9c5243e53d1e8a4",
+    "merge_state": "UNSTABLE",
+    "mergeable": "MERGEABLE",
+    "draft": true,
+    "checks": {
+      "checks": 32,
+      "failures": 0,
+      "pending": 18
+    },
+    "url": "https://github.com/balajirajput96/codex/pull/48"
+  },
+  {
+    "repository": "balajirajput96/codex",
+    "number": 25,
+    "title": "Bump datamodel-code-generator from 0.31.2 to 0.64.0 in /sdk/python in the uv group across 1 directory",
+    "category": "non_clean",
+    "head": "dependabot/uv/sdk/python/uv-8382d04023",
+    "head_sha": "c0f3f2e954080b0d0620dbea726bfcb197a2ecc5",
+    "base": "main",
+    "base_sha": "549cd8c667b18da411358234d9c5243e53d1e8a4",
+    "merge_state": "UNSTABLE",
+    "mergeable": "MERGEABLE",
+    "draft": false,
+    "checks": {
+      "checks": 44,
+      "failures": 2,
+      "pending": 25
+    },
+    "url": "https://github.com/balajirajput96/codex/pull/25"
+  },
+  {
+    "repository": "balajirajput96/github-mcp-server-",
+    "number": 61,
+    "title": "Fix email placeholder security validation to enforce example domain usage",
+    "category": "non_clean",
+    "head": "fix-email-validation-9994136940113406564",
+    "head_sha": "46e96586a91ec618b707b7f71463b1d54664e6ce",
+    "base": "main",
+    "base_sha": "e041e15541e45d411e8629b32378715bb51538b4",
+    "merge_state": "UNSTABLE",
+    "mergeable": "MERGEABLE",
+    "draft": true,
+    "checks": {
+      "checks": 12,
+      "failures": 0,
+      "pending": 2
+    },
+    "url": "https://github.com/balajirajput96/github-mcp-server-/pull/61"
+  },
+  {
+    "repository": "balajirajput96/microsoft-365-agents-toolkit",
+    "number": 48,
+    "title": "[Knowledge Sync] slack-plus-teams-experts: 1 source(s) updated",
+    "category": "non_clean",
+    "head": "sync/knowledge",
+    "head_sha": "ad44d55a1a9ab1329efb8a21d546a208a7b16eb4",
+    "base": "dev",
+    "base_sha": "708a770a90eb89dbef0129132bea6db0b8e869a8",
+    "merge_state": "UNSTABLE",
+    "mergeable": "MERGEABLE",
+    "draft": false,
+    "checks": {
+      "checks": 0,
+      "failures": 0,
+      "pending": 0
+    },
+    "url": "https://github.com/balajirajput96/microsoft-365-agents-toolkit/pull/48"
+  },
+  {
+    "repository": "balajirajput96/n8n",
+    "number": 13,
+    "title": "build(deps): bump the npm_and_yarn group across 5 directories with 6 updates",
+    "category": "non_clean",
+    "head": "dependabot/npm_and_yarn/npm_and_yarn-de6e890ec6",
+    "head_sha": "4f11c43a103620781136cbbc8d66640070b80932",
+    "base": "master",
+    "base_sha": "5845673aa2f1868131423a6d81bfecba3e7f3c4e",
+    "merge_state": "UNSTABLE",
+    "mergeable": "MERGEABLE",
+    "draft": false,
+    "checks": {
+      "checks": 12,
+      "failures": 1,
+      "pending": 2
+    },
+    "url": "https://github.com/balajirajput96/n8n/pull/13"
+  },
+  {
+    "repository": "balajirajput96/vscode-live-server-plus-plus",
+    "number": 119,
+    "title": "ci: add headless extension build and test workflow",
+    "category": "non_clean",
+    "head": "agent/stabilize-extension-ci",
+    "head_sha": "741cb1ecf2cc70cabb5edeb44b94ed71f377e6e0",
+    "base": "master",
+    "base_sha": "97628eeb70e45beb56f7ba5245e48a1f08518b25",
+    "merge_state": "BLOCKED",
+    "mergeable": "MERGEABLE",
+    "draft": false,
+    "checks": {
+      "checks": 1,
+      "failures": 0,
+      "pending": 0
+    },
+    "url": "https://github.com/balajirajput96/vscode-live-server-plus-plus/pull/119"
+  },
+  {
+    "repository": "balajirajput96/vscode-live-server-plus-plus",
+    "number": 118,
+    "title": "Bump python-multipart from 0.0.18 to 0.0.31 in /ml-deployment-platform in the pip group across 1 directory",
+    "category": "non_clean",
+    "head": "dependabot/pip/ml-deployment-platform/pip-26f8b248e5",
+    "head_sha": "3ba6766399ee6ee71e82d181b078098c3a709f72",
+    "base": "master",
+    "base_sha": "97628eeb70e45beb56f7ba5245e48a1f08518b25",
+    "merge_state": "BLOCKED",
+    "mergeable": "MERGEABLE",
+    "draft": false,
+    "checks": {
+      "checks": 0,
+      "failures": 0,
+      "pending": 0
+    },
+    "url": "https://github.com/balajirajput96/vscode-live-server-plus-plus/pull/118"
+  },
+  {
+    "repository": "balajirajput96/vscode-live-server-plus-plus",
+    "number": 111,
+    "title": "Add standalone Piano Player web page",
+    "category": "non_clean",
+    "head": "copilot/add-piano-player-component",
+    "head_sha": "6f0404fe350f8f46c2cd6e79a19836e45152b668",
+    "base": "master",
+    "base_sha": "97628eeb70e45beb56f7ba5245e48a1f08518b25",
+    "merge_state": "BLOCKED",
+    "mergeable": "MERGEABLE",
+    "draft": true,
+    "checks": {
+      "checks": 0,
+      "failures": 0,
+      "pending": 0
+    },
+    "url": "https://github.com/balajirajput96/vscode-live-server-plus-plus/pull/111"
+  },
+  {
+    "repository": "balajirajput96/vscode-live-server-plus-plus",
+    "number": 109,
+    "title": "Add ATS-optimized professional resume with PDF export",
+    "category": "non_clean",
+    "head": "copilot/create-professional-resume",
+    "head_sha": "83c810161c210fe6aff35ea8970e29f19745ce32",
+    "base": "master",
+    "base_sha": "97628eeb70e45beb56f7ba5245e48a1f08518b25",
+    "merge_state": "BLOCKED",
+    "mergeable": "MERGEABLE",
+    "draft": false,
+    "checks": {
+      "checks": 0,
+      "failures": 0,
+      "pending": 0
+    },
+    "url": "https://github.com/balajirajput96/vscode-live-server-plus-plus/pull/109"
+  },
+  {
+    "repository": "balajirajput96/vscode-live-server-plus-plus",
+    "number": 107,
+    "title": "Rename variables and functions for clarity",
+    "category": "non_clean",
+    "head": "copilot/improve-variable-function-names-again",
+    "head_sha": "eddeb79cb1541668e36b517c6da9888cceb89a66",
+    "base": "master",
+    "base_sha": "97628eeb70e45beb56f7ba5245e48a1f08518b25",
+    "merge_state": "BLOCKED",
+    "mergeable": "MERGEABLE",
+    "draft": true,
+    "checks": {
+      "checks": 0,
+      "failures": 0,
+      "pending": 0
+    },
+    "url": "https://github.com/balajirajput96/vscode-live-server-plus-plus/pull/107"
+  },
+  {
+    "repository": "balajirajput96/vscode-live-server-plus-plus",
+    "number": 106,
+    "title": "Improve variable and function naming for clarity",
+    "category": "non_clean",
+    "head": "copilot/improve-variable-function-names",
+    "head_sha": "7dc30d363f26c4ea27361af441d5d500d54517b4",
+    "base": "master",
+    "base_sha": "97628eeb70e45beb56f7ba5245e48a1f08518b25",
+    "merge_state": "BLOCKED",
+    "mergeable": "MERGEABLE",
+    "draft": true,
+    "checks": {
+      "checks": 0,
+      "failures": 0,
+      "pending": 0
+    },
+    "url": "https://github.com/balajirajput96/vscode-live-server-plus-plus/pull/106"
+  },
+  {
+    "repository": "balajirajput96/vscode-live-server-plus-plus",
+    "number": 102,
+    "title": "Complete deployment setup: Add GitHub Pages configuration and comprehensive documentation",
+    "category": "non_clean",
+    "head": "copilot/fix-0abaf8f4-bf00-4811-b7cf-d2ad8e13c935",
+    "head_sha": "db7dc822f6f4f6597d3778ca5208e2f89217c90a",
+    "base": "master",
+    "base_sha": "97628eeb70e45beb56f7ba5245e48a1f08518b25",
+    "merge_state": "BLOCKED",
+    "mergeable": "MERGEABLE",
+    "draft": true,
+    "checks": {
+      "checks": 4,
+      "failures": 0,
+      "pending": 0
+    },
+    "url": "https://github.com/balajirajput96/vscode-live-server-plus-plus/pull/102"
+  },
+  {
+    "repository": "balajirajput96/vscode-live-server-plus-plus",
+    "number": 101,
+    "title": "Complete deployment system with comprehensive documentation and multiple deployment methods",
+    "category": "non_clean",
+    "head": "copilot/fix-4d0b2299-7f6f-4720-bd46-c1a8318a8803",
+    "head_sha": "318d3d04a5a709a921d7c9bc83877a10bf760941",
+    "base": "master",
+    "base_sha": "97628eeb70e45beb56f7ba5245e48a1f08518b25",
+    "merge_state": "BLOCKED",
+    "mergeable": "MERGEABLE",
+    "draft": false,
+    "checks": {
+      "checks": 0,
+      "failures": 0,
+      "pending": 0
+    },
+    "url": "https://github.com/balajirajput96/vscode-live-server-plus-plus/pull/101"
+  },
+  {
+    "repository": "balajirajput96/vscode-live-server-plus-plus",
+    "number": 48,
+    "title": "Implement US State Code Auto-Population for Contact Forms",
+    "category": "non_clean",
+    "head": "copilot/fix-cea11f82-1cb3-4cff-80c9-154257713e13",
+    "head_sha": "7848d7dcfdadf2f4006c73ccdd9ff414a4717f09",
+    "base": "master",
+    "base_sha": "97628eeb70e45beb56f7ba5245e48a1f08518b25",
+    "merge_state": "BLOCKED",
+    "mergeable": "MERGEABLE",
+    "draft": false,
+    "checks": {
+      "checks": 0,
+      "failures": 0,
+      "pending": 0
+    },
+    "url": "https://github.com/balajirajput96/vscode-live-server-plus-plus/pull/48"
+  },
+  {
+    "repository": "balajirajput96/vscode-live-server-plus-plus",
+    "number": 47,
+    "title": "Implement complete automation setup: n8n workflows, GitHub Actions, health monitoring, and security framework",
+    "category": "non_clean",
+    "head": "copilot/fix-f8753240-e37b-4706-abb9-8e53c3b787e0",
+    "head_sha": "ef6cc9ebf6f9528350d4938ebe6637999e24f1b0",
+    "base": "master",
+    "base_sha": "97628eeb70e45beb56f7ba5245e48a1f08518b25",
+    "merge_state": "BLOCKED",
+    "mergeable": "MERGEABLE",
+    "draft": false,
+    "checks": {
+      "checks": 1,
+      "failures": 0,
+      "pending": 0
+    },
+    "url": "https://github.com/balajirajput96/vscode-live-server-plus-plus/pull/47"
+  },
+  {
+    "repository": "balajirajput96/vscode-live-server-plus-plus",
+    "number": 46,
+    "title": "Implement Unified API & Radial Integration System with n8n Workflows and GitHub Actions",
+    "category": "non_clean",
+    "head": "copilot/fix-a34ad888-0c4d-43ed-bf55-02da6b37cc60",
+    "head_sha": "7ef4b0c7ac5c998e74d67a00030094e4f2a92c00",
+    "base": "master",
+    "base_sha": "97628eeb70e45beb56f7ba5245e48a1f08518b25",
+    "merge_state": "BLOCKED",
+    "mergeable": "MERGEABLE",
+    "draft": false,
+    "checks": {
+      "checks": 4,
+      "failures": 0,
+      "pending": 0
+    },
+    "url": "https://github.com/balajirajput96/vscode-live-server-plus-plus/pull/46"
+  },
+  {
+    "repository": "balajirajput96/vscode-live-server-plus-plus",
+    "number": 45,
+    "title": "Add secure payment system with test/live mode validation and Hindi security warnings",
+    "category": "non_clean",
+    "head": "copilot/fix-13aec358-8c8a-498c-9964-eb4c8ac0dd64",
+    "head_sha": "cf2e56c4fc65957b585a44ff4d9cdd103a8a3c26",
+    "base": "master",
+    "base_sha": "97628eeb70e45beb56f7ba5245e48a1f08518b25",
+    "merge_state": "BLOCKED",
+    "mergeable": "MERGEABLE",
+    "draft": false,
+    "checks": {
+      "checks": 4,
+      "failures": 0,
+      "pending": 0
+    },
+    "url": "https://github.com/balajirajput96/vscode-live-server-plus-plus/pull/45"
+  },
+  {
+    "repository": "balajirajput96/vscode-live-server-plus-plus",
+    "number": 39,
+    "title": "Implement comprehensive Sonar API Quick Start Guide with career automation integration",
+    "category": "non_clean",
+    "head": "copilot/fix-11fd2b53-8abe-48f6-9325-e53168ed7c8e",
+    "head_sha": "7aa8f1db46cf194b79bbec6d860d56621c685c14",
+    "base": "master",
+    "base_sha": "97628eeb70e45beb56f7ba5245e48a1f08518b25",
+    "merge_state": "BLOCKED",
+    "mergeable": "MERGEABLE",
+    "draft": false,
+    "checks": {
+      "checks": 4,
+      "failures": 0,
+      "pending": 0
+    },
+    "url": "https://github.com/balajirajput96/vscode-live-server-plus-plus/pull/39"
+  },
+  {
+    "repository": "balajirajput96/vscode-live-server-plus-plus",
+    "number": 19,
+    "title": "Integrate AI-Powered Career Automation Dashboard with VS Code Live Server++",
+    "category": "non_clean",
+    "head": "copilot/fix-ca8e68e9-7a3e-4dd5-a141-077eacf5edbe",
+    "head_sha": "6b030bf9f5deca7740b0f55b0bd021f4803c50a7",
+    "base": "master",
+    "base_sha": "97628eeb70e45beb56f7ba5245e48a1f08518b25",
+    "merge_state": "BLOCKED",
+    "mergeable": "MERGEABLE",
+    "draft": false,
+    "checks": {
+      "checks": 0,
+      "failures": 0,
+      "pending": 0
+    },
+    "url": "https://github.com/balajirajput96/vscode-live-server-plus-plus/pull/19"
+  }
+]

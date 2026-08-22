@@ -1,0 +1,1546 @@
+=== CAPTURED UTC ===
+2026-08-22T05:41:55Z
+=== PR codex#53 ===
+[1;37m{[m
+  [1;34m"baseRefName"[m[1;37m:[m [32m"main"[m[1;37m,[m
+  [1;34m"baseRefOid"[m[1;37m:[m [32m"bd7ea0db8fe08e485d76e0ba5fd4325e4d660445"[m[1;37m,[m
+  [1;34m"headRefName"[m[1;37m:[m [32m"fix/windows-legacy-delete-boundary"[m[1;37m,[m
+  [1;34m"headRefOid"[m[1;37m:[m [32m"519b6eac463b9e811546153b1245b6372f18cda6"[m[1;37m,[m
+  [1;34m"isDraft"[m[1;37m:[m [33mfalse[m[1;37m,[m
+  [1;34m"mergeStateStatus"[m[1;37m:[m [32m"UNKNOWN"[m[1;37m,[m
+  [1;34m"mergeable"[m[1;37m:[m [32m"UNKNOWN"[m[1;37m,[m
+  [1;34m"number"[m[1;37m:[m 53[1;37m,[m
+  [1;34m"reviewDecision"[m[1;37m:[m [32m""[m[1;37m,[m
+  [1;34m"state"[m[1;37m:[m [32m"MERGED"[m[1;37m,[m
+  [1;34m"statusCheckRollup"[m[1;37m:[m [1;37m[[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32554969782/job/96987584057"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"metadata"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T05:40:47Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"QUEUED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"v8-canary"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32554970145/job/96987584297"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Bazel / Bazel test on macos-latest for aarch64-apple-darwin"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T05:40:48Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"PENDING"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"2026-08-22T05:40:46Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m"SKIPPED"[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32554968977/job/96987581551"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"cla"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T05:40:46Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"COMPLETED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"CLA Assistant"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"2026-08-22T05:41:05Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m"SKIPPED"[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32554982427/job/96987616593"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"cla"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T05:41:06Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"COMPLETED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"CLA Assistant"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32554970145/job/96987584299"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Bazel / Bazel test on macos-latest for x86_64-apple-darwin"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T05:40:48Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"PENDING"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32554970145/job/96987584450"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Bazel / Bazel test on ubuntu-24.04 for x86_64-unknown-linux-gnu"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T05:40:48Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"PENDING"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32554970145/job/96987584399"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Bazel / Bazel test on ubuntu-24.04 for x86_64-unknown-linux-musl"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T05:40:48Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"PENDING"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32554970145/job/96987584342"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Bazel / Bazel test on windows-latest for x86_64-pc-windows-gnullvm shard 1/4"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T05:40:48Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"PENDING"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32554970145/job/96987584416"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Bazel / Bazel test on windows-latest for x86_64-pc-windows-gnullvm shard 2/4"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T05:40:48Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"PENDING"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32554970145/job/96987584431"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Bazel / Bazel test on windows-latest for x86_64-pc-windows-gnullvm shard 3/4"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T05:40:48Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"PENDING"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32554970145/job/96987584464"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Bazel / Bazel test on windows-latest for x86_64-pc-windows-gnullvm shard 4/4"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T05:40:48Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"PENDING"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32554970145/job/96987584372"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Bazel / Bazel test on windows-latest for x86_64-pc-windows-msvc (native main)"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T05:40:48Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"PENDING"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32554970145/job/96987584350"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Bazel / Bazel clippy on ubuntu-24.04 for x86_64-unknown-linux-gnu"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T05:40:48Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"PENDING"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32554970145/job/96987585615"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Bazel / Bazel clippy on macos-latest for aarch64-apple-darwin"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T05:40:48Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"PENDING"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32554970145/job/96987585542"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Bazel / Bazel clippy on windows-latest for x86_64-pc-windows-gnullvm"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T05:40:48Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"PENDING"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32554970145/job/96987585427"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Bazel / Verify release build on ubuntu-24.04 for x86_64-unknown-linux-gnu"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T05:40:48Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"PENDING"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32554970145/job/96987585694"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Bazel / Verify release build on macos-latest for aarch64-apple-darwin"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T05:40:48Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"PENDING"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32554970145/job/96987585468"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Bazel / Verify release build on windows-latest for x86_64-pc-windows-gnullvm"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T05:40:48Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"PENDING"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32554970145/job/96987584016"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Blob size policy / Blob size policy"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T05:40:47Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"QUEUED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32554970145/job/96987583844"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"cargo-deny / cargo-deny"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T05:40:47Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"QUEUED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32554970145/job/96987583964"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Codespell / Check for spelling errors"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T05:40:47Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"QUEUED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32554970145/job/96987584030"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"repo-checks / build-test"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T05:40:47Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"QUEUED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32554970145/job/96987584020"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"rust-ci / Detect changed areas"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T05:40:47Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"QUEUED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32554970145/job/96987583962"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"sdk / python-sdk"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T05:40:47Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"QUEUED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32554970145/job/96987583988"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"sdk / sdks"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T05:40:47Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"QUEUED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m
+  [1;37m][m[1;37m,[m
+  [1;34m"title"[m[1;37m:[m [32m"fix(windows-sandbox): enforce legacy delete boundaries"[m[1;37m,[m
+  [1;34m"url"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/pull/53"[m
+[1;37m}[m
+--- checks ---
+Bazel / Bazel clippy on macos-latest for aarch64-apple-darwin	pending	0	https://github.com/balajirajput96/codex/actions/runs/32554970145/job/96987585615	
+Bazel / Bazel clippy on ubuntu-24.04 for x86_64-unknown-linux-gnu	pending	0	https://github.com/balajirajput96/codex/actions/runs/32554970145/job/96987584350	
+Bazel / Bazel clippy on windows-latest for x86_64-pc-windows-gnullvm	pending	0	https://github.com/balajirajput96/codex/actions/runs/32554970145/job/96987585542	
+Bazel / Bazel test on macos-latest for aarch64-apple-darwin	pending	0	https://github.com/balajirajput96/codex/actions/runs/32554970145/job/96987584297	
+Bazel / Bazel test on macos-latest for x86_64-apple-darwin	pending	0	https://github.com/balajirajput96/codex/actions/runs/32554970145/job/96987584299	
+Bazel / Bazel test on ubuntu-24.04 for x86_64-unknown-linux-gnu	pending	0	https://github.com/balajirajput96/codex/actions/runs/32554970145/job/96987584450	
+Bazel / Bazel test on ubuntu-24.04 for x86_64-unknown-linux-musl	pending	0	https://github.com/balajirajput96/codex/actions/runs/32554970145/job/96987584399	
+Bazel / Bazel test on windows-latest for x86_64-pc-windows-gnullvm shard 1/4	pending	0	https://github.com/balajirajput96/codex/actions/runs/32554970145/job/96987584342	
+Bazel / Bazel test on windows-latest for x86_64-pc-windows-gnullvm shard 2/4	pending	0	https://github.com/balajirajput96/codex/actions/runs/32554970145/job/96987584416	
+Bazel / Bazel test on windows-latest for x86_64-pc-windows-gnullvm shard 3/4	pending	0	https://github.com/balajirajput96/codex/actions/runs/32554970145/job/96987584431	
+Bazel / Bazel test on windows-latest for x86_64-pc-windows-gnullvm shard 4/4	pending	0	https://github.com/balajirajput96/codex/actions/runs/32554970145/job/96987584464	
+Bazel / Bazel test on windows-latest for x86_64-pc-windows-msvc (native main)	pending	0	https://github.com/balajirajput96/codex/actions/runs/32554970145/job/96987584372	
+Bazel / Verify release build on macos-latest for aarch64-apple-darwin	pending	0	https://github.com/balajirajput96/codex/actions/runs/32554970145/job/96987585694	
+Bazel / Verify release build on ubuntu-24.04 for x86_64-unknown-linux-gnu	pending	0	https://github.com/balajirajput96/codex/actions/runs/32554970145/job/96987585427	
+Bazel / Verify release build on windows-latest for x86_64-pc-windows-gnullvm	pending	0	https://github.com/balajirajput96/codex/actions/runs/32554970145/job/96987585468	
+Blob size policy / Blob size policy	pending	0	https://github.com/balajirajput96/codex/actions/runs/32554970145/job/96987584016	
+Codespell / Check for spelling errors	pending	0	https://github.com/balajirajput96/codex/actions/runs/32554970145/job/96987583964	
+cargo-deny / cargo-deny	pending	0	https://github.com/balajirajput96/codex/actions/runs/32554970145/job/96987583844	
+metadata	pending	0	https://github.com/balajirajput96/codex/actions/runs/32554969782/job/96987584057	
+cla	skipping	0	https://github.com/balajirajput96/codex/actions/runs/32554982427/job/96987616593	
+repo-checks / build-test	pending	0	https://github.com/balajirajput96/codex/actions/runs/32554970145/job/96987584030	
+rust-ci / Detect changed areas	pending	0	https://github.com/balajirajput96/codex/actions/runs/32554970145/job/96987584020	
+sdk / python-sdk	pending	0	https://github.com/balajirajput96/codex/actions/runs/32554970145/job/96987583962	
+sdk / sdks	pending	0	https://github.com/balajirajput96/codex/actions/runs/32554970145/job/96987583988	
+--- base ref ---
+[1;38m{[m
+[1;34m"default_branch"[m[1;38m:[m [32m"main"[m[1;38m,[m
+[1;34m"updated_at"[m[1;38m:[m [32m"2026-08-22T05:41:47Z"[m
+[1;38m}[m
+[1;38m{[m
+[1;34m"ref"[m[1;38m:[m [32m"refs/heads/main"[m[1;38m,[m
+[1;34m"sha"[m[1;38m:[m [32m"4191e1998cdcd73e9a0c5606267ae16f199aedf7"[m
+[1;38m}[m
+--- protection summary ---
+[1;37m{[m
+  [1;34m"message"[m[1;37m:[m [32m"Branch not protected"[m[1;37m,[m
+  [1;34m"documentation_url"[m[1;37m:[m [32m"https://docs.github.com/rest/branches/branch-protection#get-branch-protection"[m[1;37m,[m
+  [1;34m"status"[m[1;37m:[m [32m"404"[m
+[1;37m}[m
+gh: Branch not protected (HTTP 404)
+=== PR codex#49 ===
+[1;37m{[m
+  [1;34m"baseRefName"[m[1;37m:[m [32m"main"[m[1;37m,[m
+  [1;34m"baseRefOid"[m[1;37m:[m [32m"549cd8c667b18da411358234d9c5243e53d1e8a4"[m[1;37m,[m
+  [1;34m"headRefName"[m[1;37m:[m [32m"dependabot/npm_and_yarn/npm_and_yarn-343aa972c6"[m[1;37m,[m
+  [1;34m"headRefOid"[m[1;37m:[m [32m"ab4084c04eeee11cfd41fa8771dee768c4d80052"[m[1;37m,[m
+  [1;34m"isDraft"[m[1;37m:[m [33mfalse[m[1;37m,[m
+  [1;34m"mergeStateStatus"[m[1;37m:[m [32m"UNKNOWN"[m[1;37m,[m
+  [1;34m"mergeable"[m[1;37m:[m [32m"UNKNOWN"[m[1;37m,[m
+  [1;34m"number"[m[1;37m:[m 49[1;37m,[m
+  [1;34m"reviewDecision"[m[1;37m:[m [32m""[m[1;37m,[m
+  [1;34m"state"[m[1;37m:[m [32m"OPEN"[m[1;37m,[m
+  [1;34m"statusCheckRollup"[m[1;37m:[m [1;37m[[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32551771929/job/96979585367"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Bazel / Bazel test on macos-latest for aarch64-apple-darwin"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T04:28:04Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"QUEUED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"2026-08-22T04:28:02Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m"SKIPPED"[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32551770161/job/96979580822"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"cla"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T04:28:02Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"COMPLETED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"CLA Assistant"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"2026-08-22T05:28:55Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m"SUCCESS"[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32551771909/job/96979585196"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"metadata"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T05:28:37Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"COMPLETED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"v8-canary"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32551771929/job/96979585406"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Bazel / Bazel test on macos-latest for x86_64-apple-darwin"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T04:28:04Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"QUEUED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32551771929/job/96979585564"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Bazel / Bazel test on ubuntu-24.04 for x86_64-unknown-linux-gnu"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T04:28:05Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"QUEUED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32551771929/job/96979585346"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Bazel / Bazel test on ubuntu-24.04 for x86_64-unknown-linux-musl"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T05:29:23Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"IN_PROGRESS"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32551771929/job/96979585441"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Bazel / Bazel test on windows-latest for x86_64-pc-windows-gnullvm shard 1/4"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T05:35:59Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"IN_PROGRESS"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"2026-08-22T05:28:55Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m"SKIPPED"[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32551771909/job/96986342037"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Build ${{ matrix.variant }} ${{ matrix.target }}"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T05:28:56Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"COMPLETED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"v8-canary"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"2026-08-22T05:31:56Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m"FAILURE"[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32551771929/job/96979585436"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Bazel / Bazel test on windows-latest for x86_64-pc-windows-gnullvm shard 2/4"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T04:48:58Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"COMPLETED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32551771929/job/96979585468"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Bazel / Bazel test on windows-latest for x86_64-pc-windows-gnullvm shard 3/4"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T04:28:04Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"QUEUED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32551771929/job/96979585329"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Bazel / Bazel test on windows-latest for x86_64-pc-windows-gnullvm shard 4/4"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T05:29:27Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"IN_PROGRESS"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"2026-08-22T04:28:04Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m"SKIPPED"[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32551771929/job/96979586033"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Bazel / Bazel test on windows-latest for x86_64-pc-windows-msvc (native main)"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T04:28:05Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"COMPLETED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"2026-08-22T05:28:55Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m"SKIPPED"[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32551771909/job/96986341823"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Build ptrcomp-sandbox ${{ matrix.target }} from source"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T05:28:55Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"COMPLETED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"v8-canary"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32551771929/job/96979585370"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Bazel / Bazel clippy on ubuntu-24.04 for x86_64-unknown-linux-gnu"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T05:29:56Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"IN_PROGRESS"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32551771929/job/96979585528"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Bazel / Bazel clippy on macos-latest for aarch64-apple-darwin"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T04:28:05Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"QUEUED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32551771929/job/96979585535"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Bazel / Bazel clippy on windows-latest for x86_64-pc-windows-gnullvm"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T04:28:05Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"QUEUED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32551771929/job/96979585420"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Bazel / Verify release build on ubuntu-24.04 for x86_64-unknown-linux-gnu"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T04:28:04Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"QUEUED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32551771929/job/96979585376"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Bazel / Verify release build on macos-latest for aarch64-apple-darwin"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T04:28:04Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"QUEUED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32551771929/job/96979585448"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Bazel / Verify release build on windows-latest for x86_64-pc-windows-gnullvm"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T05:40:16Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"IN_PROGRESS"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"2026-08-22T05:31:12Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m"SUCCESS"[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32551771929/job/96979585545"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Blob size policy / Blob size policy"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T05:30:39Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"COMPLETED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"2026-08-22T05:33:09Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m"SUCCESS"[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32551771929/job/96979585230"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"cargo-deny / cargo-deny"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T05:31:47Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"COMPLETED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32551771929/job/96979585215"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Codespell / Check for spelling errors"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T04:28:04Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"QUEUED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"2026-08-22T05:30:29Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m"SUCCESS"[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32551771929/job/96979585273"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"repo-checks / build-test"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T05:29:25Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"COMPLETED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"2026-08-22T05:29:19Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m"SUCCESS"[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32551771929/job/96979585233"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"rust-ci / Detect changed areas"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T05:28:59Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"COMPLETED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"2026-08-22T05:29:19Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m"SKIPPED"[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32551771929/job/96986384038"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"rust-ci / Format / etc"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T05:29:19Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"COMPLETED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"2026-08-22T05:29:19Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m"SKIPPED"[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32551771929/job/96986384078"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"rust-ci / cargo shear"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T05:29:19Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"COMPLETED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"2026-08-22T05:29:19Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m"SKIPPED"[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32551771929/job/96986384033"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"rust-ci / Argument comment lint package"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T05:29:19Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"COMPLETED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32551771929/job/96986383543"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"rust-ci / Argument comment lint - Linux"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T05:29:19Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"QUEUED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32551771929/job/96986383511"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"rust-ci / Argument comment lint - macOS"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T05:29:19Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"QUEUED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32551771929/job/96986383526"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"rust-ci / Argument comment lint - Windows"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T05:29:19Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"QUEUED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"2026-08-22T05:28:32Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m"SUCCESS"[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32551771929/job/96979585077"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"sdk / python-sdk"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T05:27:13Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"COMPLETED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32551771929/job/96979585237"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"sdk / sdks"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T04:28:04Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"QUEUED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m
+  [1;37m][m[1;37m,[m
+  [1;34m"title"[m[1;37m:[m [32m"build(deps): bump nanoid from 3.3.11 to 3.3.18 in the npm_and_yarn group across 1 directory"[m[1;37m,[m
+  [1;34m"url"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/pull/49"[m
+[1;37m}[m
+--- checks ---
+Bazel / Bazel test on windows-latest for x86_64-pc-windows-gnullvm shard 2/4	fail	42m58s	https://github.com/balajirajput96/codex/actions/runs/32551771929/job/96979585436	
+Bazel / Bazel test on windows-latest for x86_64-pc-windows-msvc (native main)	skipping	0	https://github.com/balajirajput96/codex/actions/runs/32551771929/job/96979586033	
+Build ${{ matrix.variant }} ${{ matrix.target }}	skipping	0	https://github.com/balajirajput96/codex/actions/runs/32551771909/job/96986342037	
+Build ptrcomp-sandbox ${{ matrix.target }} from source	skipping	0	https://github.com/balajirajput96/codex/actions/runs/32551771909/job/96986341823	
+Codespell / Check for spelling errors	pending	0	https://github.com/balajirajput96/codex/actions/runs/32551771929/job/96979585215	
+Bazel / Bazel test on windows-latest for x86_64-pc-windows-gnullvm shard 4/4	pending	0	https://github.com/balajirajput96/codex/actions/runs/32551771929/job/96979585329	
+repo-checks / build-test	pass	1m4s	https://github.com/balajirajput96/codex/actions/runs/32551771929/job/96979585273	
+Bazel / Bazel test on ubuntu-24.04 for x86_64-unknown-linux-musl	pending	0	https://github.com/balajirajput96/codex/actions/runs/32551771929/job/96979585346	
+cla	skipping	0	https://github.com/balajirajput96/codex/actions/runs/32551770161/job/96979580822	
+rust-ci / Argument comment lint package	skipping	0	https://github.com/balajirajput96/codex/actions/runs/32551771929/job/96986384033	
+rust-ci / cargo shear	skipping	0	https://github.com/balajirajput96/codex/actions/runs/32551771929/job/96986384078	
+Bazel / Bazel test on macos-latest for x86_64-apple-darwin	pending	0	https://github.com/balajirajput96/codex/actions/runs/32551771929/job/96979585406	
+rust-ci / Format / etc	skipping	0	https://github.com/balajirajput96/codex/actions/runs/32551771929/job/96986384038	
+Bazel / Bazel test on macos-latest for aarch64-apple-darwin	pending	0	https://github.com/balajirajput96/codex/actions/runs/32551771929/job/96979585367	
+rust-ci / Detect changed areas	pass	20s	https://github.com/balajirajput96/codex/actions/runs/32551771929/job/96979585233	
+Blob size policy / Blob size policy	pass	33s	https://github.com/balajirajput96/codex/actions/runs/32551771929/job/96979585545	
+Bazel / Verify release build on windows-latest for x86_64-pc-windows-gnullvm	pending	0	https://github.com/balajirajput96/codex/actions/runs/32551771929/job/96979585448	
+Bazel / Bazel clippy on ubuntu-24.04 for x86_64-unknown-linux-gnu	pending	0	https://github.com/balajirajput96/codex/actions/runs/32551771929/job/96979585370	
+Bazel / Bazel test on windows-latest for x86_64-pc-windows-gnullvm shard 1/4	pending	0	https://github.com/balajirajput96/codex/actions/runs/32551771929/job/96979585441	
+metadata	pass	18s	https://github.com/balajirajput96/codex/actions/runs/32551771909/job/96979585196	
+Bazel / Bazel clippy on windows-latest for x86_64-pc-windows-gnullvm	pending	0	https://github.com/balajirajput96/codex/actions/runs/32551771929/job/96979585535	
+Bazel / Bazel clippy on macos-latest for aarch64-apple-darwin	pending	0	https://github.com/balajirajput96/codex/actions/runs/32551771929/job/96979585528	
+sdk / python-sdk	pass	1m19s	https://github.com/balajirajput96/codex/actions/runs/32551771929/job/96979585077	
+Bazel / Bazel test on ubuntu-24.04 for x86_64-unknown-linux-gnu	pending	0	https://github.com/balajirajput96/codex/actions/runs/32551771929/job/96979585564	
+Bazel / Verify release build on macos-latest for aarch64-apple-darwin	pending	0	https://github.com/balajirajput96/codex/actions/runs/32551771929/job/96979585376	
+cargo-deny / cargo-deny	pass	1m22s	https://github.com/balajirajput96/codex/actions/runs/32551771929/job/96979585230	
+Bazel / Verify release build on ubuntu-24.04 for x86_64-unknown-linux-gnu	pending	0	https://github.com/balajirajput96/codex/actions/runs/32551771929/job/96979585420	
+Bazel / Bazel test on windows-latest for x86_64-pc-windows-gnullvm shard 3/4	pending	0	https://github.com/balajirajput96/codex/actions/runs/32551771929/job/96979585468	
+rust-ci / Argument comment lint - Linux	pending	0	https://github.com/balajirajput96/codex/actions/runs/32551771929/job/96986383543	
+rust-ci / Argument comment lint - Windows	pending	0	https://github.com/balajirajput96/codex/actions/runs/32551771929/job/96986383526	
+rust-ci / Argument comment lint - macOS	pending	0	https://github.com/balajirajput96/codex/actions/runs/32551771929/job/96986383511	
+sdk / sdks	pending	0	https://github.com/balajirajput96/codex/actions/runs/32551771929/job/96979585237	
+--- base ref ---
+[1;38m{[m
+[1;34m"default_branch"[m[1;38m:[m [32m"main"[m[1;38m,[m
+[1;34m"updated_at"[m[1;38m:[m [32m"2026-08-22T05:41:47Z"[m
+[1;38m}[m
+[1;38m{[m
+[1;34m"ref"[m[1;38m:[m [32m"refs/heads/main"[m[1;38m,[m
+[1;34m"sha"[m[1;38m:[m [32m"4191e1998cdcd73e9a0c5606267ae16f199aedf7"[m
+[1;38m}[m
+--- protection summary ---
+[1;37m{[m
+  [1;34m"message"[m[1;37m:[m [32m"Branch not protected"[m[1;37m,[m
+  [1;34m"documentation_url"[m[1;37m:[m [32m"https://docs.github.com/rest/branches/branch-protection#get-branch-protection"[m[1;37m,[m
+  [1;34m"status"[m[1;37m:[m [32m"404"[m
+[1;37m}[m
+gh: Branch not protected (HTTP 404)
+=== PR codex#25 ===
+[1;37m{[m
+  [1;34m"baseRefName"[m[1;37m:[m [32m"main"[m[1;37m,[m
+  [1;34m"baseRefOid"[m[1;37m:[m [32m"549cd8c667b18da411358234d9c5243e53d1e8a4"[m[1;37m,[m
+  [1;34m"headRefName"[m[1;37m:[m [32m"dependabot/uv/sdk/python/uv-8382d04023"[m[1;37m,[m
+  [1;34m"headRefOid"[m[1;37m:[m [32m"c0f3f2e954080b0d0620dbea726bfcb197a2ecc5"[m[1;37m,[m
+  [1;34m"isDraft"[m[1;37m:[m [33mfalse[m[1;37m,[m
+  [1;34m"mergeStateStatus"[m[1;37m:[m [32m"UNKNOWN"[m[1;37m,[m
+  [1;34m"mergeable"[m[1;37m:[m [32m"UNKNOWN"[m[1;37m,[m
+  [1;34m"number"[m[1;37m:[m 25[1;37m,[m
+  [1;34m"reviewDecision"[m[1;37m:[m [32m""[m[1;37m,[m
+  [1;34m"state"[m[1;37m:[m [32m"OPEN"[m[1;37m,[m
+  [1;34m"statusCheckRollup"[m[1;37m:[m [1;37m[[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32550199089/job/96975573366"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Bazel / Bazel test on macos-latest for aarch64-apple-darwin"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T03:53:16Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"QUEUED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"2026-08-22T03:53:12Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m"SKIPPED"[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32550197046/job/96975583025"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"cla"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T03:53:21Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"COMPLETED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"CLA Assistant"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"2026-08-22T04:35:43Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m"SUCCESS"[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32550198983/job/96975572830"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"metadata"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T04:35:24Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"COMPLETED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"v8-canary"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32550199089/job/96975573370"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Bazel / Bazel test on macos-latest for x86_64-apple-darwin"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T03:53:16Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"QUEUED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32550199089/job/96975573354"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Bazel / Bazel test on ubuntu-24.04 for x86_64-unknown-linux-gnu"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T04:37:29Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"IN_PROGRESS"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32550199089/job/96975573340"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Bazel / Bazel test on ubuntu-24.04 for x86_64-unknown-linux-musl"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T04:34:43Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"IN_PROGRESS"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32550198983/job/96980439906"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Build release x86_64-unknown-linux-gnu"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T04:35:43Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"QUEUED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"v8-canary"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"2026-08-22T05:30:01Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m"SUCCESS"[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32550199089/job/96975573384"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Bazel / Bazel test on windows-latest for x86_64-pc-windows-gnullvm shard 1/4"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T04:48:59Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"COMPLETED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32550198983/job/96980439922"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Build ptrcomp-sandbox x86_64-unknown-linux-gnu"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T04:35:43Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"QUEUED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"v8-canary"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"2026-08-22T05:19:43Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m"SUCCESS"[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32550199089/job/96975573372"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Bazel / Bazel test on windows-latest for x86_64-pc-windows-gnullvm shard 2/4"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T04:38:04Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"COMPLETED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32550198983/job/96980439881"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Build release aarch64-unknown-linux-gnu"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T05:29:52Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"IN_PROGRESS"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"v8-canary"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"2026-08-22T05:15:02Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m"SUCCESS"[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32550199089/job/96975573389"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Bazel / Bazel test on windows-latest for x86_64-pc-windows-gnullvm shard 3/4"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T04:41:34Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"COMPLETED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32550198983/job/96980439921"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Build ptrcomp-sandbox aarch64-unknown-linux-gnu"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T04:35:43Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"QUEUED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"v8-canary"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"2026-08-22T05:16:28Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m"SUCCESS"[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32550199089/job/96975573371"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Bazel / Bazel test on windows-latest for x86_64-pc-windows-gnullvm shard 4/4"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T04:38:08Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"COMPLETED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"2026-08-22T05:30:36Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m"FAILURE"[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32550198983/job/96980439885"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Build release x86_64-apple-darwin"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T04:35:43Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"COMPLETED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"v8-canary"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"2026-08-22T05:30:32Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m"FAILURE"[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32550198983/job/96980439893"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Build ptrcomp-sandbox x86_64-apple-darwin"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T04:35:43Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"COMPLETED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"v8-canary"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32550198983/job/96980439950"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Build release aarch64-apple-darwin"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T04:35:43Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"QUEUED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"v8-canary"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32550198983/job/96980439888"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Build ptrcomp-sandbox aarch64-apple-darwin"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T04:35:43Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"QUEUED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"v8-canary"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32550198983/job/96980439878"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Build release x86_64-unknown-linux-musl"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T04:35:43Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"QUEUED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"v8-canary"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32550198983/job/96980439946"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Build ptrcomp-sandbox x86_64-unknown-linux-musl"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T04:46:13Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"IN_PROGRESS"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"v8-canary"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32550198983/job/96980439886"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Build release aarch64-unknown-linux-musl"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T05:03:27Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"IN_PROGRESS"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"v8-canary"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32550198983/job/96980439916"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Build ptrcomp-sandbox aarch64-unknown-linux-musl"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T05:33:14Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"IN_PROGRESS"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"v8-canary"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"2026-08-22T03:53:16Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m"SKIPPED"[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32550199089/job/96975573722"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Bazel / Bazel test on windows-latest for x86_64-pc-windows-msvc (native main)"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T03:53:16Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"COMPLETED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"2026-08-22T04:35:43Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m"SKIPPED"[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32550198983/job/96980440391"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Build ptrcomp-sandbox ${{ matrix.target }} from source"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T04:35:44Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"COMPLETED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"v8-canary"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32550199089/job/96975573332"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Bazel / Bazel clippy on ubuntu-24.04 for x86_64-unknown-linux-gnu"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T04:35:48Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"IN_PROGRESS"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32550199089/job/96975573333"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Bazel / Bazel clippy on macos-latest for aarch64-apple-darwin"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T05:37:29Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"IN_PROGRESS"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"2026-08-22T05:37:14Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m"SUCCESS"[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32550199089/job/96975573320"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Bazel / Bazel clippy on windows-latest for x86_64-pc-windows-gnullvm"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T04:35:41Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"COMPLETED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32550199089/job/96975573339"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Bazel / Verify release build on ubuntu-24.04 for x86_64-unknown-linux-gnu"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T04:35:43Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"IN_PROGRESS"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32550199089/job/96975573323"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Bazel / Verify release build on macos-latest for aarch64-apple-darwin"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T05:31:15Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"IN_PROGRESS"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"2026-08-22T05:27:07Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m"SUCCESS"[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32550199089/job/96975573344"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Bazel / Verify release build on windows-latest for x86_64-pc-windows-gnullvm"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T04:35:41Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"COMPLETED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32550199089/job/96986454245"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Bazel / Bazel test on windows-latest for x86_64-pc-windows-gnullvm"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T05:30:01Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"QUEUED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"2026-08-22T04:35:37Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m"SUCCESS"[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32550199089/job/96975573385"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Blob size policy / Blob size policy"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T04:34:29Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"COMPLETED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"2026-08-22T04:35:19Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m"SUCCESS"[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32550199089/job/96975573388"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"cargo-deny / cargo-deny"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T04:33:58Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"COMPLETED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"2026-08-22T04:37:45Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m"SUCCESS"[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32550199089/job/96975573397"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Codespell / Check for spelling errors"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T04:37:21Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"COMPLETED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"2026-08-22T04:44:16Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m"SUCCESS"[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32550199089/job/96975573249"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"repo-checks / build-test"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T04:43:15Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"COMPLETED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"2026-08-22T04:38:05Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m"SUCCESS"[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32550199089/job/96975573421"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"rust-ci / Detect changed areas"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T04:37:50Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"COMPLETED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32550199089/job/96980697508"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"rust-ci / Format / etc"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T04:38:05Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"QUEUED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32550199089/job/96980697528"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"rust-ci / cargo shear"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T04:38:05Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"QUEUED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"2026-08-22T04:38:05Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m"SKIPPED"[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32550199089/job/96980698169"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"rust-ci / Argument comment lint package"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T04:38:06Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"COMPLETED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32550199089/job/96980697540"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"rust-ci / Argument comment lint - Linux"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T04:38:05Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"QUEUED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32550199089/job/96980697539"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"rust-ci / Argument comment lint - macOS"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T04:38:05Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"QUEUED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32550199089/job/96980697538"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"rust-ci / Argument comment lint - Windows"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T04:38:05Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"QUEUED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"2026-08-22T04:35:26Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m"SUCCESS"[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32550199089/job/96975573406"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"sdk / python-sdk"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T04:34:15Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"COMPLETED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/actions/runs/32550199089/job/96975573400"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"sdk / sdks"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T04:43:18Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"IN_PROGRESS"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"blocking-ci"[m
+    [1;37m}[m
+  [1;37m][m[1;37m,[m
+  [1;34m"title"[m[1;37m:[m [32m"Bump datamodel-code-generator from 0.31.2 to 0.64.0 in /sdk/python in the uv group across 1 directory"[m[1;37m,[m
+  [1;34m"url"[m[1;37m:[m [32m"https://github.com/balajirajput96/codex/pull/25"[m
+[1;37m}[m
+--- checks ---
+Build ptrcomp-sandbox x86_64-apple-darwin	fail	54m49s	https://github.com/balajirajput96/codex/actions/runs/32550198983/job/96980439893	
+Build release x86_64-apple-darwin	fail	54m53s	https://github.com/balajirajput96/codex/actions/runs/32550198983/job/96980439885	
+Bazel / Bazel clippy on macos-latest for aarch64-apple-darwin	pending	0	https://github.com/balajirajput96/codex/actions/runs/32550199089/job/96975573333	
+Bazel / Bazel clippy on ubuntu-24.04 for x86_64-unknown-linux-gnu	pending	0	https://github.com/balajirajput96/codex/actions/runs/32550199089/job/96975573332	
+Bazel / Bazel test on macos-latest for aarch64-apple-darwin	pending	0	https://github.com/balajirajput96/codex/actions/runs/32550199089/job/96975573366	
+Bazel / Bazel test on macos-latest for x86_64-apple-darwin	pending	0	https://github.com/balajirajput96/codex/actions/runs/32550199089/job/96975573370	
+Bazel / Bazel test on ubuntu-24.04 for x86_64-unknown-linux-gnu	pending	0	https://github.com/balajirajput96/codex/actions/runs/32550199089/job/96975573354	
+Bazel / Bazel test on ubuntu-24.04 for x86_64-unknown-linux-musl	pending	0	https://github.com/balajirajput96/codex/actions/runs/32550199089/job/96975573340	
+Bazel / Bazel test on windows-latest for x86_64-pc-windows-gnullvm	pending	0	https://github.com/balajirajput96/codex/actions/runs/32550199089/job/96986454245	
+Bazel / Verify release build on macos-latest for aarch64-apple-darwin	pending	0	https://github.com/balajirajput96/codex/actions/runs/32550199089/job/96975573323	
+Bazel / Verify release build on ubuntu-24.04 for x86_64-unknown-linux-gnu	pending	0	https://github.com/balajirajput96/codex/actions/runs/32550199089/job/96975573339	
+Build ptrcomp-sandbox aarch64-apple-darwin	pending	0	https://github.com/balajirajput96/codex/actions/runs/32550198983/job/96980439888	
+Build ptrcomp-sandbox aarch64-unknown-linux-gnu	pending	0	https://github.com/balajirajput96/codex/actions/runs/32550198983/job/96980439921	
+Build ptrcomp-sandbox aarch64-unknown-linux-musl	pending	0	https://github.com/balajirajput96/codex/actions/runs/32550198983/job/96980439916	
+Build ptrcomp-sandbox x86_64-unknown-linux-gnu	pending	0	https://github.com/balajirajput96/codex/actions/runs/32550198983/job/96980439922	
+Build ptrcomp-sandbox x86_64-unknown-linux-musl	pending	0	https://github.com/balajirajput96/codex/actions/runs/32550198983/job/96980439946	
+Build release aarch64-apple-darwin	pending	0	https://github.com/balajirajput96/codex/actions/runs/32550198983/job/96980439950	
+Build release aarch64-unknown-linux-gnu	pending	0	https://github.com/balajirajput96/codex/actions/runs/32550198983/job/96980439881	
+Build release aarch64-unknown-linux-musl	pending	0	https://github.com/balajirajput96/codex/actions/runs/32550198983/job/96980439886	
+Build release x86_64-unknown-linux-gnu	pending	0	https://github.com/balajirajput96/codex/actions/runs/32550198983/job/96980439906	
+Build release x86_64-unknown-linux-musl	pending	0	https://github.com/balajirajput96/codex/actions/runs/32550198983/job/96980439878	
+rust-ci / Argument comment lint - Linux	pending	0	https://github.com/balajirajput96/codex/actions/runs/32550199089/job/96980697540	
+rust-ci / Argument comment lint - Windows	pending	0	https://github.com/balajirajput96/codex/actions/runs/32550199089/job/96980697538	
+rust-ci / Argument comment lint - macOS	pending	0	https://github.com/balajirajput96/codex/actions/runs/32550199089/job/96980697539	
+rust-ci / Format / etc	pending	0	https://github.com/balajirajput96/codex/actions/runs/32550199089/job/96980697508	
+rust-ci / cargo shear	pending	0	https://github.com/balajirajput96/codex/actions/runs/32550199089/job/96980697528	
+Bazel / Bazel clippy on windows-latest for x86_64-pc-windows-gnullvm	pass	1h1m33s	https://github.com/balajirajput96/codex/actions/runs/32550199089/job/96975573320	
+Bazel / Bazel test on windows-latest for x86_64-pc-windows-msvc (native main)	skipping	0	https://github.com/balajirajput96/codex/actions/runs/32550199089/job/96975573722	
+sdk / sdks	pending	0	https://github.com/balajirajput96/codex/actions/runs/32550199089/job/96975573400	
+cla	skipping	0	https://github.com/balajirajput96/codex/actions/runs/32550197046/job/96975583025	
+rust-ci / Argument comment lint package	skipping	0	https://github.com/balajirajput96/codex/actions/runs/32550199089/job/96980698169	
+Build ptrcomp-sandbox ${{ matrix.target }} from source	skipping	0	https://github.com/balajirajput96/codex/actions/runs/32550198983/job/96980440391	
+Bazel / Bazel test on windows-latest for x86_64-pc-windows-gnullvm shard 1/4	pass	41m2s	https://github.com/balajirajput96/codex/actions/runs/32550199089/job/96975573384	
+Bazel / Bazel test on windows-latest for x86_64-pc-windows-gnullvm shard 2/4	pass	41m39s	https://github.com/balajirajput96/codex/actions/runs/32550199089/job/96975573372	
+Bazel / Bazel test on windows-latest for x86_64-pc-windows-gnullvm shard 3/4	pass	33m28s	https://github.com/balajirajput96/codex/actions/runs/32550199089/job/96975573389	
+Bazel / Bazel test on windows-latest for x86_64-pc-windows-gnullvm shard 4/4	pass	38m20s	https://github.com/balajirajput96/codex/actions/runs/32550199089/job/96975573371	
+Bazel / Verify release build on windows-latest for x86_64-pc-windows-gnullvm	pass	51m26s	https://github.com/balajirajput96/codex/actions/runs/32550199089/job/96975573344	
+Blob size policy / Blob size policy	pass	1m8s	https://github.com/balajirajput96/codex/actions/runs/32550199089/job/96975573385	
+Codespell / Check for spelling errors	pass	24s	https://github.com/balajirajput96/codex/actions/runs/32550199089/job/96975573397	
+cargo-deny / cargo-deny	pass	1m21s	https://github.com/balajirajput96/codex/actions/runs/32550199089/job/96975573388	
+metadata	pass	19s	https://github.com/balajirajput96/codex/actions/runs/32550198983/job/96975572830	
+repo-checks / build-test	pass	1m1s	https://github.com/balajirajput96/codex/actions/runs/32550199089/job/96975573249	
+rust-ci / Detect changed areas	pass	15s	https://github.com/balajirajput96/codex/actions/runs/32550199089/job/96975573421	
+sdk / python-sdk	pass	1m11s	https://github.com/balajirajput96/codex/actions/runs/32550199089/job/96975573406	
+--- base ref ---
+[1;38m{[m
+[1;34m"default_branch"[m[1;38m:[m [32m"main"[m[1;38m,[m
+[1;34m"updated_at"[m[1;38m:[m [32m"2026-08-22T05:41:47Z"[m
+[1;38m}[m
+[1;38m{[m
+[1;34m"ref"[m[1;38m:[m [32m"refs/heads/main"[m[1;38m,[m
+[1;34m"sha"[m[1;38m:[m [32m"d4d2e209480001a4fa1124dd8c8aa13a6c4e0977"[m
+[1;38m}[m
+--- protection summary ---
+[1;37m{[m
+  [1;34m"message"[m[1;37m:[m [32m"Branch not protected"[m[1;37m,[m
+  [1;34m"documentation_url"[m[1;37m:[m [32m"https://docs.github.com/rest/branches/branch-protection#get-branch-protection"[m[1;37m,[m
+  [1;34m"status"[m[1;37m:[m [32m"404"[m
+[1;37m}[m
+gh: Branch not protected (HTTP 404)
+=== PR github-mcp-server-#61 ===
+[1;37m{[m
+  [1;34m"baseRefName"[m[1;37m:[m [32m"main"[m[1;37m,[m
+  [1;34m"baseRefOid"[m[1;37m:[m [32m"e041e15541e45d411e8629b32378715bb51538b4"[m[1;37m,[m
+  [1;34m"headRefName"[m[1;37m:[m [32m"fix-email-validation-9994136940113406564"[m[1;37m,[m
+  [1;34m"headRefOid"[m[1;37m:[m [32m"46e96586a91ec618b707b7f71463b1d54664e6ce"[m[1;37m,[m
+  [1;34m"isDraft"[m[1;37m:[m [33mtrue[m[1;37m,[m
+  [1;34m"mergeStateStatus"[m[1;37m:[m [32m"UNSTABLE"[m[1;37m,[m
+  [1;34m"mergeable"[m[1;37m:[m [32m"MERGEABLE"[m[1;37m,[m
+  [1;34m"number"[m[1;37m:[m 61[1;37m,[m
+  [1;34m"reviewDecision"[m[1;37m:[m [32m""[m[1;37m,[m
+  [1;34m"state"[m[1;37m:[m [32m"OPEN"[m[1;37m,[m
+  [1;34m"statusCheckRollup"[m[1;37m:[m [1;37m[[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"2026-08-22T04:53:29Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m"SUCCESS"[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/github-mcp-server-/actions/runs/32550879420/job/96977282380"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Health Check & Validation"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T04:53:09Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"COMPLETED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m".github/workflows/auto-deploy.yml"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"2026-08-22T05:12:05Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m"SUCCESS"[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/github-mcp-server-/actions/runs/32550879441/job/96977282419"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"test (20)"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T05:11:47Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"COMPLETED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"CI/CD Pipeline"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"2026-08-22T04:50:15Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m"SUCCESS"[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/github-mcp-server-/actions/runs/32550879450/job/96977282527"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Analyze (actions)"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T04:49:37Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"COMPLETED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"CodeQL Advanced"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"2026-08-22T05:04:43Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m"SUCCESS"[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/github-mcp-server-/actions/runs/32550879464/job/96977282428"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Scan tracked content for secrets"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T05:04:34Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"COMPLETED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"Secret Scanning"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"2026-08-22T05:23:15Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m"SUCCESS"[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/github-mcp-server-/actions/runs/32550879441/job/96977282409"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"test (24)"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T05:22:59Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"COMPLETED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"CI/CD Pipeline"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"2026-08-22T04:54:29Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m"SUCCESS"[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/github-mcp-server-/actions/runs/32550879450/job/96977282498"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Analyze (javascript-typescript)"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T04:53:33Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"COMPLETED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"CodeQL Advanced"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/github-mcp-server-/actions/runs/32550879420/job/96982390401"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Test Deployment Configuration"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T04:53:29Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"QUEUED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m".github/workflows/auto-deploy.yml"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"2026-08-22T05:23:15Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m"SKIPPED"[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/github-mcp-server-/actions/runs/32550879441/job/96985730406"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"docker"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T05:23:16Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"COMPLETED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"CI/CD Pipeline"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"2026-08-22T05:06:38Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m"SUCCESS"[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/github-mcp-server-/actions/runs/32550879464/job/96977282546"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Check common credential patterns"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T05:06:33Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"COMPLETED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"Secret Scanning"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/github-mcp-server-/actions/runs/32550879420/job/96982390366"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Verify FREE Tier Setup"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T04:53:29Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"QUEUED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m".github/workflows/auto-deploy.yml"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"2026-08-22T05:23:15Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m"SKIPPED"[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/github-mcp-server-/actions/runs/32550879441/job/96985730628"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"release"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T05:23:16Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"COMPLETED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"CI/CD Pipeline"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"2026-08-22T04:50:10Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m"SUCCESS"[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/github-mcp-server-/runs/96982010769"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"CodeQL"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T04:50:07Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"COMPLETED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m""[m
+    [1;37m}[m
+  [1;37m][m[1;37m,[m
+  [1;34m"title"[m[1;37m:[m [32m"Fix email placeholder security validation to enforce example domain usage"[m[1;37m,[m
+  [1;34m"url"[m[1;37m:[m [32m"https://github.com/balajirajput96/github-mcp-server-/pull/61"[m
+[1;37m}[m
+--- checks ---
+docker	skipping	0	https://github.com/balajirajput96/github-mcp-server-/actions/runs/32550879441/job/96985730406	
+release	skipping	0	https://github.com/balajirajput96/github-mcp-server-/actions/runs/32550879441/job/96985730628	
+Analyze (javascript-typescript)	pass	56s	https://github.com/balajirajput96/github-mcp-server-/actions/runs/32550879450/job/96977282498	
+Check common credential patterns	pass	5s	https://github.com/balajirajput96/github-mcp-server-/actions/runs/32550879464/job/96977282546	
+Scan tracked content for secrets	pass	9s	https://github.com/balajirajput96/github-mcp-server-/actions/runs/32550879464/job/96977282428	
+test (20)	pass	18s	https://github.com/balajirajput96/github-mcp-server-/actions/runs/32550879441/job/96977282419	
+test (24)	pass	16s	https://github.com/balajirajput96/github-mcp-server-/actions/runs/32550879441/job/96977282409	
+Test Deployment Configuration	pending	0	https://github.com/balajirajput96/github-mcp-server-/actions/runs/32550879420/job/96982390401	
+Verify FREE Tier Setup	pending	0	https://github.com/balajirajput96/github-mcp-server-/actions/runs/32550879420/job/96982390366	
+Analyze (actions)	pass	38s	https://github.com/balajirajput96/github-mcp-server-/actions/runs/32550879450/job/96977282527	
+CodeQL	pass	3s	https://github.com/balajirajput96/github-mcp-server-/runs/96982010769	
+Health Check & Validation	pass	20s	https://github.com/balajirajput96/github-mcp-server-/actions/runs/32550879420/job/96977282380	
+--- base ref ---
+[1;38m{[m
+[1;34m"default_branch"[m[1;38m:[m [32m"main"[m[1;38m,[m
+[1;34m"updated_at"[m[1;38m:[m [32m"2026-08-21T19:14:43Z"[m
+[1;38m}[m
+[1;38m{[m
+[1;34m"ref"[m[1;38m:[m [32m"refs/heads/main"[m[1;38m,[m
+[1;34m"sha"[m[1;38m:[m [32m"e041e15541e45d411e8629b32378715bb51538b4"[m
+[1;38m}[m
+--- protection summary ---
+[1;37m{[m
+  [1;34m"message"[m[1;37m:[m [32m"Branch not protected"[m[1;37m,[m
+  [1;34m"documentation_url"[m[1;37m:[m [32m"https://docs.github.com/rest/branches/branch-protection#get-branch-protection"[m[1;37m,[m
+  [1;34m"status"[m[1;37m:[m [32m"404"[m
+[1;37m}[m
+gh: Branch not protected (HTTP 404)
+=== PR n8n#13 ===
+[1;37m{[m
+  [1;34m"baseRefName"[m[1;37m:[m [32m"master"[m[1;37m,[m
+  [1;34m"baseRefOid"[m[1;37m:[m [32m"5845673aa2f1868131423a6d81bfecba3e7f3c4e"[m[1;37m,[m
+  [1;34m"headRefName"[m[1;37m:[m [32m"dependabot/npm_and_yarn/npm_and_yarn-de6e890ec6"[m[1;37m,[m
+  [1;34m"headRefOid"[m[1;37m:[m [32m"4f11c43a103620781136cbbc8d66640070b80932"[m[1;37m,[m
+  [1;34m"isDraft"[m[1;37m:[m [33mfalse[m[1;37m,[m
+  [1;34m"mergeStateStatus"[m[1;37m:[m [32m"UNSTABLE"[m[1;37m,[m
+  [1;34m"mergeable"[m[1;37m:[m [32m"MERGEABLE"[m[1;37m,[m
+  [1;34m"number"[m[1;37m:[m 13[1;37m,[m
+  [1;34m"reviewDecision"[m[1;37m:[m [32m""[m[1;37m,[m
+  [1;34m"state"[m[1;37m:[m [32m"OPEN"[m[1;37m,[m
+  [1;34m"statusCheckRollup"[m[1;37m:[m [1;37m[[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"2026-08-22T05:13:25Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m"FAILURE"[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/n8n/actions/runs/32551702368/job/96979406942"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Verify CLA signatures"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T05:13:19Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"COMPLETED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"CI: CLA Check"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"2026-08-22T04:26:27Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m"SKIPPED"[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/n8n/actions/runs/32551703485/job/96979409982"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"enforce-bundle-branches-only-in-private"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T04:26:27Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"COMPLETED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"CI: Check merge source and destination"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"2026-08-22T04:26:27Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m"SKIPPED"[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/n8n/actions/runs/32551703466/job/96979409911"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Handle /size-limit-override"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T04:26:27Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"COMPLETED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"CI: PR Quality Checks"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"2026-08-22T05:26:29Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m"SUCCESS"[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/n8n/actions/runs/32551703517/job/96979409429"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"build"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T05:19:47Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"COMPLETED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"Build: Windows"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"2026-08-22T05:26:38Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m"SUCCESS"[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/n8n/actions/runs/32551703486/job/96979409436"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Verify reviewer automation credentials"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T05:26:34Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"COMPLETED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"CI: Owners Assign Reviewers"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"2026-08-22T05:15:01Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m"SUCCESS"[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/n8n/actions/runs/32551703476/job/96979409368"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Verify reviewer automation credentials"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T05:14:58Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"COMPLETED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"CI: Owners Review Recommendations"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"2026-08-22T05:26:38Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m"SKIPPED"[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/n8n/actions/runs/32551703486/job/96986098070"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Assign reviewers"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T05:26:38Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"COMPLETED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"CI: Owners Assign Reviewers"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"2026-08-22T05:15:01Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m"SKIPPED"[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/n8n/actions/runs/32551703476/job/96984840647"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Recommend reviewers"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T05:15:02Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"COMPLETED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"CI: Owners Review Recommendations"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"2026-08-22T04:26:27Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m"SKIPPED"[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/n8n/actions/runs/32551703466/job/96979410069"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"PR Size Limit"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T04:26:27Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"COMPLETED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"CI: PR Quality Checks"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"2026-08-22T05:13:42Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m"SUCCESS"[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/n8n/actions/runs/32551703466/job/96979409379"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Detect Changes"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T05:13:27Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"COMPLETED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"CI: PR Quality Checks"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/n8n/actions/runs/32551703466/job/96979409548"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Do Not Merge"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T04:26:27Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"QUEUED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"CI: PR Quality Checks"[m
+    [1;37m}[m[1;37m,[m
+    [1;37m{[m
+      [1;34m"__typename"[m[1;37m:[m [32m"CheckRun"[m[1;37m,[m
+      [1;34m"completedAt"[m[1;37m:[m [32m"0001-01-01T00:00:00Z"[m[1;37m,[m
+      [1;34m"conclusion"[m[1;37m:[m [32m""[m[1;37m,[m
+      [1;34m"detailsUrl"[m[1;37m:[m [32m"https://github.com/balajirajput96/n8n/actions/runs/32551703466/job/96984697567"[m[1;37m,[m
+      [1;34m"name"[m[1;37m:[m [32m"Static Analysis"[m[1;37m,[m
+      [1;34m"startedAt"[m[1;37m:[m [32m"2026-08-22T05:13:43Z"[m[1;37m,[m
+      [1;34m"status"[m[1;37m:[m [32m"QUEUED"[m[1;37m,[m
+      [1;34m"workflowName"[m[1;37m:[m [32m"CI: PR Quality Checks"[m
+    [1;37m}[m
+  [1;37m][m[1;37m,[m
+  [1;34m"title"[m[1;37m:[m [32m"build(deps): bump the npm_and_yarn group across 5 directories with 6 updates"[m[1;37m,[m
+  [1;34m"url"[m[1;37m:[m [32m"https://github.com/balajirajput96/n8n/pull/13"[m
+[1;37m}[m
+--- checks ---
+Verify CLA signatures	fail	6s	https://github.com/balajirajput96/n8n/actions/runs/32551702368/job/96979406942	
+Assign reviewers	skipping	0	https://github.com/balajirajput96/n8n/actions/runs/32551703486/job/96986098070	
+Verify reviewer automation credentials	pass	4s	https://github.com/balajirajput96/n8n/actions/runs/32551703486/job/96979409436	
+build	pass	6m42s	https://github.com/balajirajput96/n8n/actions/runs/32551703517/job/96979409429	
+Recommend reviewers	skipping	0	https://github.com/balajirajput96/n8n/actions/runs/32551703476/job/96984840647	
+Verify reviewer automation credentials	pass	3s	https://github.com/balajirajput96/n8n/actions/runs/32551703476/job/96979409368	
+Static Analysis	pending	0	https://github.com/balajirajput96/n8n/actions/runs/32551703466/job/96984697567	
+Detect Changes	pass	15s	https://github.com/balajirajput96/n8n/actions/runs/32551703466/job/96979409379	
+Handle /size-limit-override	skipping	0	https://github.com/balajirajput96/n8n/actions/runs/32551703466/job/96979409911	
+PR Size Limit	skipping	0	https://github.com/balajirajput96/n8n/actions/runs/32551703466/job/96979410069	
+enforce-bundle-branches-only-in-private	skipping	0	https://github.com/balajirajput96/n8n/actions/runs/32551703485/job/96979409982	
+Do Not Merge	pending	0	https://github.com/balajirajput96/n8n/actions/runs/32551703466/job/96979409548	
+--- base ref ---
+[1;38m{[m
+[1;34m"default_branch"[m[1;38m:[m [32m"master"[m[1;38m,[m
+[1;34m"updated_at"[m[1;38m:[m [32m"2026-08-22T03:41:21Z"[m
+[1;38m}[m
+[1;38m{[m
+[1;34m"ref"[m[1;38m:[m [32m"refs/heads/master"[m[1;38m,[m
+[1;34m"sha"[m[1;38m:[m [32m"5845673aa2f1868131423a6d81bfecba3e7f3c4e"[m
+[1;38m}[m
+--- protection summary ---
+[1;37m{[m
+  [1;34m"message"[m[1;37m:[m [32m"Branch not protected"[m[1;37m,[m
+  [1;34m"documentation_url"[m[1;37m:[m [32m"https://docs.github.com/rest/branches/branch-protection#get-branch-protection"[m[1;37m,[m
+  [1;34m"status"[m[1;37m:[m [32m"404"[m
+[1;37m}[m
+gh: Branch not protected (HTTP 404)
