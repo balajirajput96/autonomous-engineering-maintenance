@@ -1,12 +1,14 @@
 # Autonomous Engineering Maintenance
 
-This private repository is the durable control plane for the existing `balajirajput96` engineering-repair workflow. It stores the maintenance configuration, the deterministic cycle engine, GitHub Actions scheduling, and machine-readable state. Existing repository repairs, reports, diagnostics, and validation artifacts remain in `/home/ubuntu/github_repair_workspace`; this repository reuses their operating assumptions rather than copying their large logs into every cycle.
+This private repository is the durable control plane for the existing `balajirajput96` engineering-repair workflow. It stores the maintenance configuration, the deterministic cycle engine, GitHub Actions scheduling, and machine-readable state. Verified local repair checkouts are available in `/home/ubuntu/repo-fixes`, while the preserved repair evidence is documented in [`docs/recovery-manifest.md`](docs/recovery-manifest.md). The repository reuses their operating assumptions rather than copying large or potentially sensitive terminal logs into every cycle.
 
 ## Execution model
 
 A GitHub Actions workflow runs at minute 17 of every hour and can also be started manually. Each run loads the previous state from `state/latest.json`, increments the cycle number, inventories all open pull requests across the account, classifies each PR as `clean`, `non_clean`, `conflicting`, or `unknown`, collects check-rollup summaries for actionable or uncertain PRs, writes `state/cycles/cycle-NNNN.json`, updates `state/latest.json`, and appends the current summary to `state/summary.tsv`.
 
 The configured cap is **2,400 cycles**, which represents 100 days at hourly frequency. Once the cap is reached, the engine records `cycle_limit_reached` and stops doing inventory work. The workflow retains the latest state and the per-cycle JSON records so later cycles can resume from the last durable number rather than restarting from zero.
+
+> **Authoritative state location:** the scheduled workflow publishes runtime state to the dedicated `maintenance-state` branch. Copies of `state/` on `main` are source fixtures and may intentionally lag the current checkpoint. Every maintenance or repair process must load `origin/maintenance-state:state/latest.json` before choosing work.
 
 ## Safety defaults
 
@@ -39,4 +41,4 @@ The local run should be performed from a clean branch when its state is intended
 
 ## Existing environment preservation
 
-The previous repair workspace contains the authoritative repair report, PR inventories, CI diagnostics, CLI smoke results, integration audit, and historical repair scripts. The maintenance repository does not delete or rewrite those files. Its role is to provide a small, durable hourly state machine that points future work toward the latest observed state.
+The verified local recovery material consists of clean checkouts under `/home/ubuntu/repo-fixes`, a reviewed repair report at `/home/ubuntu/github_repair_validation_report.md`, and sandbox-local terminal archives under `/home/ubuntu/terminal_full_output`. The maintenance repository does not delete or rewrite those files. It records their non-secret provenance in [`docs/recovery-manifest.md`](docs/recovery-manifest.md), while GitHub remains the source of truth for committed code and the `maintenance-state` branch remains the source of truth for runtime state. Raw terminal archives and credential material are not committed.

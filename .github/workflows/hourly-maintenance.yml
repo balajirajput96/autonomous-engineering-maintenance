@@ -54,6 +54,7 @@ jobs:
       - name: Validate state files
         run: |
           python3 -m json.tool state/latest.json >/dev/null
+          python3 scripts/validate_state_contract.py
           python3 - <<'PY'
           import csv
           from pathlib import Path
