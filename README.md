@@ -24,7 +24,7 @@ The first local cycle completed with 249 repositories, 303 open pull requests, 2
 
 ## State contract
 
-`config/targets.json` is the auditable policy file. `state/latest.json` is the most recent complete or failed cycle. `state/cycles/cycle-NNNN.json` is an immutable per-cycle record. `state/summary.tsv` is the compact append-style index suitable for quick inspection. The JSON record contains timestamps, cycle number, maximum cycle count, repository count, open-PR count, category counts, check summaries, errors, and the mutation policy used for the cycle.
+`config/targets.json` is the auditable policy file. `state/latest.json` is the most recent complete or failed cycle. `state/cycles/cycle-NNNN.json` is an immutable per-cycle record. `state/summary.tsv` is a compact index rebuilt from all immutable cycle records on every run, so stale or partial appends cannot silently erase history. The workflow also runs `scripts/test_summary_persistence.py` to verify ordering, tab-delimited output, and error-count preservation before committing state. The JSON record contains timestamps, cycle number, maximum cycle count, repository count, open-PR count, category counts, check summaries, errors, and the mutation policy used for the cycle.
 
 ## Local validation
 

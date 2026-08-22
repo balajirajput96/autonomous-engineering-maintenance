@@ -63,6 +63,7 @@ jobs:
           assert rows, "state summary is empty"
           assert int(rows[-1]["cycle"]) <= 2400, "cycle cap exceeded"
           PY
+          python3 scripts/test_summary_persistence.py
 
       - name: Commit durable state to the dedicated branch
         env:
