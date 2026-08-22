@@ -12,15 +12,17 @@
   ],
   "active": true,
   "counts": {
-    "clean": 287,
-    "non_clean": 22
+    "clean": 285,
+    "conflicting": 2,
+    "non_clean": 18,
+    "unknown": 1
   },
-  "cycle": 30,
+  "cycle": 29,
   "errors": [],
-  "finished_at": "2026-08-22T04:30:17.048031+00:00",
+  "finished_at": "2026-08-22T03:47:41.966003+00:00",
   "max_cycles": 2400,
   "mode": "diagnostics-first",
-  "open_pr_count": 309,
+  "open_pr_count": 306,
   "owner": "balajirajput96",
   "records": [
     {
@@ -1284,27 +1286,6 @@
       "url": "https://github.com/balajirajput96/ai-agents-for-beginners/pull/1"
     },
     {
-      "base": "main",
-      "base_sha": "0485d227a23577b1b5f83a44b9dadeb6d495b166",
-      "category": "non_clean",
-      "checks": {
-        "checks": 0,
-        "error": "command failed (1): gh pr view 1 --repo balajirajput96/ai-assistant-app --json statusCheckRollup\nstdout=\nstderr=GraphQL: Resource not accessible by integration (repository.pullRequest.statusCheckRollup.nodes.0.commit.statusCheckRollup)\n",
-        "failures": 0,
-        "pending": 0
-      },
-      "draft": false,
-      "head": "integration/orbit-current-snapshot",
-      "head_sha": "f75928c6e63a3e7502809fd1e7bfff513d324529",
-      "merge_state": "UNSTABLE",
-      "mergeable": "MERGEABLE",
-      "number": 1,
-      "repository": "balajirajput96/ai-assistant-app",
-      "state": "OPEN",
-      "title": "feat: integrate Orbit export and continuation automation",
-      "url": "https://github.com/balajirajput96/ai-assistant-app/pull/1"
-    },
-    {
       "base": "master",
       "base_sha": "7fba5b7c6f33f9f9a329ec0f6b4282b980bdb772",
       "category": "clean",
@@ -1546,28 +1527,19 @@
     },
     {
       "base": "main",
-      "base_sha": "2690b6d8c48e88177e66cd6ed9c98a9a5b360030",
-      "category": "clean",
-      "draft": false,
-      "head": "continuation/cycle-0016-20260822",
-      "head_sha": "8b24d2f5820313aecfa56b8783293675a5518441",
-      "merge_state": "CLEAN",
-      "mergeable": "MERGEABLE",
-      "number": 6,
-      "repository": "balajirajput96/autonomous-engineering-maintenance",
-      "state": "OPEN",
-      "title": "chore(state): record diagnostics-first cycle 16 checkpoint",
-      "url": "https://github.com/balajirajput96/autonomous-engineering-maintenance/pull/6"
-    },
-    {
-      "base": "main",
       "base_sha": "ef926e9d84672a42502ce1ca066db245cc920ce7",
-      "category": "clean",
+      "category": "unknown",
+      "checks": {
+        "checks": 0,
+        "error": "command failed (1): gh pr view 4 --repo balajirajput96/autonomous-engineering-maintenance --json statusCheckRollup\nstdout=\nstderr=GraphQL: Resource not accessible by integration (repository.pullRequest.statusCheckRollup.nodes.0.commit.statusCheckRollup)\n",
+        "failures": 0,
+        "pending": 0
+      },
       "draft": false,
       "head": "continuation/cycle-0015-20260822",
       "head_sha": "8af239e0306288aaf73272dbeb500e8ceeb00489",
-      "merge_state": "CLEAN",
-      "mergeable": "MERGEABLE",
+      "merge_state": "UNKNOWN",
+      "mergeable": "UNKNOWN",
       "number": 4,
       "repository": "balajirajput96/autonomous-engineering-maintenance",
       "state": "OPEN",
@@ -1834,9 +1806,9 @@
       "base_sha": "549cd8c667b18da411358234d9c5243e53d1e8a4",
       "category": "non_clean",
       "checks": {
-        "checks": 32,
+        "checks": 24,
         "failures": 0,
-        "pending": 18
+        "pending": 20
       },
       "draft": false,
       "head": "fix/windows-code-mode-nextest-timeout",
@@ -1851,16 +1823,16 @@
     },
     {
       "base": "main",
-      "base_sha": "549cd8c667b18da411358234d9c5243e53d1e8a4",
+      "base_sha": "4fe0ae55649903f42a60912746222c123a790e93",
       "category": "non_clean",
       "checks": {
-        "checks": 24,
-        "failures": 0,
-        "pending": 22
+        "checks": 35,
+        "failures": 10,
+        "pending": 0
       },
       "draft": false,
       "head": "dependabot/npm_and_yarn/npm_and_yarn-343aa972c6",
-      "head_sha": "ab4084c04eeee11cfd41fa8771dee768c4d80052",
+      "head_sha": "b06320484703b16d9afa1b9d9f42b55197de7225",
       "merge_state": "UNSTABLE",
       "mergeable": "MERGEABLE",
       "number": 49,
@@ -1871,18 +1843,18 @@
     },
     {
       "base": "main",
-      "base_sha": "549cd8c667b18da411358234d9c5243e53d1e8a4",
-      "category": "non_clean",
+      "base_sha": "4fe0ae55649903f42a60912746222c123a790e93",
+      "category": "conflicting",
       "checks": {
-        "checks": 24,
-        "failures": 0,
-        "pending": 22
+        "checks": 33,
+        "failures": 7,
+        "pending": 3
       },
       "draft": true,
       "head": "fix/native-msvc-v8-allocator-link",
-      "head_sha": "06c567165d49783c6f57ba955554b5f5fe7a3b4b",
-      "merge_state": "UNSTABLE",
-      "mergeable": "MERGEABLE",
+      "head_sha": "1f1367fae740429b155f49c9fd81f2720f8c359a",
+      "merge_state": "DIRTY",
+      "mergeable": "CONFLICTING",
       "number": 48,
       "repository": "balajirajput96/codex",
       "state": "OPEN",
@@ -1891,18 +1863,18 @@
     },
     {
       "base": "main",
-      "base_sha": "549cd8c667b18da411358234d9c5243e53d1e8a4",
-      "category": "non_clean",
+      "base_sha": "4fe0ae55649903f42a60912746222c123a790e93",
+      "category": "conflicting",
       "checks": {
-        "checks": 24,
-        "failures": 0,
-        "pending": 22
+        "checks": 46,
+        "failures": 18,
+        "pending": 0
       },
       "draft": false,
       "head": "dependabot/uv/sdk/python/uv-8382d04023",
-      "head_sha": "c0f3f2e954080b0d0620dbea726bfcb197a2ecc5",
-      "merge_state": "UNSTABLE",
-      "mergeable": "MERGEABLE",
+      "head_sha": "25bb9215e67c385ad3885a778a9466b8d3686025",
+      "merge_state": "DIRTY",
+      "mergeable": "CONFLICTING",
       "number": 25,
       "repository": "balajirajput96/codex",
       "state": "OPEN",
@@ -2193,26 +2165,6 @@
       "state": "OPEN",
       "title": "build(deps): bump github.com/go-viper/mapstructure/v2 from 2.2.1 to 2.4.0 in the go_modules group across 1 directory",
       "url": "https://github.com/balajirajput96/github-mcp-server/pull/2"
-    },
-    {
-      "base": "main",
-      "base_sha": "e041e15541e45d411e8629b32378715bb51538b4",
-      "category": "non_clean",
-      "checks": {
-        "checks": 7,
-        "failures": 0,
-        "pending": 7
-      },
-      "draft": true,
-      "head": "fix-email-validation-9994136940113406564",
-      "head_sha": "46e96586a91ec618b707b7f71463b1d54664e6ce",
-      "merge_state": "UNSTABLE",
-      "mergeable": "MERGEABLE",
-      "number": 61,
-      "repository": "balajirajput96/github-mcp-server-",
-      "state": "OPEN",
-      "title": "Fix email placeholder security validation to enforce example domain usage",
-      "url": "https://github.com/balajirajput96/github-mcp-server-/pull/61"
     },
     {
       "base": "main",
@@ -3271,16 +3223,16 @@
     },
     {
       "base": "master",
-      "base_sha": "5845673aa2f1868131423a6d81bfecba3e7f3c4e",
+      "base_sha": "5bbc0d5e6455c33e3ce7ef72848b57d7e0953bf8",
       "category": "non_clean",
       "checks": {
-        "checks": 9,
-        "failures": 0,
-        "pending": 6
+        "checks": 51,
+        "failures": 4,
+        "pending": 0
       },
       "draft": false,
       "head": "dependabot/npm_and_yarn/npm_and_yarn-de6e890ec6",
-      "head_sha": "4f11c43a103620781136cbbc8d66640070b80932",
+      "head_sha": "c98a42fceed7a1aecf9b09c3b24f7c8b751bc787",
       "merge_state": "UNSTABLE",
       "mergeable": "MERGEABLE",
       "number": 13,
@@ -4770,7 +4722,7 @@
       "url": "https://github.com/balajirajput96/woocommerce/pull/1"
     }
   ],
-  "repository_count": 254,
-  "started_at": "2026-08-22T04:28:16.392583+00:00",
+  "repository_count": 253,
+  "started_at": "2026-08-22T03:45:42.759527+00:00",
   "status": "completed"
 }
