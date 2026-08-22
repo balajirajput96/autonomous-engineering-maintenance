@@ -4826,7 +4826,9 @@
     "cycle17_pr7_rest": "state/evidence/cycle17/pr7-rest.json",
     "cycle17_pr7_reviews": "state/evidence/cycle17/pr7-reviews.json",
     "cycle17_pr_create": "state/evidence/cycle17/pr-create.txt",
-    "cycle17_main_branch_rest": "state/evidence/cycle17/main-branch-rest.json"
+    "cycle17_main_branch_rest": "state/evidence/cycle17/main-branch-rest.json",
+    "cycle17_pr7_final_rest": "state/evidence/cycle17/pr7-final-rest.json",
+    "cycle17_pr7_final_reviews": "state/evidence/cycle17/pr7-final-reviews.json"
   },
   "targeted_recheck": {
     "prior_observation_count": 20,
@@ -4956,6 +4958,16 @@
     "remote_pr_verified": true,
     "review_status": "awaiting_required_review",
     "approved_reviews": 0,
-    "changes_requested_reviews": 0
+    "changes_requested_reviews": 0,
+    "observed_at": "2026-08-22T04:54:34Z",
+    "observed_head_sha": "8c136e2791696f124281772e8c7ef045993b5139",
+    "observed_base_sha": "2690b6d8c48e88177e66cd6ed9c98a9a5b360030",
+    "head_sha_at_observation": "8c136e2791696f124281772e8c7ef045993b5139",
+    "base_sha_at_observation": "2690b6d8c48e88177e66cd6ed9c98a9a5b360030",
+    "current_mergeable": true,
+    "current_mergeable_state": "unstable",
+    "current_rebaseable": true,
+    "review_count": 1,
+    "commented_reviews": 1
   }
 }
