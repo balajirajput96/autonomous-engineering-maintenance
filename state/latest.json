@@ -4822,7 +4822,11 @@
     "cycle17_summary_root_cause": "state/evidence/cycle17/summary-root-cause.txt",
     "cycle17_script_diff": "state/evidence/cycle17/maintenance-script-diff.txt",
     "cycle17_readme": "state/evidence/cycle17/README.md",
-    "terminal_transcripts": "/home/ubuntu/terminal_full_output"
+    "terminal_transcripts": "/home/ubuntu/terminal_full_output",
+    "cycle17_pr7_rest": "state/evidence/cycle17/pr7-rest.json",
+    "cycle17_pr7_reviews": "state/evidence/cycle17/pr7-reviews.json",
+    "cycle17_pr_create": "state/evidence/cycle17/pr-create.txt",
+    "cycle17_main_branch_rest": "state/evidence/cycle17/main-branch-rest.json"
   },
   "targeted_recheck": {
     "prior_observation_count": 20,
@@ -4937,13 +4941,21 @@
   },
   "next_action": "Continue diagnostics-first from cycle 17 after this checkpoint is reviewably published; load this cycle-17 state, recheck only newly changed non-clean or unknown records and check progress, preserve review-only boundaries, and do not rebase, rerun, merge, close, modify protected branches, or bypass reviews without a separately verified safe repair. Stop additional work at cycle 2400 by recording the terminal state.",
   "publication": {
+    "repository": "balajirajput96/autonomous-engineering-maintenance",
     "base_ref": "main",
+    "base_sha": "2690b6d8c48e88177e66cd6ed9c98a9a5b360030",
     "head_ref": "continuation/cycle-0017-20260822",
+    "head_sha": "7a06d7e92db5ba80675005761efecc392c5122e2",
     "default_branch_touched": false,
     "engineering_repositories_touched": false,
     "merged": false,
-    "state": "pending_reviewable_publish",
-    "remote_commit_verified": false,
-    "remote_pr_verified": false
+    "state": "open",
+    "pull_request_number": 7,
+    "pull_request_url": "https://github.com/balajirajput96/autonomous-engineering-maintenance/pull/7",
+    "remote_commit_verified": true,
+    "remote_pr_verified": true,
+    "review_status": "awaiting_required_review",
+    "approved_reviews": 0,
+    "changes_requested_reviews": 0
   }
 }
