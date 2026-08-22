@@ -1,0 +1,62 @@
+{
+  "schemaVersion": "1.0",
+  "mission": "GitHub-centered engineering continuation",
+  "completedCycle": 32,
+  "maximumCycle": 2400,
+  "terminal": false,
+  "nextCycle": 33,
+  "stateBranch": "maintenance-state",
+  "stateCommit": "387ec41b16c8527a75eb27fa86c37b26111d3047",
+  "verifiedAt": "2026-08-22T05:50:48Z",
+  "nextAction": "Reload origin/maintenance-state:state/latest.json, refresh owner default branches and owner-controlled open pull requests, then run the existing diagnostics-first cycle engine once.",
+  "cycle32Result": {
+    "status": "completed",
+    "repositoryCount": 254,
+    "openPullRequestCount": 304,
+    "counts": {
+      "clean": 285,
+      "conflicting": 1,
+      "non_clean": 18
+    },
+    "errors": []
+  },
+  "blockers": [
+    {
+      "target": "balajirajput96/codex#53",
+      "classification": "conflicting",
+      "observed": "Cycle 32 classified the pull request as DIRTY/CONFLICTING; live checks were pending during verification.",
+      "safeAction": "Recheck only; do not automatically rebase or resolve semantic conflicts."
+    },
+    {
+      "target": "balajirajput96/n8n#13",
+      "classification": "non_clean",
+      "observed": "Live checks included a failed CLA verification and a pending static-analysis check.",
+      "safeAction": "Do not rerun or edit the dependency branch automatically; await upstream or human action."
+    },
+    {
+      "target": "balajirajput96/codex#25",
+      "classification": "non_clean",
+      "observed": "Live checks included failed macOS build jobs and many pending matrix jobs.",
+      "safeAction": "Do not rerun or alter runner configuration automatically; recheck status only."
+    }
+  ],
+  "safety": {
+    "automaticRebase": false,
+    "automaticWorkflowRerun": false,
+    "mergeOrClose": false,
+    "reviewBypass": false,
+    "authenticationChanges": false,
+    "branchProtectionChanges": false,
+    "forcePush": false,
+    "billingAndRunnerLimitsRespected": true,
+    "credentialsPersisted": false
+  },
+  "evidence": [
+    "state/cycles/cycle-0032.json",
+    "state/evidence/cycle0032/actionable-records.json",
+    "state/evidence/cycle0032/live-pr-diagnostics.txt",
+    "state/evidence/cycle0032/targeted-validation.txt",
+    "state/evidence/cycle0032/publish-safety.txt",
+    "state/evidence/cycle0032/blockers.md"
+  ]
+}
