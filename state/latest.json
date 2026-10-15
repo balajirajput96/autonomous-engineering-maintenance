@@ -12,14 +12,14 @@
   ],
   "active": true,
   "counts": {
-    "clean": 417,
+    "clean": 416,
     "conflicting": 13,
     "non_clean": 29,
-    "unknown": 1
+    "unknown": 2
   },
-  "cycle": 362,
+  "cycle": 363,
   "errors": [],
-  "finished_at": "2026-10-15T07:28:59.749790+00:00",
+  "finished_at": "2026-10-15T13:28:55.331863+00:00",
   "max_cycles": 2400,
   "mode": "diagnostics-first",
   "open_pr_count": 460,
@@ -6898,12 +6898,17 @@
     {
       "base": "main",
       "base_sha": "4c35a6faa7eee9829a4300a15a0f12ef2bbd95cd",
-      "category": "clean",
+      "category": "unknown",
+      "checks": {
+        "checks": 1,
+        "failures": 0,
+        "pending": 1
+      },
       "draft": true,
       "head": "sentinel/add-requests-timeout-test-13244162962906816922",
       "head_sha": "c39ebf059bbd7ea06b56a19827a40683e5599b30",
-      "merge_state": "CLEAN",
-      "mergeable": "MERGEABLE",
+      "merge_state": "UNKNOWN",
+      "mergeable": "UNKNOWN",
       "number": 37,
       "repository": "balajirajput96/vscode-copilot-cha",
       "state": "OPEN",
@@ -7142,6 +7147,6 @@
     }
   ],
   "repository_count": 266,
-  "started_at": "2026-10-15T07:25:41.758369+00:00",
+  "started_at": "2026-10-15T13:25:21.598241+00:00",
   "status": "completed"
 }
