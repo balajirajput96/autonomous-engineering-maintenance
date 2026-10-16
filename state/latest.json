@@ -12,14 +12,14 @@
   ],
   "active": true,
   "counts": {
-    "clean": 418,
+    "clean": 407,
     "conflicting": 13,
     "non_clean": 29,
-    "unknown": 1
+    "unknown": 12
   },
-  "cycle": 367,
+  "cycle": 368,
   "errors": [],
-  "finished_at": "2026-10-16T05:54:28.989379+00:00",
+  "finished_at": "2026-10-16T11:26:25.134028+00:00",
   "max_cycles": 2400,
   "mode": "diagnostics-first",
   "open_pr_count": 461,
@@ -6823,12 +6823,17 @@
     {
       "base": "main",
       "base_sha": "ac7caf4cfc2449ec4950f2decf92a83030ff49e0",
-      "category": "clean",
+      "category": "unknown",
+      "checks": {
+        "checks": 1,
+        "failures": 0,
+        "pending": 1
+      },
       "draft": false,
       "head": "dependabot/npm_and_yarn/web-app/client/npm_and_yarn-c845c5b3f5",
       "head_sha": "dfeb71c6e54a061e6a515c117abfa888dc51e5c3",
-      "merge_state": "CLEAN",
-      "mergeable": "MERGEABLE",
+      "merge_state": "UNKNOWN",
+      "mergeable": "UNKNOWN",
       "number": 43,
       "repository": "balajirajput96/vscode-copilot-cha",
       "state": "OPEN",
@@ -6838,12 +6843,17 @@
     {
       "base": "main",
       "base_sha": "feb27107fdc2a79f2515dc965094f256678da1bc",
-      "category": "clean",
+      "category": "unknown",
+      "checks": {
+        "checks": 1,
+        "failures": 0,
+        "pending": 1
+      },
       "draft": true,
       "head": "sentinel-add-request-timeouts-2007602738311810286",
       "head_sha": "eff777eb46125bb50c2789ce89fc7e2f17a52b65",
-      "merge_state": "CLEAN",
-      "mergeable": "MERGEABLE",
+      "merge_state": "UNKNOWN",
+      "mergeable": "UNKNOWN",
       "number": 42,
       "repository": "balajirajput96/vscode-copilot-cha",
       "state": "OPEN",
@@ -6853,12 +6863,17 @@
     {
       "base": "main",
       "base_sha": "feb27107fdc2a79f2515dc965094f256678da1bc",
-      "category": "clean",
+      "category": "unknown",
+      "checks": {
+        "checks": 1,
+        "failures": 0,
+        "pending": 1
+      },
       "draft": true,
       "head": "sentinel/fix-requests-timeout-test-py-14291630909043486949",
       "head_sha": "074881236085a8548f3475b8521b907b354b5655",
-      "merge_state": "CLEAN",
-      "mergeable": "MERGEABLE",
+      "merge_state": "UNKNOWN",
+      "mergeable": "UNKNOWN",
       "number": 41,
       "repository": "balajirajput96/vscode-copilot-cha",
       "state": "OPEN",
@@ -6868,12 +6883,17 @@
     {
       "base": "main",
       "base_sha": "cf70f800566f50c1b38b9877a7ebcf41eaf08765",
-      "category": "clean",
+      "category": "unknown",
+      "checks": {
+        "checks": 1,
+        "failures": 0,
+        "pending": 1
+      },
       "draft": true,
       "head": "sentinel-fix-requests-timeout-7378732715990796442",
       "head_sha": "b57ac2b73f7129ff51685f896f33f09b9dcef9c2",
-      "merge_state": "CLEAN",
-      "mergeable": "MERGEABLE",
+      "merge_state": "UNKNOWN",
+      "mergeable": "UNKNOWN",
       "number": 40,
       "repository": "balajirajput96/vscode-copilot-cha",
       "state": "OPEN",
@@ -6883,12 +6903,17 @@
     {
       "base": "main",
       "base_sha": "cf70f800566f50c1b38b9877a7ebcf41eaf08765",
-      "category": "clean",
+      "category": "unknown",
+      "checks": {
+        "checks": 1,
+        "failures": 0,
+        "pending": 1
+      },
       "draft": true,
       "head": "sentinel-test-timeout-14681090853937929182",
       "head_sha": "c5acbfa588d6e6fa9078d55fc22a5cdcc3b57add",
-      "merge_state": "CLEAN",
-      "mergeable": "MERGEABLE",
+      "merge_state": "UNKNOWN",
+      "mergeable": "UNKNOWN",
       "number": 39,
       "repository": "balajirajput96/vscode-copilot-cha",
       "state": "OPEN",
@@ -6898,12 +6923,17 @@
     {
       "base": "main",
       "base_sha": "4c35a6faa7eee9829a4300a15a0f12ef2bbd95cd",
-      "category": "clean",
+      "category": "unknown",
+      "checks": {
+        "checks": 1,
+        "failures": 0,
+        "pending": 1
+      },
       "draft": true,
       "head": "sentinel-add-requests-timeout-test-py-13683200402753960599",
       "head_sha": "0b4c0794c606b81d11346fb6051843c0624fd6a1",
-      "merge_state": "CLEAN",
-      "mergeable": "MERGEABLE",
+      "merge_state": "UNKNOWN",
+      "mergeable": "UNKNOWN",
       "number": 38,
       "repository": "balajirajput96/vscode-copilot-cha",
       "state": "OPEN",
@@ -6913,12 +6943,17 @@
     {
       "base": "main",
       "base_sha": "4c35a6faa7eee9829a4300a15a0f12ef2bbd95cd",
-      "category": "clean",
+      "category": "unknown",
+      "checks": {
+        "checks": 1,
+        "failures": 0,
+        "pending": 1
+      },
       "draft": true,
       "head": "sentinel/add-requests-timeout-test-13244162962906816922",
       "head_sha": "c39ebf059bbd7ea06b56a19827a40683e5599b30",
-      "merge_state": "CLEAN",
-      "mergeable": "MERGEABLE",
+      "merge_state": "UNKNOWN",
+      "mergeable": "UNKNOWN",
       "number": 37,
       "repository": "balajirajput96/vscode-copilot-cha",
       "state": "OPEN",
@@ -6928,12 +6963,17 @@
     {
       "base": "main",
       "base_sha": "07c1d08fea38c9a90efa2e2edeb3a71415e7710c",
-      "category": "clean",
+      "category": "unknown",
+      "checks": {
+        "checks": 1,
+        "failures": 0,
+        "pending": 1
+      },
       "draft": true,
       "head": "sentinel-fix-requests-timeout-2522684634278932777",
       "head_sha": "371d7fa68efb041c9fcce4f849df5399e02aca97",
-      "merge_state": "CLEAN",
-      "mergeable": "MERGEABLE",
+      "merge_state": "UNKNOWN",
+      "mergeable": "UNKNOWN",
       "number": 36,
       "repository": "balajirajput96/vscode-copilot-cha",
       "state": "OPEN",
@@ -6943,12 +6983,17 @@
     {
       "base": "main",
       "base_sha": "07c1d08fea38c9a90efa2e2edeb3a71415e7710c",
-      "category": "clean",
+      "category": "unknown",
+      "checks": {
+        "checks": 1,
+        "failures": 0,
+        "pending": 1
+      },
       "draft": true,
       "head": "sentinel/fix-requests-timeout-5267911983439383125",
       "head_sha": "05fda1c2add1f9e22f89f0f4de0a1f420d84c4a6",
-      "merge_state": "CLEAN",
-      "mergeable": "MERGEABLE",
+      "merge_state": "UNKNOWN",
+      "mergeable": "UNKNOWN",
       "number": 35,
       "repository": "balajirajput96/vscode-copilot-cha",
       "state": "OPEN",
@@ -6958,12 +7003,17 @@
     {
       "base": "main",
       "base_sha": "ea393d2aec5be26f3c57167229072914813d8585",
-      "category": "clean",
+      "category": "unknown",
+      "checks": {
+        "checks": 1,
+        "failures": 0,
+        "pending": 1
+      },
       "draft": true,
       "head": "sentinel/fix-requests-timeout-b113-16399020050346518179",
       "head_sha": "6fd75e9402e8366bd51bcea3ca981d15af7116d5",
-      "merge_state": "CLEAN",
-      "mergeable": "MERGEABLE",
+      "merge_state": "UNKNOWN",
+      "mergeable": "UNKNOWN",
       "number": 34,
       "repository": "balajirajput96/vscode-copilot-cha",
       "state": "OPEN",
@@ -6973,12 +7023,17 @@
     {
       "base": "main",
       "base_sha": "ea393d2aec5be26f3c57167229072914813d8585",
-      "category": "clean",
+      "category": "unknown",
+      "checks": {
+        "checks": 1,
+        "failures": 0,
+        "pending": 1
+      },
       "draft": true,
       "head": "sentinel/fix-requests-timeout-10488685027611763145",
       "head_sha": "a2059c09cdf77bafc15395334256acd6f6035c12",
-      "merge_state": "CLEAN",
-      "mergeable": "MERGEABLE",
+      "merge_state": "UNKNOWN",
+      "mergeable": "UNKNOWN",
       "number": 33,
       "repository": "balajirajput96/vscode-copilot-cha",
       "state": "OPEN",
@@ -7157,6 +7212,6 @@
     }
   ],
   "repository_count": 266,
-  "started_at": "2026-10-16T05:51:44.048908+00:00",
+  "started_at": "2026-10-16T11:23:01.896776+00:00",
   "status": "completed"
 }
