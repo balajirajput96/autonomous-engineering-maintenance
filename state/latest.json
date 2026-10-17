@@ -12,19 +12,49 @@
   ],
   "active": true,
   "counts": {
-    "clean": 418,
+    "clean": 420,
     "conflicting": 13,
-    "non_clean": 29,
+    "non_clean": 28,
     "unknown": 1
   },
-  "cycle": 372,
+  "cycle": 373,
   "errors": [],
-  "finished_at": "2026-10-17T01:21:54.884199+00:00",
+  "finished_at": "2026-10-17T06:59:23.793141+00:00",
   "max_cycles": 2400,
   "mode": "diagnostics-first",
-  "open_pr_count": 461,
+  "open_pr_count": 462,
   "owner": "balajirajput96",
   "records": [
+    {
+      "base": "main",
+      "base_sha": "51281b19cd4d91b4bf306228f40b5d558da8a6d9",
+      "category": "clean",
+      "draft": true,
+      "head": "sentinel-exec-to-execfile-1898083867218624335",
+      "head_sha": "ac6dd10dcaae755d6f946d6f7f4cc48f549b9fc4",
+      "merge_state": "CLEAN",
+      "mergeable": "MERGEABLE",
+      "number": 333,
+      "repository": "balajirajput96/.github",
+      "state": "OPEN",
+      "title": "\ud83d\udee1\ufe0f Sentinel: Replace insecure exec with execFile for defense in depth",
+      "url": "https://github.com/balajirajput96/.github/pull/333"
+    },
+    {
+      "base": "main",
+      "base_sha": "51281b19cd4d91b4bf306228f40b5d558da8a6d9",
+      "category": "clean",
+      "draft": true,
+      "head": "palette-semantic-buttons-10655817383563708886",
+      "head_sha": "679d4e10e84694c70f8dd476033f4ce99885edf7",
+      "merge_state": "CLEAN",
+      "mergeable": "MERGEABLE",
+      "number": 332,
+      "repository": "balajirajput96/.github",
+      "state": "OPEN",
+      "title": "\ud83c\udfa8 Palette: Improve accessibility of navigation buttons by using semantic anchor tags",
+      "url": "https://github.com/balajirajput96/.github/pull/332"
+    },
     {
       "base": "main",
       "base_sha": "51281b19cd4d91b4bf306228f40b5d558da8a6d9",
@@ -6097,26 +6127,6 @@
     },
     {
       "base": "main",
-      "base_sha": "60b90e835a7c68eb2ab1002d38d444733eb5ae70",
-      "category": "non_clean",
-      "checks": {
-        "checks": 8,
-        "failures": 1,
-        "pending": 0
-      },
-      "draft": false,
-      "head": "dependabot/npm_and_yarn/npm_and_yarn-7b69a4f833",
-      "head_sha": "4b93bbe29df05dfa01c64e17c2ccce5e263ed490",
-      "merge_state": "UNSTABLE",
-      "mergeable": "MERGEABLE",
-      "number": 32,
-      "repository": "balajirajput96/openai-agents-js",
-      "state": "OPEN",
-      "title": "chore(deps): bump the npm_and_yarn group across 5 directories with 9 updates",
-      "url": "https://github.com/balajirajput96/openai-agents-js/pull/32"
-    },
-    {
-      "base": "main",
       "base_sha": "cfeabe196cf7c14c695df2f3d8bb7a9d38ab5454",
       "category": "clean",
       "draft": false,
@@ -7157,6 +7167,6 @@
     }
   ],
   "repository_count": 266,
-  "started_at": "2026-10-17T01:18:50.761866+00:00",
+  "started_at": "2026-10-17T06:56:47.454697+00:00",
   "status": "completed"
 }
