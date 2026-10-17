@@ -17,9 +17,9 @@
     "non_clean": 29,
     "unknown": 1
   },
-  "cycle": 371,
+  "cycle": 372,
   "errors": [],
-  "finished_at": "2026-10-16T22:54:07.616804+00:00",
+  "finished_at": "2026-10-17T01:21:54.884199+00:00",
   "max_cycles": 2400,
   "mode": "diagnostics-first",
   "open_pr_count": 461,
@@ -7157,6 +7157,6 @@
     }
   ],
   "repository_count": 266,
-  "started_at": "2026-10-16T22:51:09.937061+00:00",
+  "started_at": "2026-10-17T01:18:50.761866+00:00",
   "status": "completed"
 }
