@@ -14,15 +14,15 @@
   "counts": {
     "clean": 393,
     "conflicting": 48,
-    "non_clean": 26,
+    "non_clean": 27,
     "unknown": 1
   },
-  "cycle": 393,
+  "cycle": 394,
   "errors": [],
-  "finished_at": "2026-10-20T19:19:52.698883+00:00",
+  "finished_at": "2026-10-20T22:23:46.758164+00:00",
   "max_cycles": 2400,
   "mode": "diagnostics-first",
-  "open_pr_count": 468,
+  "open_pr_count": 469,
   "owner": "balajirajput96",
   "records": [
     {
@@ -6370,6 +6370,26 @@
         "pending": 0
       },
       "draft": false,
+      "head": "dependabot/npm_and_yarn/npm_and_yarn-d1e0758373",
+      "head_sha": "03946935b5d3a73b275371be776b4364f3559caf",
+      "merge_state": "UNSTABLE",
+      "mergeable": "MERGEABLE",
+      "number": 34,
+      "repository": "balajirajput96/openai-agents-js",
+      "state": "OPEN",
+      "title": "chore(deps): bump the npm_and_yarn group across 4 directories with 7 updates",
+      "url": "https://github.com/balajirajput96/openai-agents-js/pull/34"
+    },
+    {
+      "base": "main",
+      "base_sha": "60b90e835a7c68eb2ab1002d38d444733eb5ae70",
+      "category": "non_clean",
+      "checks": {
+        "checks": 6,
+        "failures": 1,
+        "pending": 0
+      },
+      "draft": false,
       "head": "dependabot/npm_and_yarn/npm_and_yarn-5a1c08768b",
       "head_sha": "8fe7ee2bc68cd04647ffdadf5540d968314377f8",
       "merge_state": "UNSTABLE",
@@ -7422,6 +7442,6 @@
     }
   ],
   "repository_count": 266,
-  "started_at": "2026-10-20T19:16:06.741154+00:00",
+  "started_at": "2026-10-20T22:20:44.913840+00:00",
   "status": "completed"
 }
