@@ -16,9 +16,14 @@
     "conflicting": 44,
     "non_clean": 25
   },
-  "cycle": 486,
-  "errors": [],
-  "finished_at": "2026-11-10T23:22:48.273518+00:00",
+  "cycle": 487,
+  "errors": [
+    {
+      "error": "command failed (1): gh pr list --repo balajirajput96/sglang --state open --limit 1000 --json number,title,headRefName,headRefOid,baseRefName,baseRefOid,state,mergeable,mergeStateStatus,isDraft,url\nstdout=\nstderr=HTTP 502: 502 Bad Gateway (https://api.github.com/graphql)\n",
+      "repository": "balajirajput96/sglang"
+    }
+  ],
+  "finished_at": "2026-11-11T06:19:35.227975+00:00",
   "max_cycles": 2400,
   "mode": "diagnostics-first",
   "open_pr_count": 465,
@@ -7346,6 +7351,6 @@
     }
   ],
   "repository_count": 266,
-  "started_at": "2026-11-10T23:19:56.589121+00:00",
+  "started_at": "2026-11-11T06:16:29.617277+00:00",
   "status": "completed"
 }
