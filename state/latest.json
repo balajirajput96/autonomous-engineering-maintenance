@@ -16,9 +16,9 @@
     "conflicting": 44,
     "non_clean": 25
   },
-  "cycle": 493,
+  "cycle": 494,
   "errors": [],
-  "finished_at": "2026-11-13T00:25:05.429429+00:00",
+  "finished_at": "2026-11-13T07:58:54.083644+00:00",
   "max_cycles": 2400,
   "mode": "diagnostics-first",
   "open_pr_count": 467,
@@ -7376,6 +7376,6 @@
     }
   ],
   "repository_count": 266,
-  "started_at": "2026-11-13T00:22:18.160383+00:00",
+  "started_at": "2026-11-13T07:56:25.585112+00:00",
   "status": "completed"
 }
