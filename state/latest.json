@@ -12,16 +12,21 @@
   ],
   "active": true,
   "counts": {
-    "clean": 398,
+    "clean": 397,
     "conflicting": 44,
     "non_clean": 25
   },
-  "cycle": 505,
-  "errors": [],
-  "finished_at": "2026-11-16T02:08:48.121655+00:00",
+  "cycle": 506,
+  "errors": [
+    {
+      "error": "command failed (1): gh pr list --repo balajirajput96/python-docs-samples --state open --limit 1000 --json number,title,headRefName,headRefOid,baseRefName,baseRefOid,state,mergeable,mergeStateStatus,isDraft,url\nstdout=\nstderr=GraphQL: Something went wrong while executing your query on 2026-11-16T09:44:48Z. Please include `6832:38CFC8:1D2ED42:5C53D1B:6AFAD086` when reporting this issue.\n",
+      "repository": "balajirajput96/python-docs-samples"
+    }
+  ],
+  "finished_at": "2026-11-16T09:45:13.427798+00:00",
   "max_cycles": 2400,
   "mode": "diagnostics-first",
-  "open_pr_count": 467,
+  "open_pr_count": 466,
   "owner": "balajirajput96",
   "records": [
     {
@@ -6561,21 +6566,6 @@
     },
     {
       "base": "main",
-      "base_sha": "dada3efa39a32b21d17494d9a0705c945c78e8f9",
-      "category": "clean",
-      "draft": false,
-      "head": "dependabot/pip/alloydb/notebooks/pip-1e8d2b605c",
-      "head_sha": "812e2536dfc23ede4650c0539f5cd231b3d66091",
-      "merge_state": "CLEAN",
-      "mergeable": "MERGEABLE",
-      "number": 12,
-      "repository": "balajirajput96/python-docs-samples",
-      "state": "OPEN",
-      "title": "chore(deps): bump the pip group across 25 directories with 13 updates",
-      "url": "https://github.com/balajirajput96/python-docs-samples/pull/12"
-    },
-    {
-      "base": "main",
       "base_sha": "8cc475420f4c1a3339cd226a72b820d077a2e8b9",
       "category": "clean",
       "draft": false,
@@ -7376,6 +7366,6 @@
     }
   ],
   "repository_count": 266,
-  "started_at": "2026-11-16T02:05:46.747206+00:00",
+  "started_at": "2026-11-16T09:41:39.334819+00:00",
   "status": "completed"
 }
