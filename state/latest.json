@@ -12,16 +12,21 @@
   ],
   "active": true,
   "counts": {
-    "clean": 398,
+    "clean": 397,
     "conflicting": 44,
     "non_clean": 25
   },
-  "cycle": 532,
-  "errors": [],
-  "finished_at": "2026-11-25T02:29:41.193845+00:00",
+  "cycle": 533,
+  "errors": [
+    {
+      "error": "command failed (1): gh pr list --repo balajirajput96/ratatui --state open --limit 1000 --json number,title,headRefName,headRefOid,baseRefName,baseRefOid,state,mergeable,mergeStateStatus,isDraft,url\nstdout=\nstderr=HTTP 503: No server is currently available to service your request. Sorry about that. Please try resubmitting your request and contact us if the problem persists. (https://api.github.com/graphql)\n",
+      "repository": "balajirajput96/ratatui"
+    }
+  ],
+  "finished_at": "2026-11-25T12:55:40.127798+00:00",
   "max_cycles": 2400,
   "mode": "diagnostics-first",
-  "open_pr_count": 467,
+  "open_pr_count": 466,
   "owner": "balajirajput96",
   "records": [
     {
@@ -6651,21 +6656,6 @@
     },
     {
       "base": "main",
-      "base_sha": "cba5cca2bd3fcb12d98d174cf648c87bed0f2ab7",
-      "category": "clean",
-      "draft": false,
-      "head": "dependabot/cargo/cargo-af6c90d6ad",
-      "head_sha": "a69976d7848bb680096bf9a43969a66d0de33764",
-      "merge_state": "CLEAN",
-      "mergeable": "MERGEABLE",
-      "number": 1,
-      "repository": "balajirajput96/ratatui",
-      "state": "OPEN",
-      "title": "build(deps): bump the cargo group across 1 directory with 3 updates",
-      "url": "https://github.com/balajirajput96/ratatui/pull/1"
-    },
-    {
-      "base": "main",
       "base_sha": "76481c845b34414a7f15ed18ec61f7dff7eef091",
       "category": "clean",
       "draft": false,
@@ -7376,6 +7366,6 @@
     }
   ],
   "repository_count": 266,
-  "started_at": "2026-11-25T02:26:37.088047+00:00",
+  "started_at": "2026-11-25T12:52:58.374938+00:00",
   "status": "completed"
 }
